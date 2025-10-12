@@ -2184,6 +2184,10 @@
   },
   "srevuplo": {
     "username": "srevuplo",
+    "reason": "Link test https://discord.com/channels/988493706413887488/1414220555107700897 ~ <@1073803393258242079>",
+    "date": "2025-10-12T08:06:58.840Z",
+    "linkedDiscord": "1073803393258242079",
+    "discordDetails": null,
     "appeals": [
       {
         "userId": "1073803393258242079",
@@ -2194,8 +2198,7 @@
         "statement": "test",
         "evidence": "https://cdn.discordapp.com/ephemeral-attachments/1426008502710566963/1426370393731502122/image.png?ex=68eafa72&is=68e9a8f2&hm=83df670426e4ddafbf9423d6c04d7e36894bef35d90a35a91807dcd4902e9d6d&"
       }
-    ],
-    "linkedDiscord": "1073803393258242079"
+    ]
   },
   "dajd196": {
     "username": "dajd196",
