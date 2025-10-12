@@ -702,25 +702,6 @@
     "discordDetails": null,
     "appeals": []
   },
-  "r3_gaming": {
-    "username": "r3_gaming",
-    "reason": "slurs https://discord.com/channels/988493706413887488/1421535310520647690 ~ <@1073803393258242079>",
-    "date": "2025-09-27T16:34:11.034Z",
-    "linkedDiscord": "108398612970491904",
-    "discordDetails": {
-      "user": "108398612970491904",
-      "warnings": [],
-      "mutes": [
-        {
-          "timestamp": 1758710985,
-          "reason": "silence peasant ~ <@981456382438047744>"
-        }
-      ],
-      "softbans": [],
-      "bans": []
-    },
-    "appeals": []
-  },
   "jul1an#1": {
     "username": "jul1an#1",
     "reason": "Raid ~ <@1073803393258242079>",
