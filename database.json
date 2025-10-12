@@ -384,7 +384,7 @@
   },
   "bananas31313": {
     "username": "bananas31313",
-    "reason": "slurs https://discord.com/channels/988493706413887488/1420171635415191703 ~ <@1073803393258242079>",
+    "reason": "slurs  ~ <@1073803393258242079>",
     "date": "2025-09-23T22:16:22.938Z",
     "linkedDiscord": null,
     "discordDetails": null,
@@ -524,13 +524,13 @@
           "reason": "posting suspicious pictures in the server ~ <@981456382438047744>"
         }
       ],
+      "softbans": [],
       "bans": [
         {
           "timestamp": 1758797755,
           "reason": "posting offensive and suspicious pictures in general ~ <@1342662168180686851>"
         }
-      ],
-      "softbans": []
+      ]
     },
     "appeals": []
   },
@@ -648,7 +648,7 @@
   },
   "grave_digga2011": {
     "username": "grave_digga2011",
-    "reason": "NSFW/Slurs https://discord.com/channels/988493706413887488/1421307480398630982 ~ <@1073803393258242079>",
+    "reason": "NSFW/Slurs  ~ <@1073803393258242079>",
     "date": "2025-09-27T01:42:15.529Z",
     "linkedDiscord": null,
     "discordDetails": null,
@@ -656,7 +656,7 @@
   },
   "zkozie": {
     "username": "zkozie",
-    "reason": "slurs https://discord.com/channels/988493706413887488/1421340661906407556 ~ <@1073803393258242079>",
+    "reason": "slurs  ~ <@1073803393258242079>",
     "date": "2025-09-27T03:59:18.896Z",
     "linkedDiscord": null,
     "discordDetails": null,
@@ -672,7 +672,7 @@
   },
   "warchiefgaddy": {
     "username": "warchiefgaddy",
-    "reason": "slurs https://discord.com/channels/988493706413887488/1421394366684991608 ~ <@981456382438047744>",
+    "reason": "slurs  ~ <@981456382438047744>",
     "date": "2025-09-27T07:16:07.085Z",
     "linkedDiscord": null,
     "discordDetails": null,
@@ -696,7 +696,7 @@
   },
   "r3_gaming": {
     "username": "r3_gaming",
-    "reason": "slurs https://discord.com/channels/988493706413887488/1421535310520647690 ~ <@1073803393258242079>",
+    "reason": "slurs  ~ <@1073803393258242079>",
     "date": "2025-09-27T16:34:11.034Z",
     "linkedDiscord": "108398612970491904",
     "discordDetails": {
@@ -835,7 +835,7 @@
   },
   "smile-yellow09": {
     "username": "smile-yellow09",
-    "reason": "Threats https://discord.com/channels/988493706413887488/1421958138919256186 ~ <@1073803393258242079>",
+    "reason": "Threats  ~ <@1073803393258242079>",
     "date": "2025-09-28T20:42:06.296Z",
     "linkedDiscord": null,
     "discordDetails": null,
@@ -843,7 +843,7 @@
   },
   "tincanonwheels": {
     "username": "tincanonwheels",
-    "reason": "NSFW https://discord.com/channels/988493706413887488/1421977948663316550 ~ <@1073803393258242079>",
+    "reason": "NSFW  ~ <@1073803393258242079>",
     "date": "2025-09-28T21:54:11.966Z",
     "linkedDiscord": null,
     "discordDetails": null,
@@ -907,7 +907,7 @@
   },
   "nem3sys#1": {
     "username": "nem3sys#1",
-    "reason": "Raid https://discord.com/channels/988493706413887488/1422249807086354523 ~ <@1073803393258242079>",
+    "reason": "Raid  ~ <@1073803393258242079>",
     "date": "2025-09-29T19:48:44.143Z",
     "linkedDiscord": null,
     "discordDetails": null,
@@ -923,7 +923,7 @@
   },
   "lechocco": {
     "username": "lechocco",
-    "reason": "slurs https://discord.com/channels/988493706413887488/1422362108691091656 ~ <@981456382438047744>",
+    "reason": "slurs  ~ <@981456382438047744>",
     "date": "2025-09-30T01:04:03.066Z",
     "linkedDiscord": null,
     "discordDetails": null,
@@ -931,7 +931,7 @@
   },
   "pigdude17": {
     "username": "pigdude17",
-    "reason": "pedo comments and NSFW https://discord.com/channels/988493706413887488/1422430082110324827 ~ <@981456382438047744>",
+    "reason": "pedo comments and NSFW  ~ <@981456382438047744>",
     "date": "2025-09-30T06:01:14.029Z",
     "linkedDiscord": null,
     "discordDetails": null,
@@ -939,7 +939,7 @@
   },
   "noobmaster1998": {
     "username": "noobmaster1998",
-    "reason": "antisemitism https://discord.com/channels/988493706413887488/1422423809285292123 ~ <@981456382438047744>",
+    "reason": "antisemitism  ~ <@981456382438047744>",
     "date": "2025-09-30T06:02:32.714Z",
     "linkedDiscord": null,
     "discordDetails": null,
@@ -955,7 +955,7 @@
   },
   "mechalemon": {
     "username": "mechalemon",
-    "reason": "Spamming in public chat, https://discord.com/channels/988493706413887488/1422607737417760910 ~ <@894539555640868925>",
+    "reason": "Spamming in public chat,  ~ <@894539555640868925>",
     "date": "2025-09-30T15:47:48.064Z",
     "linkedDiscord": null,
     "discordDetails": null,
@@ -971,7 +971,7 @@
   },
   "alo lv": {
     "username": "alo lv",
-    "reason": "NSFW https://discord.com/channels/988493706413887488/1422632954110148649 ~ <@1073803393258242079>",
+    "reason": "NSFW  ~ <@1073803393258242079>",
     "date": "2025-09-30T17:15:44.168Z",
     "linkedDiscord": null,
     "discordDetails": null,
@@ -979,7 +979,7 @@
   },
   "sh0tyat": {
     "username": "sh0tyat",
-    "reason": "slurs https://discord.com/channels/988493706413887488/1422655237201592340 ~ <@1073803393258242079>",
+    "reason": "slurs  ~ <@1073803393258242079>",
     "date": "2025-09-30T19:00:31.736Z",
     "linkedDiscord": null,
     "discordDetails": null,
@@ -1011,7 +1011,7 @@
   },
   "pattycrabby": {
     "username": "pattycrabby",
-    "reason": "racism and antisemitism https://discord.com/channels/988493706413887488/1422553085821321339 ~ <@981456382438047744>",
+    "reason": "racism and antisemitism  ~ <@981456382438047744>",
     "date": "2025-09-30T21:01:03.123Z",
     "linkedDiscord": null,
     "discordDetails": null,
@@ -1075,7 +1075,7 @@
   },
   "british king": {
     "username": "british king",
-    "reason": "slurs https://discord.com/channels/988493706413887488/1422884100771020894 ~ <@981456382438047744>",
+    "reason": "slurs  ~ <@981456382438047744>",
     "date": "2025-10-01T09:53:54.897Z",
     "linkedDiscord": null,
     "discordDetails": null,
@@ -1227,7 +1227,7 @@
   },
   "chicken_licken01": {
     "username": "chicken_licken01",
-    "reason": "slurs https://discord.com/channels/988493706413887488/1423240989987835995 ~ <@981456382438047744>",
+    "reason": "slurs  ~ <@981456382438047744>",
     "date": "2025-10-02T09:32:28.712Z",
     "linkedDiscord": null,
     "discordDetails": null,
@@ -1235,7 +1235,7 @@
   },
   "yourlocal_l3": {
     "username": "yourlocal_l3",
-    "reason": "slurs https://discord.com/channels/988493706413887488/1423240989987835995 ~ <@981456382438047744>",
+    "reason": "slurs  ~ <@981456382438047744>",
     "date": "2025-10-02T09:32:50.690Z",
     "linkedDiscord": null,
     "discordDetails": null,
@@ -1331,7 +1331,7 @@
   },
   "_metal_ass_": {
     "username": "_metal_ass_",
-    "reason": "Raiding  https://discord.com/channels/988493706413887488/1423310832783069214 ~ <@894539555640868925>",
+    "reason": "Raiding   ~ <@894539555640868925>",
     "date": "2025-10-02T14:09:36.832Z",
     "linkedDiscord": null,
     "discordDetails": null,
@@ -1364,13 +1364,13 @@
           "reason": "§ 1,  § 4 ~ <@1073803393258242079>"
         }
       ],
+      "softbans": [],
       "bans": [
         {
           "timestamp": 1759506974,
           "reason": "§ 1, § 4 ~ <@1073803393258242079>"
         }
-      ],
-      "softbans": []
+      ]
     },
     "appeals": []
   },
@@ -1400,7 +1400,7 @@
   },
   "dialingcash1344": {
     "username": "dialingcash1344",
-    "reason": "slurs https://discord.com/channels/988493706413887488/1423481052319453245 ~ <@1073803393258242079>",
+    "reason": "slurs  ~ <@1073803393258242079>",
     "date": "2025-10-03T01:26:11.692Z",
     "linkedDiscord": null,
     "discordDetails": null,
@@ -1416,7 +1416,7 @@
   },
   "hevian21": {
     "username": "hevian21",
-    "reason": "slurs https://discord.com/channels/988493706413887488/1423510278741557269 ~ <@1073803393258242079>",
+    "reason": "slurs  ~ <@1073803393258242079>",
     "date": "2025-10-03T03:22:20.353Z",
     "linkedDiscord": null,
     "discordDetails": null,
@@ -1456,7 +1456,7 @@
   },
   "sovershenaja_lol": {
     "username": "sovershenaja_lol",
-    "reason": "Capping and Raiding https://discord.com/channels/988493706413887488/1423566360494997576 ~ <@894539555640868925>",
+    "reason": "Capping and Raiding  ~ <@894539555640868925>",
     "date": "2025-10-03T07:04:54.752Z",
     "linkedDiscord": null,
     "discordDetails": null,
@@ -1464,7 +1464,7 @@
   },
   "tomat2009": {
     "username": "tomat2009",
-    "reason": "Raid (air and chill crowd) https://discord.com/channels/988493706413887488/1423572988472852502 ~ <@894539555640868925>",
+    "reason": "Raid (air and chill crowd)  ~ <@894539555640868925>",
     "date": "2025-10-03T07:31:09.911Z",
     "linkedDiscord": null,
     "discordDetails": null,
@@ -1488,7 +1488,7 @@
   },
   "konglongshi": {
     "username": "konglongshi",
-    "reason": "raiding chill zone https://discord.com/channels/988493706413887488/1423634013624602634 ~ <@894539555640868925>",
+    "reason": "raiding chill zone  ~ <@894539555640868925>",
     "date": "2025-10-03T11:33:32.499Z",
     "linkedDiscord": null,
     "discordDetails": null,
@@ -1568,7 +1568,7 @@
   },
   "overkill2468": {
     "username": "overkill2468",
-    "reason": "nsfw https://discord.com/channels/988493706413887488/1423711595946836081 ~ <@981456382438047744>",
+    "reason": "nsfw  ~ <@981456382438047744>",
     "date": "2025-10-03T23:59:26.674Z",
     "linkedDiscord": null,
     "discordDetails": null,
@@ -1592,7 +1592,7 @@
   },
   "_k1ller_": {
     "username": "_k1ller_",
-    "reason": "slurs https://discord.com/channels/988493706413887488/1423937997916737546 ~ <@1414561399614476298>",
+    "reason": "slurs  ~ <@1414561399614476298>",
     "date": "2025-10-04T07:41:46.390Z",
     "linkedDiscord": null,
     "discordDetails": null,
@@ -1600,7 +1600,7 @@
   },
   "jsinfoster": {
     "username": "jsinfoster",
-    "reason": "NSFW https://discord.com/channels/988493706413887488/1424116226136998031 ~ <@1073803393258242079>",
+    "reason": "NSFW  ~ <@1073803393258242079>",
     "date": "2025-10-04T19:48:04.074Z",
     "linkedDiscord": null,
     "discordDetails": null,
@@ -1608,7 +1608,7 @@
   },
   "frosty wosty": {
     "username": "frosty wosty",
-    "reason": "slurs https://discord.com/channels/988493706413887488/1424121532623622334 ~ <@1073803393258242079>",
+    "reason": "slurs  ~ <@1073803393258242079>",
     "date": "2025-10-04T19:51:02.501Z",
     "linkedDiscord": null,
     "discordDetails": null,
@@ -1616,7 +1616,7 @@
   },
   "thunder_f16 s": {
     "username": "thunder_f16 s",
-    "reason": "slurs https://discord.com/channels/988493706413887488/1424129587784187994 ~ <@1073803393258242079>",
+    "reason": "slurs  ~ <@1073803393258242079>",
     "date": "2025-10-04T20:22:53.789Z",
     "linkedDiscord": null,
     "discordDetails": null,
@@ -1648,7 +1648,7 @@
   },
   "frikativ-kunst": {
     "username": "frikativ-kunst",
-    "reason": "permanent https://discord.com/channels/988493706413887488/1424442035762364447 ~ <@1073803393258242079>",
+    "reason": "permanent  ~ <@1073803393258242079>",
     "date": "2025-10-05T17:13:58.741Z",
     "linkedDiscord": null,
     "discordDetails": null,
@@ -1656,7 +1656,7 @@
   },
   "khanjijad157": {
     "username": "khanjijad157",
-    "reason": "slurs https://discord.com/channels/988493706413887488/1424454978126221509 ~ <@1073803393258242079>",
+    "reason": "slurs  ~ <@1073803393258242079>",
     "date": "2025-10-05T17:56:08.303Z",
     "linkedDiscord": null,
     "discordDetails": null,
@@ -1664,7 +1664,7 @@
   },
   "blu3hanoxninja": {
     "username": "blu3hanoxninja",
-    "reason": "NSFW https://discord.com/channels/988493706413887488/1424454681190727820 ~ <@1073803393258242079>",
+    "reason": "NSFW  ~ <@1073803393258242079>",
     "date": "2025-10-05T17:56:45.596Z",
     "linkedDiscord": null,
     "discordDetails": null,
@@ -1744,7 +1744,7 @@
   },
   "dmxxneyoo": {
     "username": "dmxxneyoo",
-    "reason": "slurs bypass https://discord.com/channels/988493706413887488/1424882063999242280 ~ <@1073803393258242079>",
+    "reason": "slurs bypass  ~ <@1073803393258242079>",
     "date": "2025-10-06T22:16:52.072Z",
     "linkedDiscord": null,
     "discordDetails": null,
@@ -1752,7 +1752,7 @@
   },
   "blightmarch": {
     "username": "blightmarch",
-    "reason": "antisemitism https://discord.com/channels/988493706413887488/1424883583390187520 ~ <@1414561399614476298>",
+    "reason": "antisemitism  ~ <@1414561399614476298>",
     "date": "2025-10-06T22:19:37.279Z",
     "linkedDiscord": null,
     "discordDetails": null,
@@ -1760,7 +1760,7 @@
   },
   "cheezibreezi153": {
     "username": "cheezibreezi153",
-    "reason": "Slurs(fag) https://discord.com/channels/988493706413887488/1424914286421213226 ~ <@716126092074942514>",
+    "reason": "Slurs(fag)  ~ <@716126092074942514>",
     "date": "2025-10-07T00:24:12.675Z",
     "linkedDiscord": null,
     "discordDetails": null,
@@ -1768,7 +1768,7 @@
   },
   "ecchinosamadoro": {
     "username": "ecchinosamadoro",
-    "reason": "NSFW https://discord.com/channels/988493706413887488/1151875536575008829 ~ <@269632947202555904>",
+    "reason": "NSFW  ~ <@269632947202555904>",
     "date": "2025-10-07T03:08:24.574Z",
     "linkedDiscord": null,
     "discordDetails": null,
@@ -1776,7 +1776,7 @@
   },
   "анальный дебошир#16": {
     "username": "анальный дебошир#16",
-    "reason": "NSFW username https://discord.com/channels/988493706413887488/988641195842478124 ~ <@1073803393258242079>",
+    "reason": "NSFW username  ~ <@1073803393258242079>",
     "date": "2025-10-07T13:45:42.622Z",
     "linkedDiscord": null,
     "discordDetails": null,
@@ -1784,7 +1784,7 @@
   },
   "svinets-2_proryv": {
     "username": "svinets-2_proryv",
-    "reason": "slurs https://discord.com/channels/988493706413887488/1425147341085610065 ~ <@1073803393258242079>",
+    "reason": "slurs  ~ <@1073803393258242079>",
     "date": "2025-10-07T15:48:29.150Z",
     "linkedDiscord": null,
     "discordDetails": null,
@@ -1792,7 +1792,7 @@
   },
   "solid-police83": {
     "username": "solid-police83",
-    "reason": "Nazi https://discord.com/channels/988493706413887488/1425149167025655851 ~ <@1073803393258242079>",
+    "reason": "Nazi  ~ <@1073803393258242079>",
     "date": "2025-10-07T15:54:27.059Z",
     "linkedDiscord": null,
     "discordDetails": null,
@@ -1800,7 +1800,7 @@
   },
   "i drink air7309": {
     "username": "i drink air7309",
-    "reason": "slurs https://discord.com/channels/988493706413887488/1425252591083978863 ~ <@1073803393258242079>",
+    "reason": "slurs  ~ <@1073803393258242079>",
     "date": "2025-10-07T23:12:13.445Z",
     "linkedDiscord": null,
     "discordDetails": null,
@@ -1808,7 +1808,7 @@
   },
   "gigagoooner": {
     "username": "gigagoooner",
-    "reason": "Nsfw username https://discord.com/channels/988493706413887488/1151875536575008829 ~ <@716126092074942514>",
+    "reason": "Nsfw username  ~ <@716126092074942514>",
     "date": "2025-10-08T05:51:07.982Z",
     "linkedDiscord": null,
     "discordDetails": null,
@@ -1816,7 +1816,7 @@
   },
   "kr_m__": {
     "username": "kr_m__",
-    "reason": "slurs https://discord.com/channels/988493706413887488/1425367101589295115 ~ <@1414561399614476298>",
+    "reason": "slurs  ~ <@1414561399614476298>",
     "date": "2025-10-08T06:21:34.303Z",
     "linkedDiscord": null,
     "discordDetails": null,
@@ -1824,7 +1824,7 @@
   },
   "pejal_max": {
     "username": "pejal_max",
-    "reason": "slurs https://discord.com/channels/988493706413887488/1425407875643342950 ~ <@1073803393258242079>",
+    "reason": "slurs  ~ <@1073803393258242079>",
     "date": "2025-10-08T09:30:29.614Z",
     "linkedDiscord": null,
     "discordDetails": null,
@@ -1832,7 +1832,7 @@
   },
   "xxfogxx666": {
     "username": "xxfogxx666",
-    "reason": "Slur https://discord.com/channels/988493706413887488/1425421774924939325 ~ <@716126092074942514>",
+    "reason": "Slur  ~ <@716126092074942514>",
     "date": "2025-10-08T09:57:38.960Z",
     "linkedDiscord": null,
     "discordDetails": null,
@@ -1840,7 +1840,7 @@
   },
   "captaintongo": {
     "username": "captaintongo",
-    "reason": "Slur https://discord.com/channels/988493706413887488/1425499807560237217 ~ <@716126092074942514>",
+    "reason": "Slur  ~ <@716126092074942514>",
     "date": "2025-10-08T15:07:41.474Z",
     "linkedDiscord": null,
     "discordDetails": null,
@@ -1848,7 +1848,7 @@
   },
   "slick_killa224": {
     "username": "slick_killa224",
-    "reason": "Slurs https://discord.com/channels/988493706413887488/1425552243310067916 ~ <@716126092074942514>",
+    "reason": "Slurs  ~ <@716126092074942514>",
     "date": "2025-10-08T18:37:42.089Z",
     "linkedDiscord": null,
     "discordDetails": null,
@@ -1856,7 +1856,7 @@
   },
   "wolf_packer": {
     "username": "wolf_packer",
-    "reason": "swastika on tank https://discord.com/channels/988493706413887488/1425599827403739311 ~ <@1073803393258242079>",
+    "reason": "swastika on tank  ~ <@1073803393258242079>",
     "date": "2025-10-08T21:46:33.218Z",
     "linkedDiscord": null,
     "discordDetails": null,
@@ -1864,7 +1864,7 @@
   },
   "abbythemoronb3": {
     "username": "abbythemoronb3",
-    "reason": "NSFW https://discord.com/channels/988493706413887488/1425617317437378681 ~ <@1073803393258242079>",
+    "reason": "NSFW  ~ <@1073803393258242079>",
     "date": "2025-10-08T22:58:07.898Z",
     "linkedDiscord": "851845480534638603",
     "discordDetails": {
@@ -1880,7 +1880,7 @@
         "username": "abby_the_muppet",
         "date": "2025-10-08T22:58:07.898Z",
         "status": "denied",
-        "reason": "NSFW https://discord.com/channels/988493706413887488/1425617317437378681 ~ <@1073803393258242079>",
+        "reason": "NSFW  ~ <@1073803393258242079>",
         "statement": "if whore is an nsfw term than ban saying fuck",
         "evidence": null
       }
@@ -1888,7 +1888,7 @@
   },
   "eren_yeager5677": {
     "username": "eren_yeager5677",
-    "reason": "Raid https://discord.com/channels/988493706413887488/1151875536575008829 ~ <@1073803393258242079>",
+    "reason": "Raid  ~ <@1073803393258242079>",
     "date": "2025-10-08T23:54:56.592Z",
     "linkedDiscord": null,
     "discordDetails": null,
@@ -1896,7 +1896,7 @@
   },
   "catgirl lover": {
     "username": "catgirl lover",
-    "reason": "Nazi https://discord.com/channels/988493706413887488/1425496513748144148 ~ <@716126092074942514>",
+    "reason": "Nazi  ~ <@716126092074942514>",
     "date": "2025-10-09T02:10:29.049Z",
     "linkedDiscord": null,
     "discordDetails": null,
@@ -1904,7 +1904,7 @@
   },
   "terminatorツ": {
     "username": "terminatorツ",
-    "reason": "Raid (Air) https://discord.com/channels/988493706413887488/1151875536575008829 ~ <@1073803393258242079>",
+    "reason": "Raid (Air)  ~ <@1073803393258242079>",
     "date": "2025-10-09T04:37:35.039Z",
     "linkedDiscord": null,
     "discordDetails": null,
@@ -1912,7 +1912,7 @@
   },
   "su-33-flanker-": {
     "username": "su-33-flanker-",
-    "reason": "Raid (Air) https://discord.com/channels/988493706413887488/1151875536575008829 ~ <@1073803393258242079>",
+    "reason": "Raid (Air)  ~ <@1073803393258242079>",
     "date": "2025-10-09T04:38:15.970Z",
     "linkedDiscord": null,
     "discordDetails": null,
@@ -1920,7 +1920,7 @@
   },
   "nzl astro": {
     "username": "nzl astro",
-    "reason": "Raid (Air) https://discord.com/channels/988493706413887488/1151875536575008829 ~ <@1073803393258242079>",
+    "reason": "Raid (Air)  ~ <@1073803393258242079>",
     "date": "2025-10-09T04:38:38.710Z",
     "linkedDiscord": null,
     "discordDetails": null,
@@ -1928,7 +1928,7 @@
   },
   "lucifer4948": {
     "username": "lucifer4948",
-    "reason": "Raid (bombing cc) https://discord.com/channels/988493706413887488/1151875536575008829 ~ <@1073803393258242079>",
+    "reason": "Raid (bombing cc)  ~ <@1073803393258242079>",
     "date": "2025-10-09T05:58:35.484Z",
     "linkedDiscord": null,
     "discordDetails": null,
@@ -1936,7 +1936,7 @@
   },
   "p0midor": {
     "username": "p0midor",
-    "reason": "Slur https://discord.com/channels/988493706413887488/1425758351958216704 ~ <@716126092074942514>",
+    "reason": "Slur  ~ <@716126092074942514>",
     "date": "2025-10-09T08:17:02.135Z",
     "linkedDiscord": null,
     "discordDetails": null,
@@ -1944,7 +1944,7 @@
   },
   "simone6376": {
     "username": "simone6376",
-    "reason": "raid (guh) https://discord.com/channels/988493706413887488/988641195842478124 ~ <@981456382438047744>",
+    "reason": "raid (guh)  ~ <@981456382438047744>",
     "date": "2025-10-09T11:27:23.234Z",
     "linkedDiscord": null,
     "discordDetails": null,
@@ -1952,7 +1952,7 @@
   },
   "papi goats": {
     "username": "papi goats",
-    "reason": "raid (guh) https://discord.com/channels/988493706413887488/988641195842478124 ~ <@981456382438047744>",
+    "reason": "raid (guh)  ~ <@981456382438047744>",
     "date": "2025-10-09T11:27:49.297Z",
     "linkedDiscord": null,
     "discordDetails": null,
@@ -1960,7 +1960,7 @@
   },
   "velocity_yt": {
     "username": "velocity_yt",
-    "reason": "raid (air) (guh) https://discord.com/channels/988493706413887488/988641195842478124 ~ <@981456382438047744>",
+    "reason": "raid (air) (guh)  ~ <@981456382438047744>",
     "date": "2025-10-09T11:30:29.497Z",
     "linkedDiscord": null,
     "discordDetails": null,
@@ -1968,7 +1968,7 @@
   },
   "maverick_t1000": {
     "username": "maverick_t1000",
-    "reason": "raid (bombing everyone) https://discord.com/channels/988493706413887488/988641195842478124 ~ <@981456382438047744>",
+    "reason": "raid (bombing everyone)  ~ <@981456382438047744>",
     "date": "2025-10-09T12:30:42.775Z",
     "linkedDiscord": null,
     "discordDetails": null,
@@ -1976,7 +1976,7 @@
   },
   "agent htiler fbi": {
     "username": "agent htiler fbi",
-    "reason": "slurs https://discord.com/channels/988493706413887488/1425834379229270056 ~ <@981456382438047744>",
+    "reason": "slurs  ~ <@981456382438047744>",
     "date": "2025-10-09T13:19:53.487Z",
     "linkedDiscord": null,
     "discordDetails": null,
@@ -1984,7 +1984,7 @@
   },
   "firestar_9977": {
     "username": "firestar_9977",
-    "reason": "nsfw https://discord.com/channels/988493706413887488/1425834379229270056 ~ <@981456382438047744>",
+    "reason": "nsfw  ~ <@981456382438047744>",
     "date": "2025-10-09T13:31:34.289Z",
     "linkedDiscord": null,
     "discordDetails": null,
@@ -1992,7 +1992,7 @@
   },
   "maverick__t1000": {
     "username": "maverick__t1000",
-    "reason": "Bombing cz https://discord.com/channels/988493706413887488/1151875536575008829 ~ <@716126092074942514>",
+    "reason": "Bombing cz  ~ <@716126092074942514>",
     "date": "2025-10-09T13:41:11.455Z",
     "linkedDiscord": null,
     "discordDetails": null,
@@ -2000,7 +2000,7 @@
   },
   "mpro_gamer100": {
     "username": "mpro_gamer100",
-    "reason": "Nazi https://discord.com/channels/988493706413887488/1425888520366456964 ~ <@716126092074942514>",
+    "reason": "Nazi  ~ <@716126092074942514>",
     "date": "2025-10-09T16:54:09.763Z",
     "linkedDiscord": null,
     "discordDetails": null,
@@ -2008,7 +2008,7 @@
   },
   "flight4me": {
     "username": "flight4me",
-    "reason": "Slur https://discord.com/channels/988493706413887488/1425890056626765844 ~ <@716126092074942514>",
+    "reason": "Slur  ~ <@716126092074942514>",
     "date": "2025-10-09T16:59:26.841Z",
     "linkedDiscord": null,
     "discordDetails": null,
@@ -2016,7 +2016,7 @@
   },
   "головач лена": {
     "username": "головач лена",
-    "reason": "NSFW https://discord.com/channels/988493706413887488/1425834379229270056 ~ <@1073803393258242079>",
+    "reason": "NSFW  ~ <@1073803393258242079>",
     "date": "2025-10-09T18:43:35.422Z",
     "linkedDiscord": null,
     "discordDetails": null,
@@ -2024,7 +2024,7 @@
   },
   "myballsritchy": {
     "username": "myballsritchy",
-    "reason": "NSFW Username https://discord.com/channels/988493706413887488/1151875536575008829 ~ <@1073803393258242079>",
+    "reason": "NSFW Username  ~ <@1073803393258242079>",
     "date": "2025-10-09T22:32:29.975Z",
     "linkedDiscord": null,
     "discordDetails": null,
@@ -2032,7 +2032,7 @@
   },
   "wrakoa": {
     "username": "wrakoa",
-    "reason": "Raid (bombing cc) https://discord.com/channels/988493706413887488/1151875536575008829 ~ <@1073803393258242079>",
+    "reason": "Raid (bombing cc)  ~ <@1073803393258242079>",
     "date": "2025-10-09T23:08:48.768Z",
     "linkedDiscord": null,
     "discordDetails": null,
@@ -2040,7 +2040,7 @@
   },
   "honey badger 200": {
     "username": "honey badger 200",
-    "reason": "slurs https://discord.com/channels/988493706413887488/1425991969930219683 ~ <@733327153441275916>",
+    "reason": "slurs  ~ <@733327153441275916>",
     "date": "2025-10-09T23:43:17.684Z",
     "linkedDiscord": null,
     "discordDetails": null,
@@ -2048,7 +2048,7 @@
   },
   "arwinzmnn": {
     "username": "arwinzmnn",
-    "reason": "slurs https://discord.com/channels/988493706413887488/1425991969930219683 ~ <@733327153441275916>",
+    "reason": "slurs  ~ <@733327153441275916>",
     "date": "2025-10-09T23:43:30.040Z",
     "linkedDiscord": null,
     "discordDetails": null,
@@ -2056,7 +2056,7 @@
   },
   "endlesskun": {
     "username": "endlesskun",
-    "reason": "slurs https://discord.com/channels/988493706413887488/1425991969930219683 ~ <@733327153441275916>",
+    "reason": "slurs  ~ <@733327153441275916>",
     "date": "2025-10-09T23:44:04.014Z",
     "linkedDiscord": null,
     "discordDetails": null,
@@ -2064,7 +2064,7 @@
   },
   "monke10938": {
     "username": "monke10938",
-    "reason": "slurs https://discord.com/channels/988493706413887488/1425993080498028656 ~ <@1073803393258242079>",
+    "reason": "slurs  ~ <@1073803393258242079>",
     "date": "2025-10-09T23:48:04.592Z",
     "linkedDiscord": null,
     "discordDetails": null,
@@ -2072,7 +2072,7 @@
   },
   "いstellarvoidい": {
     "username": "いstellarvoidい",
-    "reason": "Raid (Air) - MGN/BJR69 https://discord.com/channels/988493706413887488/1151875536575008829 ~ <@1073803393258242079>",
+    "reason": "Raid (Air) - MGN/BJR69  ~ <@1073803393258242079>",
     "date": "2025-10-10T02:31:10.751Z",
     "linkedDiscord": "898993295601057863",
     "discordDetails": null,
@@ -2080,7 +2080,7 @@
   },
   "flyingnigr": {
     "username": "flyingnigr",
-    "reason": "Racist username https://discord.com/channels/988493706413887488/1151875536575008829 ~ <@716126092074942514>",
+    "reason": "Racist username  ~ <@716126092074942514>",
     "date": "2025-10-10T13:24:38.292Z",
     "linkedDiscord": null,
     "discordDetails": null,
@@ -2088,7 +2088,7 @@
   },
   "diferio": {
     "username": "diferio",
-    "reason": "Raid (bombing ccc) https://discord.com/channels/988493706413887488/1151875536575008829 ~ <@1073803393258242079>",
+    "reason": "Raid (bombing ccc)  ~ <@1073803393258242079>",
     "date": "2025-10-10T22:44:44.845Z",
     "linkedDiscord": null,
     "discordDetails": null,
@@ -2096,7 +2096,7 @@
   },
   "youngbuck956724": {
     "username": "youngbuck956724",
-    "reason": "Bombing cz https://discord.com/channels/988493706413887488/1151875536575008829 ~ <@716126092074942514>",
+    "reason": "Bombing cz  ~ <@716126092074942514>",
     "date": "2025-10-11T01:19:17.840Z",
     "linkedDiscord": null,
     "discordDetails": null,
@@ -2104,7 +2104,7 @@
   },
   "thatavaitionguy": {
     "username": "thatavaitionguy",
-    "reason": "slurs https://discord.com/channels/988493706413887488/1426418213041999974 ~ <@1073803393258242079>",
+    "reason": "slurs  ~ <@1073803393258242079>",
     "date": "2025-10-11T03:56:55.416Z",
     "linkedDiscord": null,
     "discordDetails": null,
@@ -2112,7 +2112,7 @@
   },
   "abo-dausar": {
     "username": "abo-dausar",
-    "reason": "slurs https://discord.com/channels/988493706413887488/1426418566500192296 ~ <@1073803393258242079>",
+    "reason": "slurs  ~ <@1073803393258242079>",
     "date": "2025-10-11T03:58:23.098Z",
     "linkedDiscord": null,
     "discordDetails": null,
@@ -2120,7 +2120,7 @@
   },
   "napoleon8313": {
     "username": "napoleon8313",
-    "reason": "Slurs https://discord.com/channels/988493706413887488/1426450213450551346 ~ <@716126092074942514>",
+    "reason": "Slurs  ~ <@716126092074942514>",
     "date": "2025-10-11T06:04:12.654Z",
     "linkedDiscord": null,
     "discordDetails": null,
@@ -2128,7 +2128,7 @@
   },
   "jenthel": {
     "username": "jenthel",
-    "reason": "slurs https://discord.com/channels/988493706413887488/1426477256544489544 ~ <@981456382438047744>",
+    "reason": "slurs  ~ <@981456382438047744>",
     "date": "2025-10-11T07:52:01.326Z",
     "linkedDiscord": null,
     "discordDetails": null,
@@ -2136,7 +2136,7 @@
   },
   "ark_survivor1": {
     "username": "ark_survivor1",
-    "reason": "slurs - permanent https://discord.com/channels/988493706413887488/1426535974271324191 ~ <@1073803393258242079>",
+    "reason": "slurs - permanent  ~ <@1073803393258242079>",
     "date": "2025-10-11T12:47:40.568Z",
     "linkedDiscord": null,
     "discordDetails": null,
@@ -2144,7 +2144,7 @@
   },
   "rabbit actual": {
     "username": "rabbit actual",
-    "reason": "bombing crowds https://discord.com/channels/988493706413887488/988641195842478124 ~ <@981456382438047744>",
+    "reason": "bombing crowds  ~ <@981456382438047744>",
     "date": "2025-10-12T03:19:49.865Z",
     "linkedDiscord": null,
     "discordDetails": null,
@@ -2152,7 +2152,7 @@
   },
   "ochickenlf": {
     "username": "ochickenlf",
-    "reason": "bombing cc https://discord.com/channels/988493706413887488/988641195842478124 ~ <@981456382438047744>",
+    "reason": "bombing cc  ~ <@981456382438047744>",
     "date": "2025-10-12T03:24:05.123Z",
     "linkedDiscord": null,
     "discordDetails": null,
@@ -2160,7 +2160,7 @@
   },
   "superbeetleman": {
     "username": "superbeetleman",
-    "reason": "bombing cc https://discord.com/channels/988493706413887488/988641195842478124 ~ <@981456382438047744>",
+    "reason": "bombing cc  ~ <@981456382438047744>",
     "date": "2025-10-12T03:31:25.739Z",
     "linkedDiscord": null,
     "discordDetails": null,
@@ -2168,7 +2168,7 @@
   },
   "whyhip": {
     "username": "whyhip",
-    "reason": "attacking chill crowds https://discord.com/channels/988493706413887488/988641195842478124 ~ <@981456382438047744>",
+    "reason": "attacking chill crowds  ~ <@981456382438047744>",
     "date": "2025-10-12T03:47:15.646Z",
     "linkedDiscord": null,
     "discordDetails": null,
@@ -2176,7 +2176,7 @@
   },
   "skillpanzer": {
     "username": "skillpanzer",
-    "reason": "slurs https://discord.com/channels/988493706413887488/1426806652706754621 ~ <@1073803393258242079>",
+    "reason": "slurs  ~ <@1073803393258242079>",
     "date": "2025-10-12T05:40:32.419Z",
     "linkedDiscord": null,
     "discordDetails": null,
@@ -2184,7 +2184,7 @@
   },
   "srevuplo": {
     "username": "srevuplo",
-    "reason": "Link test https://discord.com/channels/988493706413887488/1414220555107700897 ~ <@1073803393258242079>",
+    "reason": "Link test  ~ <@1073803393258242079>",
     "date": "2025-10-12T08:06:58.840Z",
     "linkedDiscord": "1073803393258242079",
     "discordDetails": null,
@@ -2194,7 +2194,7 @@
         "username": "srevuplo",
         "date": "2025-10-11T00:46:19.372Z",
         "status": "accepted",
-        "reason": "Attachment test https://discord.com/channels/988493706413887488/988641195842478124 ~ <@1073803393258242079>",
+        "reason": "Attachment test  ~ <@1073803393258242079>",
         "statement": "test",
         "evidence": "https://cdn.discordapp.com/ephemeral-attachments/1426008502710566963/1426370393731502122/image.png?ex=68eafa72&is=68e9a8f2&hm=83df670426e4ddafbf9423d6c04d7e36894bef35d90a35a91807dcd4902e9d6d&"
       }
