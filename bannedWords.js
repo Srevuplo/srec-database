@@ -19,7 +19,7 @@ const BASE_PATTERNS = [
   { label: "hate.slur.gay", re: word(`${W("f")}${SEP}(?${W("a")}${SEP})?${W("g")}(?:${W("g")})?`) },
   { label: "hate.slur.asian", re: word(`${W("c")}${W("h")}${W("i")}${W("n")}${W("k")}`) },
   { label: "abuse.harassment", re: word(`${W("k")}${W("y")}${W("s")}`) },
-  { label: "nsfw.sexual", re: word(`rape|dildo|sex|slut|fuck|whore|${W("p")}${W("o")}${W("r")}${W("n")}|${W("c")}${W("u")}${W("m")}|${W("c")}${W("o")}${W("c")}${W("k")}|${W("d")}${W("i")}${W("c")}${W("k")}|${W("b")}${W("a")}${W("l")}${W("l")}${W("s")}`) }
+  { label: "nsfw.sexual", re: word(`rape|dildo|sex|slut|whore|${W("p")}${W("o")}${W("r")}${W("n")}|${W("c")}${W("u")}${W("m")}|${W("c")}${W("o")}${W("c")}${W("k")}|${W("d")}${W("i")}${W("c")}${W("k")}|${W("b")}${W("a")}${W("l")}${W("l")}${W("s")}`) }
 ];
 
 module.exports = { BASE_PATTERNS, W, word };
