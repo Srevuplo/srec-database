@@ -61,7 +61,7 @@ const BASE_CONFIG = [
   {
     label: "nsfw.sexual",
     words: [
-      "rape", "dildo", "sex", "slut", "whore",
+      "gassy", "horny", "rape", "dildo", "sex", "slut", "whore",
       "goon", "jerking", "stroking",
       "fingering", "fingered", "cum", "porn",
       "cock", "dick", "balls"
