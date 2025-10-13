@@ -1,10 +1,34 @@
 const SEP = "[\\s._*\\-~|()\\[\\]{}:;,+/\\\\]*";
+
 const CHAR = {
-  a: "[a@4]", e: "[e3€]", i: "[i1!|]", o: "[o0]",
-  u: "[uüùúû]", s: "[s$5]", t: "[t7+]", g: "[g9]",
-  r: "[r]", n: "[nñ]", h: "[h]", l: "[l1|]", d: "[d]",
-  m: "[m]", f: "[f]", c: "[c(¢]", k: "[k]", w: "[wvv]", y: "[y]"
+  a: "[a@4^∆ΛªÀÁÂÃÄÅàáâãäåɑæ]",
+  b: "[bß8฿]",
+  c: "[c(¢<{©]",
+  d: "[dÐđ]",
+  e: "[e3€£êëèéēĕėęěĒĖÈÉÊË€]",
+  f: "[fƒph]",
+  g: "[g9qɢɣ]",
+  h: "[h#ɦĦ]",
+  i: "[i1!|íìîïİÌÍÎÏ]",
+  j: "[jʝ]",
+  k: "[kqκ]",
+  l: "[l1|!ɫ£]",
+  m: "[mµ]",
+  n: "[nñηńņň]",
+  o: "[o0°øöòóôõōŏőÒÓÔÕÖØ]",
+  p: "[pþρ]",
+  q: "[q9]",
+  r: "[r®Я]",
+  s: "[s$5§šśŝşß]",
+  t: "[t7+†]",
+  u: "[uüùúûūŭůűųÙÚÛÜµ]",
+  v: "[v\\/ν]",
+  w: "[wvvŵẅ]",
+  x: "[x×χ]",
+  y: "[y¥ýÿŷŸÝ]",
+  z: "[z2žźżƶ]",
 };
+
 
 const W = s =>
   s.split("")
@@ -13,13 +37,46 @@ const W = s =>
 
 const word = core => `(?:^|\\b|_)${core}(?:\\b|_|$)`;
 
-const BASE_PATTERNS = [
-  { label: "hate.nazi", re: word(`heil|hitler`) },
-  { label: "hate.slur.black", re: word(`${W("n")}${SEP}(?:${W("i")}${SEP})?${W("g")}${W("g")}${W("e")}${W("r")}|${W("n")}${W("i")}?${W("g")}${W("g")}${W("a")}`) },
-  { label: "hate.slur.gay", re: word(`${W("f")}${SEP}(?${W("a")}${SEP})?${W("g")}(?:${W("g")})?`) },
-  { label: "hate.slur.asian", re: word(`${W("c")}${W("h")}${W("i")}${W("n")}${W("k")}`) },
-  { label: "abuse.harassment", re: word(`${W("k")}${W("y")}${W("s")}|retard`) },
-  { label: "nsfw.sexual", re: word(`rape|dildo|sex|slut|whore|goon|jerking|${W("p")}${W("o")}${W("r")}${W("n")}|${W("c")}${W("u")}${W("m")}|${W("c")}${W("o")}${W("c")}${W("k")}|${W("d")}${W("i")}${W("c")}${W("k")}|${W("b")}${W("a")}${W("l")}${W("l")}${W("s")}`) }
+const BASE_CONFIG = [
+  {
+    label: "hate.nazi",
+    words: ["heil", "hitler"]
+  },
+  {
+    label: "hate.slur.black",
+    words: ["nigger", "nigga"]
+  },
+  {
+    label: "hate.slur.gay",
+    words: ["fag", "faggot"]
+  },
+  {
+    label: "hate.slur.asian",
+    words: ["chink"]
+  },
+  {
+    label: "abuse.harassment",
+    words: ["kys", "retard"]
+  },
+  {
+    label: "nsfw.sexual",
+    words: [
+      "rape", "dildo", "sex", "slut", "whore",
+      "goon", "jerking", "stroking",
+      "fingering", "fingered", "cum", "porn",
+      "cock", "dick", "balls"
+    ]
+  }
 ];
 
-module.exports = { BASE_PATTERNS, W, word };
+const BASE_PATTERNS = BASE_CONFIG.map(({ label, words }) => ({
+  label,
+  re: word(words.map(w => W(w)).join("|"))
+}));
+
+const COMPILED_PATTERNS = BASE_PATTERNS.map(p => ({
+  ...p,
+  regex: new RegExp(p.re, "i")
+}));
+
+module.exports = { BASE_CONFIG, BASE_PATTERNS, COMPILED_PATTERNS, W, word };
