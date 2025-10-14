@@ -176,19 +176,6 @@
         "evidence": false,
         "status": "accepted",
         "date": "2025-10-14T03:33:53.043Z"
-      },
-      {
-        "accounts": [
-          {
-            "user": "srevuplo",
-            "reason": "Link Test https://discord.com/channels/988493706413887488/1151875536575008829 ~ <@1073803393258242079>",
-            "date": "2025-10-14T03:33:42.863Z"
-          }
-        ],
-        "statement": "Test",
-        "evidence": false,
-        "status": "pending",
-        "date": "2025-10-14T03:38:57.724Z"
       }
     ]
   }
