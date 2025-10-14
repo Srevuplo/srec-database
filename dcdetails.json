@@ -528,7 +528,12 @@
   },
   {
     "user": "1150609030591561819",
-    "warnings": [],
+    "warnings": [
+      {
+        "timestamp": 1760419083,
+        "reason": "Sorry for the ping but gotta run test ~ srevuplo"
+      }
+    ],
     "mutes": [],
     "bans": []
   }
