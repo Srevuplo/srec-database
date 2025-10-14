@@ -160,49 +160,5 @@
         "date": "2025-10-13T03:47:03.669Z"
       }
     ]
-  },
-  "1073803393258242079": {
-    "username": "srevuplo",
-    "appeals": [
-      {
-        "accounts": [
-          {
-            "user": "srevuplo",
-            "reason": "Yes https://discord.com/channels/988493706413887488/1419773346245251192 ~ <@1073803393258242079>",
-            "date": "2025-10-14T02:42:37.702Z"
-          }
-        ],
-        "statement": "Yes",
-        "status": "accepted",
-        "evidence": false,
-        "date": "2025-10-14T02:48:08.137Z"
-      },
-      {
-        "accounts": [
-          {
-            "user": "srevuplo",
-            "reason": "Test2 https://discord.com/channels/988493706413887488/1419773346245251192 ~ <@1073803393258242079>",
-            "date": "2025-10-14T02:58:49.754Z"
-          }
-        ],
-        "statement": "Test pt 2",
-        "status": "accepted",
-        "evidence": false,
-        "date": "2025-10-14T03:07:18.181Z"
-      },
-      {
-        "accounts": [
-          {
-            "user": "srevuplo",
-            "reason": "Test 3 https://discord.com/channels/988493706413887488/1419773346245251192 ~ <@1073803393258242079>",
-            "date": "2025-10-14T03:12:20.869Z"
-          }
-        ],
-        "statement": "Better work",
-        "status": "pending",
-        "evidence": false,
-        "date": "2025-10-14T03:15:53.849Z"
-      }
-    ]
   }
 }
