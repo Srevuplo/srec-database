@@ -529,12 +529,7 @@
   {
     "user": "1150609030591561819",
     "warnings": [],
-    "mutes": [
-      {
-        "timestamp": 1760418706,
-        "reason": "Test ~ srevuplo"
-      }
-    ],
+    "mutes": [],
     "bans": []
   }
 ]
