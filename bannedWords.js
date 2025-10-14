@@ -64,7 +64,7 @@ const BASE_CONFIG = [
       "gassy", "fetish", "horny", "rape", "dildo", "sex", "slut", "whore",
       "goon", "jerking", "stroking",
       "fingering", "fingered", "cum", "porn",
-      "cock", "dick", "balls"
+      "cock", "dick", "balls", "good boy", "good girl"
     ]
   }
 ];
