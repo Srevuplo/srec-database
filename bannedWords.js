@@ -52,7 +52,7 @@ const BASE_CONFIG = [
   },
   {
     label: "hate.slur.asian",
-    words: ["chink"]
+    words: ["chink", "chigga"]
   },
   {
     label: "abuse.harassment",
