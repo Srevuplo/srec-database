@@ -397,7 +397,13 @@
         "reason": "hate against mods ~ idestroygreenporridge"
       }
     ],
-    "mutes": []
+    "mutes": [
+      {
+        "timestamp": 1760450469,
+        "reason": "nsfw in another language ~ mr.bean9648"
+      }
+    ],
+    "bans": []
   },
   {
     "user": "1331332491121922129",
