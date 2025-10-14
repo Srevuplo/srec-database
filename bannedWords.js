@@ -39,16 +39,8 @@ const word = core => `(?:^|\\b|_)${core}(?:\\b|_|$)`;
 
 const BASE_CONFIG = [
   {
-    label: "slur.black",
-    words: ["nigger", "nigga"]
-  },
-  {
-    label: "slur.gay",
-    words: ["fag", "faggot"]
-  },
-  {
-    label: "slur.asian",
-    words: ["chink", "chigga"]
+    label: "slur",
+    words: ["nigger", "nigga", "fag", "faggot", "chink", "chigga"]
   },
   {
     label: "harassment",
@@ -60,7 +52,7 @@ const BASE_CONFIG = [
       "gassy", "fetish", "horny", "rape", "dildo", "sex", "slut", "whore",
       "goon", "jerking", "stroking",
       "fingering", "fingered", "cum", "porn",
-      "cock", "dick", "balls", "good boy", "good girl", "bust"
+      "cock", "dick", "balls", "good boy", "good girl", "bust", "daddy", "mommy"
     ]
   },
     {
