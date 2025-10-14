@@ -1,1 +1,529 @@
-
+[
+  {
+    "user": "804838112009125932",
+    "warnings": [],
+    "mutes": [],
+    "softbans": [],
+    "bans": [
+      {
+        "timestamp": 1757622051,
+        "reason": "TOS violation (age) ~ <@1073803393258242079>"
+      }
+    ]
+  },
+  {
+    "user": "1374102794352722053",
+    "warnings": [],
+    "mutes": [],
+    "softbans": [],
+    "bans": [
+      {
+        "timestamp": 1757881821,
+        "reason": "Homophobia ~ <@1073803393258242079>"
+      }
+    ]
+  },
+  {
+    "user": "1127486931622711296",
+    "warnings": [],
+    "mutes": [
+      {
+        "timestamp": 1758017319,
+        "reason": "streaming NSFW"
+      }
+    ],
+    "softbans": [],
+    "bans": []
+  },
+  {
+    "user": "1264234546434408579",
+    "warnings": [
+      {
+        "timestamp": 1759782779,
+        "reason": "NSFW - correcting record ~ <@1073803393258242079>"
+      },
+      {
+        "timestamp": 1760209323,
+        "reason": "nsfw ~ spudington42"
+      }
+    ],
+    "mutes": [
+      {
+        "timestamp": 1760090881,
+        "reason": "NSFW ~ spudington42"
+      }
+    ],
+    "softbans": [],
+    "bans": []
+  },
+  {
+    "user": "910379872499683338",
+    "warnings": [
+      {
+        "timestamp": 1758661844,
+        "reason": "nsfw in chat 9/16/25,\"mod can i shove my finger inside of your penis and then tickle the inside of your bladder\" ~ <@108398612970491904>"
+      }
+    ],
+    "mutes": [
+      {
+        "timestamp": 1758095556,
+        "reason": "saying the n-word"
+      }
+    ],
+    "softbans": [],
+    "bans": []
+  },
+  {
+    "user": "535129190752583697",
+    "warnings": [],
+    "mutes": [],
+    "softbans": [],
+    "bans": []
+  },
+  {
+    "user": "1146995760920023052",
+    "warnings": [
+      {
+        "timestamp": 1759098248,
+        "reason": "Speaking in a ticket after being told not to if they didn't have anything to add. ~ lost_cartress"
+      }
+    ],
+    "mutes": [],
+    "softbans": [],
+    "bans": []
+  },
+  {
+    "user": "851845480534638603",
+    "warnings": [],
+    "mutes": [],
+    "softbans": [],
+    "bans": []
+  },
+  {
+    "user": "108398612970491904",
+    "warnings": [],
+    "mutes": [
+      {
+        "timestamp": 1758710985,
+        "reason": "silence peasant ~ <@981456382438047744>"
+      }
+    ],
+    "softbans": [],
+    "bans": []
+  },
+  {
+    "user": "716126092074942514",
+    "warnings": [],
+    "mutes": [],
+    "softbans": [],
+    "bans": []
+  },
+  {
+    "user": "1340357199007842426",
+    "warnings": [
+      {
+        "timestamp": 1759934339,
+        "reason": "Offensive username ~ <@716126092074942514>"
+      }
+    ],
+    "mutes": [],
+    "softbans": [],
+    "bans": []
+  },
+  {
+    "user": "829127092180090881",
+    "warnings": [],
+    "mutes": [],
+    "softbans": [],
+    "bans": [
+      {
+        "timestamp": 1758328002,
+        "reason": "Custom Raid - Appealable ~ <@1073803393258242079>"
+      },
+      {
+        "timestamp": 1759507358,
+        "reason": "RoyMa Leader - DanielG ~ <@1073803393258242079>"
+      }
+    ]
+  },
+  {
+    "user": "1132531586357788722",
+    "warnings": [],
+    "mutes": [
+      {
+        "timestamp": 1758331094,
+        "reason": "§ 8 ~ <@1073803393258242079>"
+      },
+      {
+        "timestamp": 1758400507,
+        "reason": "§ 8 ~ <@1073803393258242079>"
+      }
+    ],
+    "softbans": [],
+    "bans": [
+      {
+        "timestamp": 1758486372,
+        "reason": "Raid ~ <@1132531586357788722>"
+      }
+    ]
+  },
+  {
+    "user": "1363397778998562867",
+    "warnings": [
+      {
+        "timestamp": 1759686850,
+        "reason": "attepting to start drama ~ <@733327153441275916>"
+      },
+      {
+        "timestamp": 1760340521,
+        "reason": "posting brainrot repeatedly, warning was given ~ spudington42"
+      }
+    ],
+    "mutes": [
+      {
+        "timestamp": 1759965837,
+        "reason": "§ 2 (1) SREC TOS ~ <@1073803393258242079>"
+      }
+    ],
+    "softbans": [],
+    "bans": []
+  },
+  {
+    "user": "1369430831319486525",
+    "warnings": [],
+    "mutes": [
+      {
+        "timestamp": 1758798340,
+        "reason": "tried to timeout mah ~ <@716126092074942514>"
+      }
+    ],
+    "softbans": [],
+    "bans": []
+  },
+  {
+    "user": "736347841986822235",
+    "warnings": [
+      {
+        "timestamp": 1759127461,
+        "reason": "hyping the raid in srec CB earlier ago ~ redtalon2792"
+      }
+    ],
+    "mutes": [],
+    "softbans": [],
+    "bans": [
+      {
+        "timestamp": 1758381843,
+        "reason": "plane sex gif ~ <@736347841986822235>"
+      }
+    ]
+  },
+  {
+    "user": "1098701598693261435",
+    "warnings": [
+      {
+        "timestamp": 1759796291,
+        "reason": "NSFW ~ <@1073803393258242079>"
+      }
+    ],
+    "mutes": [
+      {
+        "timestamp": 1760059931,
+        "reason": "Slurs ~ srevuplo"
+      }
+    ],
+    "softbans": [],
+    "bans": []
+  },
+  {
+    "user": "1254677532272365630",
+    "warnings": [],
+    "mutes": [],
+    "softbans": [],
+    "bans": [
+      {
+        "timestamp": 1758492189,
+        "reason": "NSFW ~ <@1254677532272365630>"
+      }
+    ]
+  },
+  {
+    "user": "879505291190878208",
+    "warnings": [],
+    "mutes": [],
+    "softbans": [],
+    "bans": []
+  },
+  {
+    "user": "269632947202555904",
+    "warnings": [],
+    "mutes": [],
+    "softbans": [],
+    "bans": []
+  },
+  {
+    "user": "693714235695562813",
+    "warnings": [],
+    "mutes": [
+      {
+        "timestamp": 1758575462,
+        "reason": "Nigger and Faggot in VC ~ <@1369430831319486525>"
+      }
+    ],
+    "softbans": [],
+    "bans": [
+      {
+        "timestamp": 1758572783,
+        "reason": "N word ~ <@693714235695562813>"
+      }
+    ]
+  },
+  {
+    "user": "1162776683322036245",
+    "warnings": [],
+    "mutes": [],
+    "softbans": [],
+    "bans": [
+      {
+        "timestamp": 1758579562,
+        "reason": "Classified - CL01 ~ <@1073803393258242079>"
+      }
+    ]
+  },
+  {
+    "user": "1400621212790554704",
+    "warnings": [],
+    "mutes": [],
+    "softbans": [],
+    "bans": []
+  },
+  {
+    "user": "1096188466645192876",
+    "warnings": [],
+    "mutes": []
+  },
+  {
+    "user": "1342662168180686851",
+    "warnings": [],
+    "mutes": [
+      {
+        "timestamp": 1758797567,
+        "reason": "posting suspicious pictures in the server ~ <@981456382438047744>"
+      }
+    ],
+    "bans": [
+      {
+        "timestamp": 1758797755,
+        "reason": "posting offensive and suspicious pictures in general ~ <@1342662168180686851>"
+      }
+    ],
+    "softbans": []
+  },
+  {
+    "user": "786227713198784522",
+    "warnings": [],
+    "mutes": [],
+    "softbans": [],
+    "bans": [
+      {
+        "timestamp": 1758809704,
+        "reason": "NSFW ~ <@1073803393258242079>"
+      }
+    ]
+  },
+  {
+    "user": "1164216552703410376",
+    "warnings": [],
+    "mutes": [
+      {
+        "timestamp": 1758810041,
+        "reason": "Spam ~ <@1073803393258242079>"
+      }
+    ],
+    "bans": [
+      {
+        "timestamp": 1758811292,
+        "reason": "Squadron Blacklisted for Raid (NSFW, Spam) ~ <@1164216552703410376>"
+      }
+    ],
+    "softbans": []
+  },
+  {
+    "user": "1227328896622395484",
+    "warnings": [],
+    "mutes": [
+      {
+        "timestamp": 1758810107,
+        "reason": "sus ~ <@716126092074942514>"
+      }
+    ],
+    "bans": [
+      {
+        "timestamp": 1758811219,
+        "reason": "Squadron Blacklisted for Raid (NSFW, Spam) ~ <@1227328896622395484>"
+      }
+    ],
+    "softbans": []
+  },
+  {
+    "user": "894539555640868925",
+    "warnings": [],
+    "mutes": []
+  },
+  {
+    "user": "1093694817285971988",
+    "warnings": [
+      {
+        "timestamp": 1758995183,
+        "reason": "NSFW Banner ~ srevuplo"
+      }
+    ],
+    "mutes": []
+  },
+  {
+    "user": "1274207276718362728",
+    "warnings": [
+      {
+        "timestamp": 1759024072,
+        "reason": "NSFW text ~ gunslinger6704"
+      }
+    ],
+    "mutes": []
+  },
+  {
+    "user": "1227698953987031131",
+    "warnings": [
+      {
+        "timestamp": 1759124930,
+        "reason": "hate against mods ~ idestroygreenporridge"
+      }
+    ],
+    "mutes": []
+  },
+  {
+    "user": "1331332491121922129",
+    "warnings": [
+      {
+        "timestamp": 1759135253,
+        "reason": "speaking in a language that is very hard to moderate ~ idestroygreenporridge"
+      }
+    ],
+    "mutes": [
+      {
+        "timestamp": 1760090592,
+        "reason": "NSFW ~ spudington42"
+      }
+    ],
+    "bans": []
+  },
+  {
+    "user": "1416811605924122760",
+    "warnings": [
+      {
+        "timestamp": 1759408573,
+        "reason": "showing guns in vc ~ <@981456382438047744>"
+      },
+      {
+        "timestamp": 1759935136,
+        "reason": "N word vc ~ <@716126092074942514>"
+      }
+    ],
+    "mutes": []
+  },
+  {
+    "user": "1420166461464514611",
+    "warnings": [
+      {
+        "timestamp": 1759420391,
+        "reason": "§ 1, § 4 ~ <@1073803393258242079>"
+      }
+    ],
+    "mutes": [
+      {
+        "timestamp": 1759420470,
+        "reason": "§ 1,  § 4 ~ <@1073803393258242079>"
+      }
+    ],
+    "bans": [
+      {
+        "timestamp": 1759506974,
+        "reason": "§ 1, § 4 ~ <@1073803393258242079>"
+      }
+    ],
+    "softbans": []
+  },
+  {
+    "user": "1207790249359581267",
+    "warnings": [],
+    "mutes": [],
+    "softbans": [],
+    "bans": [
+      {
+        "timestamp": 1759505766,
+        "reason": "leaking private chats, dragging drama into SREC ~ <@1073803393258242079>"
+      }
+    ]
+  },
+  {
+    "user": "733327153441275916",
+    "warnings": [],
+    "mutes": [],
+    "bans": []
+  },
+  {
+    "user": "1197201455715733615",
+    "warnings": [
+      {
+        "timestamp": 1759878291,
+        "reason": "on the line nsfw text ~ <@733327153441275916>"
+      }
+    ],
+    "mutes": [],
+    "bans": []
+  },
+  {
+    "user": "1202858251306401803",
+    "warnings": [
+      {
+        "timestamp": 1759908501,
+        "reason": "Spam ~ <@269632947202555904>"
+      }
+    ],
+    "mutes": [
+      {
+        "timestamp": 1759909266,
+        "reason": "9/11 meme ~ <@716126092074942514>"
+      }
+    ]
+  },
+  {
+    "user": "840822694475071498",
+    "warnings": [
+      {
+        "timestamp": 1759952477,
+        "reason": "guh ~ <@716126092074942514>"
+      }
+    ],
+    "mutes": []
+  },
+  {
+    "user": "625522943992266763",
+    "warnings": [
+      {
+        "timestamp": 1759952169,
+        "reason": "Distribution of Sensitive Content in <#1414220555107700897> ~ <@1073803393258242079>"
+      }
+    ],
+    "mutes": []
+  },
+  {
+    "user": "1352472823603527741",
+    "warnings": [
+      {
+        "timestamp": 1760060847,
+        "reason": "nsfw ~ mr.bean9648"
+      }
+    ],
+    "mutes": [],
+    "bans": []
+  }
+]
