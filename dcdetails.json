@@ -534,7 +534,12 @@
         "reason": "Test ~ srevuplo"
       }
     ],
-    "mutes": [],
+    "mutes": [
+      {
+        "timestamp": 1760418706,
+        "reason": "Test ~ srevuplo"
+      }
+    ],
     "bans": []
   }
 ]
