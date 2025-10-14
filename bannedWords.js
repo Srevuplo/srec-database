@@ -39,38 +39,34 @@ const word = core => `(?:^|\\b|_)${core}(?:\\b|_|$)`;
 
 const BASE_CONFIG = [
   {
-    label: "hate.nazi",
-    words: ["heil", "hitler"]
-  },
-  {
-    label: "hate.slur.black",
+    label: "slur.black",
     words: ["nigger", "nigga"]
   },
   {
-    label: "hate.slur.gay",
+    label: "slur.gay",
     words: ["fag", "faggot"]
   },
   {
-    label: "hate.slur.asian",
+    label: "slur.asian",
     words: ["chink", "chigga"]
   },
   {
-    label: "abuse.harassment",
+    label: "harassment",
     words: ["kys", "retard", "bastard"]
   },
   {
-    label: "nsfw.sexual",
+    label: "nsfw",
     words: [
       "gassy", "fetish", "horny", "rape", "dildo", "sex", "slut", "whore",
       "goon", "jerking", "stroking",
       "fingering", "fingered", "cum", "porn",
-      "cock", "dick", "balls", "good boy", "good girl"
+      "cock", "dick", "balls", "good boy", "good girl", "bust"
     ]
   },
     {
     label: "other",
     words: [
-     "Tinder", "Grindr"
+     "Tinder", "Grindr", "heil", "hitler"
     ]
   }
 ];
