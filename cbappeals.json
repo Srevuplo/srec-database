@@ -1,176 +1,196 @@
-[
-  {
-    "userId": "1368675812739383390",
+{
+  "1368675812739383390": {
     "username": "anzact._39793",
-    "accounts": [
+    "appeals": [
       {
-        "user": "temp-670349146",
-        "reason": "~ <@981456382438047744> - raciscm",
-        "date": "2025-09-20T06:57:00.303Z"
+        "accounts": [
+          {
+            "user": "temp-670349146",
+            "reason": "~ <@981456382438047744> - raciscm",
+            "date": "2025-09-20T06:57:00.303Z"
+          }
+        ],
+        "statement": "I know what I said wasn't ok but bender made me get mad and I understand that now and I apologise to bender for lashing out at him or escalating the situation.",
+        "status": "accepted",
+        "date": "2025-10-05T00:02:09.357Z"
       }
-    ],
-    "statement": "I know what I said wasn't ok but bender made me get mad and I understand that now and I apologise to bender for lashing out at him or escalating the situation.",
-    "status": "accepted",
-    "date": "2025-10-05T00:02:09.357Z"
+    ]
   },
-  {
-    "userId": "860428174604632064",
+  "860428174604632064": {
     "username": "sorguts_ps5",
-    "accounts": [
+    "appeals": [
       {
-        "user": "sorguts",
-        "reason": "slurs https://discord.com/channels/988493706413887488/1425367101589295115 ~ <@1073803393258242079>",
-        "date": "2025-10-08T07:39:51.255Z"
+        "accounts": [
+          {
+            "user": "sorguts",
+            "reason": "slurs https://discord.com/channels/988493706413887488/1425367101589295115 ~ <@1073803393258242079>",
+            "date": "2025-10-08T07:39:51.255Z"
+          }
+        ],
+        "statement": "got banned from the cb because of my cousin being on my account and saying slurs when I was home due to me being at work and I didn’t know about this till 6:30pm tonight",
+        "status": "accepted",
+        "date": "2025-10-08T09:39:04.303Z"
       }
-    ],
-    "statement": "got banned from the cb because of my cousin being on my account and saying slurs when I was home due to me being at work and I didn’t know about this till 6:30pm tonight",
-    "status": "accepted",
-    "date": "2025-10-08T09:39:04.303Z"
+    ]
   },
-  {
-    "userId": "851845480534638603",
+  "851845480534638603": {
     "username": "abby_the_muppet",
-    "accounts": [
+    "appeals": [
       {
-        "user": "abbythemoronb3",
-        "reason": "NSFW https://discord.com/channels/988493706413887488/1425617317437378681 ~ <@1073803393258242079>",
-        "date": "2025-10-08T22:58:07.898Z"
+        "accounts": [
+          {
+            "user": "abbythemoronb3",
+            "reason": "NSFW https://discord.com/channels/988493706413887488/1425617317437378681 ~ <@1073803393258242079>",
+            "date": "2025-10-08T22:58:07.898Z"
+          }
+        ],
+        "statement": "if whore is an nsfw term than ban saying fuck",
+        "status": "denied",
+        "date": "2025-10-08T23:03:57.706Z"
       }
-    ],
-    "statement": "if whore is an nsfw term than ban saying fuck",
-    "status": "denied",
-    "date": "2025-10-08T23:03:57.706Z"
+    ]
   },
-  {
-    "userId": "1255515794998169620",
+  "1255515794998169620": {
     "username": "em123877",
-    "accounts": [
+    "appeals": [
       {
-        "user": "em12387",
-        "reason": "NSFW https://discord.com/channels/988493706413887488/1425613440994771125 ~ <@1073803393258242079>",
-        "date": "2025-10-08T22:44:50.966Z"
+        "accounts": [
+          {
+            "user": "em12387",
+            "reason": "NSFW https://discord.com/channels/988493706413887488/1425613440994771125 ~ <@1073803393258242079>",
+            "date": "2025-10-08T22:44:50.966Z"
+          }
+        ],
+        "statement": "because some of the things I said I was asking what they ment/were",
+        "status": "accepted",
+        "date": "2025-10-08T23:19:57.862Z"
       }
-    ],
-    "statement": "because some of the things I said I was asking what they ment/were",
-    "status": "accepted",
-    "date": "2025-10-08T23:19:57.862Z"
+    ]
   },
-  {
-    "userId": "367406453083996161",
+  "367406453083996161": {
     "username": "kathrynkatt",
-    "accounts": [
+    "appeals": [
       {
-        "user": "keyboardkatt",
-        "reason": "slurs https://discord.com/channels/988493706413887488/1422078013360570388 ~ <@981456382438047744>",
-        "date": "2025-09-29T04:31:10.412Z"
+        "accounts": [
+          {
+            "user": "keyboardkatt",
+            "reason": "slurs https://discord.com/channels/988493706413887488/1422078013360570388 ~ <@981456382438047744>",
+            "date": "2025-09-29T04:31:10.412Z"
+          }
+        ],
+        "statement": "I am very sorry",
+        "status": "accepted",
+        "date": "2025-10-09T23:59:07.956Z"
       }
-    ],
-    "statement": "I am very sorry",
-    "status": "accepted",
-    "date": "2025-10-09T23:59:07.956Z"
+    ]
   },
-  {
-    "userId": "1044894150442618920",
+  "1044894150442618920": {
     "username": "iammeobviously",
-    "accounts": [
+    "appeals": [
       {
-        "user": "iammeobviously",
-        "reason": "slurs https://discord.com/channels/988493706413887488/1426037189632069663 ~ <@1073803393258242079>",
-        "date": "2025-10-10T03:16:39.617Z"
+        "accounts": [
+          {
+            "user": "iammeobviously",
+            "reason": "slurs https://discord.com/channels/988493706413887488/1426037189632069663 ~ <@1073803393258242079>",
+            "date": "2025-10-10T03:16:39.617Z"
+          }
+        ],
+        "statement": "crashed out at spam killers :(",
+        "status": "accepted",
+        "date": "2025-10-10T03:24:07.822Z"
       }
-    ],
-    "statement": "crashed out at spam killers :(",
-    "status": "accepted",
-    "date": "2025-10-10T03:24:07.822Z"
+    ]
   },
-  {
-    "userId": "1232817422705233921",
+  "1232817422705233921": {
     "username": "beachpounder",
-    "accounts": [
+    "appeals": [
       {
-        "user": "beachpounder",
-        "reason": "NSFW https://discord.com/channels/988493706413887488/1426391709104734401 ~ <@716126092074942514>",
-        "date": "2025-10-11T02:11:51.352Z"
+        "accounts": [
+          {
+            "user": "beachpounder",
+            "reason": "NSFW https://discord.com/channels/988493706413887488/1426391709104734401 ~ <@716126092074942514>",
+            "date": "2025-10-11T02:11:51.352Z"
+          }
+        ],
+        "statement": "sorry I didn't know. I don't mind playing to the rules.",
+        "status": "accepted",
+        "date": "2025-10-11T02:24:23.281Z"
       }
-    ],
-    "statement": "sorry I didn't know. I don't mind playing to the rules.",
-    "evidence": null,
-    "status": "accepted",
-    "date": "2025-10-11T02:24:23.281Z"
+    ]
   },
-  {
-    "userId": "108398612970491904",
+  "108398612970491904": {
     "username": "towerdefence661",
-    "accounts": [
+    "appeals": [
       {
-        "user": "r3_gaming",
-        "reason": "slurs https://discord.com/channels/988493706413887488/1421535310520647690 ~ <@1073803393258242079>",
-        "date": "2025-09-27T16:34:11.034Z"
+        "accounts": [
+          {
+            "user": "r3_gaming",
+            "reason": "slurs https://discord.com/channels/988493706413887488/1421535310520647690 ~ <@1073803393258242079>",
+            "date": "2025-09-27T16:34:11.034Z"
+          }
+        ],
+        "statement": "MY BAN SHOULD BE LIFTED BECAUSE I AM SO AWESOME AND LOVELY (im sorry for slurring, i was not in a right mind and it certainly wont happen again)",
+        "status": "accepted",
+        "date": "2025-10-12T22:33:31.634Z"
       }
-    ],
-    "statement": "MY BAN SHOULD BE LIFTED BECAUSE I AM SO AWESOME AND LOVELY (im sorry for slurring, i was not in a right mind and it certainly wont happen again)",
-    "evidence": null,
-    "status": "accepted",
-    "date": "2025-10-12T22:33:31.634Z"
+    ]
   },
-  {
-    "userId": "915779489903042590",
+  "915779489903042590": {
     "username": "superbeetleman",
-    "accounts": [
+    "appeals": [
       {
-        "user": "superbeetleman",
-        "reason": "bombing cc https://discord.com/channels/988493706413887488/988641195842478124 ~ <@981456382438047744>",
-        "date": "2025-10-12T03:31:25.739Z"
+        "accounts": [
+          {
+            "user": "superbeetleman",
+            "reason": "bombing cc https://discord.com/channels/988493706413887488/988641195842478124 ~ <@981456382438047744>",
+            "date": "2025-10-12T03:31:25.739Z"
+          }
+        ],
+        "statement": "I kamikaze someone as the battle ended last night because I thought it was FFA at battles end because of the other CB's that I have played. I should not have bombed someone for no reason now that I understand the rules",
+        "status": "accepted",
+        "date": "2025-10-13T03:47:03.669Z"
       }
-    ],
-    "statement": "I kamikaze someone as the battle ended last night because I thought it was FFA at battles end because of the other CB's that I have played. I should not have bombed someone for no reason now that I understand the rules",
-    "evidence": null,
-    "status": "accepted",
-    "date": "2025-10-13T03:47:03.669Z"
+    ]
   },
-  {
-    "userId": "1073803393258242079",
+  "1073803393258242079": {
     "username": "srevuplo",
-    "accounts": [
+    "appeals": [
       {
-        "user": "srevuplo",
-        "reason": "Yes https://discord.com/channels/988493706413887488/1419773346245251192 ~ <@1073803393258242079>",
-        "date": "2025-10-14T02:42:37.702Z"
-      }
-    ],
-    "statement": "Yes",
-    "evidence": null,
-    "status": "accepted",
-    "date": "2025-10-14T02:48:08.137Z"
-  },
-  {
-    "userId": "1073803393258242079",
-    "username": "srevuplo",
-    "accounts": [
+        "accounts": [
+          {
+            "user": "srevuplo",
+            "reason": "Yes https://discord.com/channels/988493706413887488/1419773346245251192 ~ <@1073803393258242079>",
+            "date": "2025-10-14T02:42:37.702Z"
+          }
+        ],
+        "statement": "Yes",
+        "status": "accepted",
+        "date": "2025-10-14T02:48:08.137Z"
+      },
       {
-        "user": "srevuplo",
-        "reason": "Test2 https://discord.com/channels/988493706413887488/1419773346245251192 ~ <@1073803393258242079>",
-        "date": "2025-10-14T02:58:49.754Z"
-      }
-    ],
-    "statement": "Test pt 2",
-    "evidence": null,
-    "status": "accepted",
-    "date": "2025-10-14T03:07:18.181Z"
-  },
-  {
-    "userId": "1073803393258242079",
-    "username": "srevuplo",
-    "accounts": [
+        "accounts": [
+          {
+            "user": "srevuplo",
+            "reason": "Test2 https://discord.com/channels/988493706413887488/1419773346245251192 ~ <@1073803393258242079>",
+            "date": "2025-10-14T02:58:49.754Z"
+          }
+        ],
+        "statement": "Test pt 2",
+        "status": "accepted",
+        "date": "2025-10-14T03:07:18.181Z"
+      },
       {
-        "user": "srevuplo",
-        "reason": "Test 3 https://discord.com/channels/988493706413887488/1419773346245251192 ~ <@1073803393258242079>",
-        "date": "2025-10-14T03:12:20.869Z"
+        "accounts": [
+          {
+            "user": "srevuplo",
+            "reason": "Test 3 https://discord.com/channels/988493706413887488/1419773346245251192 ~ <@1073803393258242079>",
+            "date": "2025-10-14T03:12:20.869Z"
+          }
+        ],
+        "statement": "Better work",
+        "status": "pending",
+        "date": "2025-10-14T03:15:53.849Z"
       }
-    ],
-    "statement": "Better work",
-    "evidence": null,
-    "status": "pending",
-    "date": "2025-10-14T03:15:53.849Z"
+    ]
   }
-]
+}
