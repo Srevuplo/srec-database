@@ -66,6 +66,12 @@ const BASE_CONFIG = [
       "fingering", "fingered", "cum", "porn",
       "cock", "dick", "balls", "good boy", "good girl"
     ]
+  },
+    {
+    label: "other",
+    words: [
+     "Tinder", "Grindr"
+    ]
   }
 ];
 
