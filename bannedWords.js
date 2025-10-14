@@ -56,7 +56,7 @@ const BASE_CONFIG = [
   },
   {
     label: "abuse.harassment",
-    words: ["kys", "retard"]
+    words: ["kys", "retard", "bastard"]
   },
   {
     label: "nsfw.sexual",
