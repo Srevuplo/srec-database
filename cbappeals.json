@@ -127,5 +127,20 @@
     "evidence": null,
     "status": "accepted",
     "date": "2025-10-13T03:47:03.669Z"
+  },
+  {
+    "userId": "1073803393258242079",
+    "username": "srevuplo",
+    "accounts": [
+      {
+        "user": "srevuplo",
+        "reason": "Yes https://discord.com/channels/988493706413887488/1419773346245251192 ~ <@1073803393258242079>",
+        "date": "2025-10-14T02:42:37.702Z"
+      }
+    ],
+    "statement": "Yes",
+    "evidence": null,
+    "status": "pending",
+    "date": "2025-10-14T02:48:08.137Z"
   }
 ]
