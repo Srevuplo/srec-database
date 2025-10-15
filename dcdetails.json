@@ -183,6 +183,10 @@
       {
         "timestamp": 1759965837,
         "reason": "§ 2 (1) SREC TOS ~ <@1073803393258242079>"
+      },
+      {
+        "timestamp": 1760528756,
+        "reason": "displaying sensitive content (bot was down) ~ srevuplo"
       }
     ],
     "softbans": [],
