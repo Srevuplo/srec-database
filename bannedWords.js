@@ -40,7 +40,7 @@ const word = core => `(?:^|\\b|_)${core}(?:\\b|_|$)`;
 const BASE_CONFIG = [
   {
     label: "slur",
-    words: ["nigger", "nigga", "fag", "faggot", "chink", "chigga"]
+    words: ["nigger", "negg", "fag", "faggot", "chink", "chigga"]
   },
   {
     label: "harassment",
