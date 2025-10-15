@@ -517,5 +517,16 @@
     "warnings": [],
     "mutes": [],
     "bans": []
+  },
+  {
+    "user": "535813438669193218",
+    "warnings": [
+      {
+        "timestamp": 1760559357,
+        "reason": "slurs ~ srevuplo"
+      }
+    ],
+    "mutes": [],
+    "bans": []
   }
 ]
