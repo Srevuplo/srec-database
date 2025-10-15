@@ -7,7 +7,7 @@
     "bans": [
       {
         "timestamp": 1757622051,
-        "reason": "TOS violation (age) ~ <@1073803393258242079>"
+        "reason": "TOS violation (age) ~ srevuplo"
       }
     ]
   },
@@ -19,7 +19,7 @@
     "bans": [
       {
         "timestamp": 1757881821,
-        "reason": "Homophobia ~ <@1073803393258242079>"
+        "reason": "Severe Homophobia ~ srevuplo"
       }
     ]
   },
@@ -40,7 +40,7 @@
     "warnings": [
       {
         "timestamp": 1759782779,
-        "reason": "NSFW - correcting record ~ <@1073803393258242079>"
+        "reason": "NSFW ~ srevuplo"
       },
       {
         "timestamp": 1760209323,
@@ -138,11 +138,11 @@
     "bans": [
       {
         "timestamp": 1758328002,
-        "reason": "Custom Raid - Appealable ~ <@1073803393258242079>"
+        "reason": "Organized Custom Raid ~ srevuplo"
       },
       {
         "timestamp": 1759507358,
-        "reason": "RoyMa Leader - DanielG ~ <@1073803393258242079>"
+        "reason": "RoyMa Leader - DanielG ~ srevuplo"
       }
     ]
   },
@@ -152,11 +152,11 @@
     "mutes": [
       {
         "timestamp": 1758331094,
-        "reason": "§ 8 ~ <@1073803393258242079>"
+        "reason": "§ 8 ~ srevuplo"
       },
       {
         "timestamp": 1758400507,
-        "reason": "§ 8 ~ <@1073803393258242079>"
+        "reason": "§ 8 ~ srevuplo"
       }
     ],
     "softbans": [],
@@ -182,11 +182,11 @@
     "mutes": [
       {
         "timestamp": 1759965837,
-        "reason": "§ 2 (1) SREC TOS ~ <@1073803393258242079>"
+        "reason": "§ 2 (1) SREC TOS ~ srevuplo"
       },
       {
         "timestamp": 1760528756,
-        "reason": "displaying sensitive content (bot was down) ~ srevuplo"
+        "reason": "displaying sensitive content in general ~ srevuplo"
       }
     ],
     "softbans": [],
@@ -195,12 +195,7 @@
   {
     "user": "1369430831319486525",
     "warnings": [],
-    "mutes": [
-      {
-        "timestamp": 1758798340,
-        "reason": "tried to timeout mah ~ <@716126092074942514>"
-      }
-    ],
+    "mutes": [],
     "softbans": [],
     "bans": []
   },
@@ -226,7 +221,7 @@
     "warnings": [
       {
         "timestamp": 1759796291,
-        "reason": "NSFW ~ <@1073803393258242079>"
+        "reason": "NSFW ~ srevuplo"
       }
     ],
     "mutes": [
@@ -317,7 +312,7 @@
     "bans": [
       {
         "timestamp": 1758797755,
-        "reason": "posting offensive and suspicious pictures in general ~ <@1342662168180686851>"
+        "reason": "posting offensive pictures in general ~ <@1342662168180686851>"
       }
     ],
     "softbans": []
@@ -346,7 +341,7 @@
     "bans": [
       {
         "timestamp": 1758811292,
-        "reason": "Squadron Blacklisted for Raid (NSFW, Spam) ~ <@1164216552703410376>"
+        "reason": "Squadron Blacklisted for Raid (NSFW, Spam) ~ srevuplo"
       }
     ],
     "softbans": []
@@ -354,16 +349,11 @@
   {
     "user": "1227328896622395484",
     "warnings": [],
-    "mutes": [
-      {
-        "timestamp": 1758810107,
-        "reason": "sus ~ <@716126092074942514>"
-      }
-    ],
+    "mutes": [],
     "bans": [
       {
         "timestamp": 1758811219,
-        "reason": "Squadron Blacklisted for Raid (NSFW, Spam) ~ <@1227328896622395484>"
+        "reason": "Squadron Blacklisted for Raid (NSFW, Spam) ~ srevuplo"
       }
     ],
     "softbans": []
@@ -494,12 +484,7 @@
         "reason": "Spam ~ <@269632947202555904>"
       }
     ],
-    "mutes": [
-      {
-        "timestamp": 1759909266,
-        "reason": "9/11 meme ~ <@716126092074942514>"
-      }
-    ]
+    "mutes": []
   },
   {
     "user": "840822694475071498",
