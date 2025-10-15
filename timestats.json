@@ -128,7 +128,8 @@
     "lastMonth": "2025-10",
     "login": 1760552002942,
     "state": "online",
-    "lastLogin": 1760436092981
+    "lastLogin": 1760436092981,
+    "warned45": true
   },
   "1150609030591561819": {
     "total": 600000,
