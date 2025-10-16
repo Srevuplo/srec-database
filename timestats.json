@@ -180,13 +180,13 @@
     "lastLogin": 1760569988690
   },
   "733327153441275916": {
-    "total": 13200000,
-    "monthly": 13200000,
-    "weekly": 0,
-    "daily": 0,
+    "total": 13260000,
+    "monthly": 13260000,
+    "weekly": 60000,
+    "daily": 60000,
     "lastMonth": "2025-10",
     "lastWeek": "2025-W3",
-    "lastDay": "2025-10-15",
+    "lastDay": "2025-10-16",
     "login": null,
     "state": "offline"
   },
