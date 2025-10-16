@@ -11,11 +11,11 @@
     "state": "offline"
   },
   "716126092074942514": {
-    "total": 356400000,
-    "daily": 356400000,
-    "weekly": 356400000,
-    "monthly": 356400000,
-    "lastDay": "2025-10-15",
+    "total": 356460000,
+    "daily": 60000,
+    "weekly": 356460000,
+    "monthly": 356460000,
+    "lastDay": "2025-10-16",
     "lastWeek": "2025-W3",
     "lastMonth": "2025-10",
     "login": null,
