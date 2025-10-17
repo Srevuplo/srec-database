@@ -532,5 +532,16 @@
     ],
     "mutes": [],
     "bans": []
+  },
+  {
+    "user": "1425981775032619150",
+    "warnings": [
+      {
+        "timestamp": 1760731766,
+        "reason": "NSFW ~ __cats_are_cool__"
+      }
+    ],
+    "mutes": [],
+    "bans": []
   }
 ]
