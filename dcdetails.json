@@ -541,7 +541,12 @@
         "reason": "NSFW ~ __cats_are_cool__"
       }
     ],
-    "mutes": [],
+    "mutes": [
+      {
+        "timestamp": 1760732697,
+        "reason": "NSFW gifs ~ __cats_are_cool__"
+      }
+    ],
     "bans": []
   }
 ]
