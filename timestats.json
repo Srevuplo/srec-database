@@ -60,16 +60,16 @@
     "lastLogin": 1760722098612
   },
   "1369430831319486525": {
-    "total": 92989928,
-    "daily": 1200000,
-    "weekly": 3057448,
-    "monthly": 20509379,
+    "total": 96980687,
+    "daily": 5190759,
+    "weekly": 7048207,
+    "monthly": 24500138,
     "lastDay": "2025-10-17",
     "lastWeek": "2025-W3",
     "lastMonth": "2025-10",
-    "login": 1760735745721,
-    "state": "online",
-    "lastLogin": 1760697363018
+    "login": null,
+    "state": "offline",
+    "lastLogin": 1760735745721
   },
   "1400621212790554704": {
     "total": 80074471,
