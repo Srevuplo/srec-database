@@ -214,11 +214,11 @@
     "state": "offline"
   },
   "1414561399614476298": {
-    "total": 90000,
+    "total": 150000,
     "daily": 60000,
-    "weekly": 60000,
-    "monthly": 90000,
-    "lastDay": "2025-10-17",
+    "weekly": 120000,
+    "monthly": 150000,
+    "lastDay": "2025-10-18",
     "lastWeek": "2025-W3",
     "lastMonth": "2025-10",
     "login": null,
