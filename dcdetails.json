@@ -431,7 +431,14 @@
         "reason": "N word vc ~ <@716126092074942514>"
       }
     ],
-    "mutes": []
+    "mutes": [
+      {
+        "timestamp": 1760901677,
+        "reason": "slurs https://discord.com/channels/988493706413887488/988527200263340062/1429528412535656528 ~ mr.bean9648"
+      }
+    ],
+    "kicks": [],
+    "bans": []
   },
   {
     "user": "1420166461464514611",
