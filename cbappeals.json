@@ -178,5 +178,23 @@
         "date": "2025-10-17T13:53:16.897Z"
       }
     ]
+  },
+  "1264234546434408579": {
+    "username": "pekkabot10",
+    "appeals": [
+      {
+        "accounts": [
+          {
+            "user": "pekkabot10",
+            "reason": "slurs https://discord.com/channels/988493706413887488/1427417542548394074 ~ idestroygreenporridge",
+            "date": "2025-10-13T22:08:03.161Z"
+          }
+        ],
+        "statement": "i did nothing and would like to join the cb",
+        "evidence": false,
+        "status": "pending",
+        "date": "2025-10-19T12:28:59.207Z"
+      }
+    ]
   }
 }
