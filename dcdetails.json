@@ -524,8 +524,14 @@
         "reason": "nsfw ~ mr.bean9648"
       }
     ],
-    "mutes": [],
-    "bans": []
+    "mutes": [
+      {
+        "timestamp": 1760931737,
+        "reason": "NSFW ~ undertimeslopper"
+      }
+    ],
+    "bans": [],
+    "kicks": []
   },
   {
     "user": "1150609030591561819",
