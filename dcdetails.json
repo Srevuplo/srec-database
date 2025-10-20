@@ -556,6 +556,10 @@
       {
         "timestamp": 1760731766,
         "reason": "NSFW ~ __cats_are_cool__"
+      },
+      {
+        "timestamp": 1760936644,
+        "reason": "Intent for slur (N I G) ~ __cats_are_cool__"
       }
     ],
     "mutes": [
@@ -564,6 +568,7 @@
         "reason": "NSFW gifs ~ __cats_are_cool__"
       }
     ],
-    "bans": []
+    "bans": [],
+    "kicks": []
   }
 ]
