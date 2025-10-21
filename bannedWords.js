@@ -49,7 +49,7 @@ const BASE_CONFIG = [
   {
     label: "nsfw",
     words: [
-      "gassy", "fetish", "horny", "rape", "dildo", "sex", "slut", "whore", "skank",
+      "gassy", "fetish", "horny", "rape", "dildo", "sex", "gex", "slut", "whore", "skank",
       "goon", "jerking", "stroking",
       "fingering", "fingered", "cum", "porn",
       "cock", "dick", "balls", "good boy", "good girl", "bust", "daddy", "mommy"
