@@ -574,5 +574,17 @@
     ],
     "bans": [],
     "kicks": []
+  },
+  {
+    "user": "164691309192282112",
+    "warnings": [
+      {
+        "timestamp": 1761090544,
+        "reason": "racism ~ undertimeslopper"
+      }
+    ],
+    "mutes": [],
+    "kicks": [],
+    "bans": []
   }
 ]
