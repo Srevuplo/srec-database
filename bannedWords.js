@@ -58,7 +58,7 @@ const BASE_CONFIG = [
     {
     label: "other",
     words: [
-     "Tinder", "Grindr", "hail", "heil", "hitler"
+     "tinder", "grindr", "hail", "heil", "hitler"
     ]
   }
 ];
