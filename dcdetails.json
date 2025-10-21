@@ -583,7 +583,12 @@
         "reason": "racism ~ undertimeslopper"
       }
     ],
-    "mutes": [],
+    "mutes": [
+      {
+        "timestamp": 1761090856,
+        "reason": "NSFW ~ undertimeslopper"
+      }
+    ],
     "kicks": [],
     "bans": []
   }
