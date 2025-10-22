@@ -603,5 +603,17 @@
     "mutes": [],
     "kicks": [],
     "bans": []
+  },
+  {
+    "user": "849348630082617344",
+    "warnings": [
+      {
+        "timestamp": 1761167287,
+        "reason": "Sending Nazi Memes/Material in #.politics ~ srevuplo"
+      }
+    ],
+    "mutes": [],
+    "kicks": [],
+    "bans": []
   }
 ]
