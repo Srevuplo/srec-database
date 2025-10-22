@@ -591,5 +591,17 @@
     ],
     "kicks": [],
     "bans": []
+  },
+  {
+    "user": "1246553117793980486",
+    "warnings": [
+      {
+        "timestamp": 1761160730,
+        "reason": "nsfw ~ undertimeslopper"
+      }
+    ],
+    "mutes": [],
+    "kicks": [],
+    "bans": []
   }
 ]
