@@ -215,10 +215,10 @@
     "state": "offline"
   },
   "1414561399614476298": {
-    "total": 270000,
-    "daily": 60000,
-    "weekly": 60000,
-    "monthly": 270000,
+    "total": 330000,
+    "daily": 120000,
+    "weekly": 120000,
+    "monthly": 330000,
     "lastDay": "2025-10-22",
     "lastWeek": "2025-W4",
     "lastMonth": "2025-10",
