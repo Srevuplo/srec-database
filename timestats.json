@@ -260,13 +260,13 @@
     "state": "offline"
   },
   "576938065227153438": {
-    "total": 60000,
-    "monthly": 60000,
-    "weekly": 60000,
+    "total": 120000,
+    "monthly": 120000,
+    "weekly": 120000,
     "daily": 60000,
     "lastMonth": "2025-10",
     "lastWeek": "2025-W4",
-    "lastDay": "2025-10-22",
+    "lastDay": "2025-10-23",
     "login": null,
     "state": "offline"
   },
