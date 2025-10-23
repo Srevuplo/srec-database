@@ -641,5 +641,17 @@
     ],
     "kicks": [],
     "bans": []
+  },
+  {
+    "user": "483866675087671326",
+    "warnings": [
+      {
+        "timestamp": 1761225307,
+        "reason": "NSFW Bio (24 hours to change) ~ srevuplo"
+      }
+    ],
+    "mutes": [],
+    "kicks": [],
+    "bans": []
   }
 ]
