@@ -202,10 +202,16 @@
   },
   {
     "user": "1369430831319486525",
-    "warnings": [],
+    "warnings": [
+      {
+        "timestamp": 1761226064,
+        "reason": "sending political propaganda of terrorist organisation ~ srevuplo"
+      }
+    ],
     "mutes": [],
     "softbans": [],
-    "bans": []
+    "bans": [],
+    "kicks": []
   },
   {
     "user": "736347841986822235",
