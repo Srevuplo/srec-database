@@ -127,8 +127,8 @@
     "lastDay": "2025-10-22",
     "lastWeek": "2025-W4",
     "lastMonth": "2025-10",
-    "login": null,
-    "state": "offline",
+    "login": 1761229760031,
+    "state": "online",
     "lastLogin": 1761184042238,
     "warned45": true
   },
