@@ -659,5 +659,17 @@
     "mutes": [],
     "kicks": [],
     "bans": []
+  },
+  {
+    "user": "1406856133880053843",
+    "warnings": [
+      {
+        "timestamp": 1761226109,
+        "reason": "sendig political propaganda of terrorist organisation ~ srevuplo"
+      }
+    ],
+    "mutes": [],
+    "kicks": [],
+    "bans": []
   }
 ]
