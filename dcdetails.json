@@ -628,7 +628,12 @@
         "reason": "bringing drama from the cb to the dc ~ idestroygreenporridge"
       }
     ],
-    "mutes": [],
+    "mutes": [
+      {
+        "timestamp": 1761192293,
+        "reason": "being beligerent ~ idestroygreenporridge"
+      }
+    ],
     "kicks": [],
     "bans": []
   }
