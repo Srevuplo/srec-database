@@ -619,5 +619,17 @@
     "mutes": [],
     "kicks": [],
     "bans": []
+  },
+  {
+    "user": "1216538067721126029",
+    "warnings": [
+      {
+        "timestamp": 1761192136,
+        "reason": "bringing drama from the cb to the dc ~ idestroygreenporridge"
+      }
+    ],
+    "mutes": [],
+    "kicks": [],
+    "bans": []
   }
 ]
