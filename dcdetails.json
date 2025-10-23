@@ -576,7 +576,12 @@
         "reason": "Gif with slurs (Nigga) ~ __cats_are_cool__"
       }
     ],
-    "bans": [],
+    "bans": [
+      {
+        "timestamp": 1761205264,
+        "reason": "racism ~ remexxl."
+      }
+    ],
     "kicks": []
   },
   {
