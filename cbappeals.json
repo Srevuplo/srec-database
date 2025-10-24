@@ -214,5 +214,23 @@
         "date": "2025-10-22T15:55:27.635Z"
       }
     ]
+  },
+  "634134190492876850": {
+    "username": "justin19987162",
+    "appeals": [
+      {
+        "accounts": [
+          {
+            "user": "applesauce98374",
+            "reason": "slurs ~ srevuplo",
+            "date": "2025-09-22T20:52:00.475Z"
+          }
+        ],
+        "statement": "StefanDR50 said \"nice\" and I said G, we shouldn't be blacklisted for that",
+        "evidence": false,
+        "status": "pending",
+        "date": "2025-10-24T00:38:11.340Z"
+      }
+    ]
   }
 }
