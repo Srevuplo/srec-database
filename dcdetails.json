@@ -541,7 +541,12 @@
       }
     ],
     "bans": [],
-    "kicks": []
+    "kicks": [
+      {
+        "timestamp": 1761279932,
+        "reason": "NSFW, Racism, Belligerence. ~ undertimeslopper"
+      }
+    ]
   },
   {
     "user": "1150609030591561819",
