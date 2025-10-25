@@ -326,16 +326,16 @@
     "state": "offline"
   },
   "832002581613248522": {
-    "total": 108328552,
-    "monthly": 100373306,
-    "weekly": 64230833,
-    "daily": 14346448,
+    "total": 112032850,
+    "monthly": 104077604,
+    "weekly": 67935131,
+    "daily": 18050746,
     "lastMonth": "2025-10",
     "lastWeek": "2025-W4",
     "lastDay": "2025-10-24",
-    "login": 1761417881724,
-    "lastLogin": 1761409610358,
-    "state": "online"
+    "login": null,
+    "lastLogin": 1761417881724,
+    "state": "offline"
   },
   "527971980838830080": {
     "total": 0,
