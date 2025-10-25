@@ -716,5 +716,17 @@
     "mutes": [],
     "kicks": [],
     "bans": []
+  },
+  {
+    "user": "1257547850838183971",
+    "warnings": [
+      {
+        "timestamp": 1761435949,
+        "reason": "borderline NSFW profile picture, change within 24 hours. ~ undertimeslopper"
+      }
+    ],
+    "mutes": [],
+    "kicks": [],
+    "bans": []
   }
 ]
