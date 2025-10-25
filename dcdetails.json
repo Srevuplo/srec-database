@@ -728,5 +728,42 @@
     "mutes": [],
     "kicks": [],
     "bans": []
+  },
+  {
+    "user": {
+      "id": "1257547850838183971",
+      "bot": false,
+      "system": false,
+      "flags": 0,
+      "username": "ski09846",
+      "globalName": "Ski",
+      "discriminator": "0",
+      "avatar": "c801a87bf368826a7fe9c5b2e6c90da5",
+      "avatarDecoration": null,
+      "avatarDecorationData": null,
+      "collectibles": null,
+      "primaryGuild": {
+        "identityGuildId": "1199397416328249374",
+        "identityEnabled": true,
+        "tag": "FROG",
+        "badge": "c7ed2a1b8a79697aab1463f6c5441bce"
+      },
+      "createdTimestamp": 1719893171749,
+      "defaultAvatarURL": "https://cdn.discordapp.com/embed/avatars/1.png",
+      "tag": "ski09846",
+      "avatarURL": "https://cdn.discordapp.com/avatars/1257547850838183971/c801a87bf368826a7fe9c5b2e6c90da5.webp",
+      "displayAvatarURL": "https://cdn.discordapp.com/avatars/1257547850838183971/c801a87bf368826a7fe9c5b2e6c90da5.webp",
+      "guildTagBadgeURL": "https://cdn.discordapp.com/guild-tag-badges/1199397416328249374/c7ed2a1b8a79697aab1463f6c5441bce.webp"
+    },
+    "warnings": [],
+    "mutes": [],
+    "kicks": [],
+    "softbans": [],
+    "bans": [
+      {
+        "timestamp": 1761436672,
+        "reason": "NSFW ~ srevuplo"
+      }
+    ]
   }
 ]
