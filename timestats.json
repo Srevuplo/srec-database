@@ -360,10 +360,10 @@
     "state": "offline"
   },
   "706238979464364083": {
-    "total": 660000,
-    "monthly": 660000,
-    "weekly": 660000,
-    "daily": 600000,
+    "total": 960000,
+    "monthly": 960000,
+    "weekly": 960000,
+    "daily": 900000,
     "lastMonth": "2025-10",
     "lastWeek": "2025-W4",
     "lastDay": "2025-10-25",
