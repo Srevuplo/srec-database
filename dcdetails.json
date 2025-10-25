@@ -708,5 +708,17 @@
         "reason": "NSFW ~ srevuplo"
       }
     ]
+  },
+  {
+    "user": "1186963213275910144",
+    "warnings": [
+      {
+        "timestamp": 1761417835,
+        "reason": "nsfw comments ~ mr.bean9648"
+      }
+    ],
+    "mutes": [],
+    "kicks": [],
+    "bans": []
   }
 ]
