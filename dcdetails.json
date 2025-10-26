@@ -765,5 +765,17 @@
         "reason": "NSFW ~ srevuplo"
       }
     ]
+  },
+  {
+    "user": "941002290876252201",
+    "warnings": [
+      {
+        "timestamp": 1761513319,
+        "reason": "Slurs in Profile, 24h to change. ~ srevuplo"
+      }
+    ],
+    "mutes": [],
+    "kicks": [],
+    "bans": []
   }
 ]
