@@ -18,7 +18,7 @@
     "daily": 0,
     "weekly": 372880008,
     "monthly": 372880008,
-    "lastDay": "2025-10-26",
+    "lastDay": "2025-10-27",
     "lastWeek": "2025-W3",
     "lastMonth": "2025-10",
     "login": null,
@@ -30,7 +30,7 @@
     "daily": 0,
     "weekly": 0,
     "monthly": 0,
-    "lastDay": "2025-10-26",
+    "lastDay": "2025-10-27",
     "lastWeek": "2025-W3",
     "lastMonth": "2025-10",
     "login": null,
@@ -42,43 +42,49 @@
     "daily": 0,
     "weekly": 0,
     "monthly": 799907,
-    "lastDay": "2025-10-26",
+    "lastDay": "2025-10-27",
     "lastWeek": "2025-W4",
     "lastMonth": "2025-10",
     "login": null,
     "state": "offline",
-    "lastLogin": 1760429825834
+    "lastLogin": 1760429825834,
+    "yearly": 0,
+    "lastYear": "2025"
   },
   "1352327437110870018": {
     "total": 128306938,
     "daily": 0,
     "weekly": 26045856,
     "monthly": 84497552,
-    "lastDay": "2025-10-26",
+    "lastDay": "2025-10-27",
     "lastWeek": "2025-W4",
     "lastMonth": "2025-10",
     "login": null,
     "state": "offline",
-    "lastLogin": 1761462279669
+    "lastLogin": 1761462279669,
+    "yearly": 0,
+    "lastYear": "2025"
   },
   "1369430831319486525": {
     "total": 115704594,
     "daily": 0,
     "weekly": 3865834,
     "monthly": 43224045,
-    "lastDay": "2025-10-26",
+    "lastDay": "2025-10-27",
     "lastWeek": "2025-W4",
     "lastMonth": "2025-10",
     "login": null,
     "state": "offline",
-    "lastLogin": 1761463325942
+    "lastLogin": 1761463325942,
+    "yearly": 0,
+    "lastYear": "2025"
   },
   "1400621212790554704": {
     "total": 80074471,
     "daily": 0,
     "weekly": 0,
     "monthly": 3785984,
-    "lastDay": "2025-10-26",
+    "lastDay": "2025-10-27",
     "lastWeek": "2025-W3",
     "lastMonth": "2025-10",
     "login": null,
@@ -90,7 +96,7 @@
     "daily": 0,
     "weekly": 0,
     "monthly": 0,
-    "lastDay": "2025-10-26",
+    "lastDay": "2025-10-27",
     "lastWeek": "2025-W3",
     "lastMonth": "2025-10",
     "login": null,
@@ -102,7 +108,7 @@
     "daily": 0,
     "weekly": 0,
     "monthly": 0,
-    "lastDay": "2025-10-26",
+    "lastDay": "2025-10-27",
     "lastWeek": "2025-W3",
     "lastMonth": "2025-10",
     "login": null,
@@ -114,11 +120,13 @@
     "daily": 0,
     "weekly": 0,
     "monthly": 0,
-    "lastDay": "2025-10-26",
+    "lastDay": "2025-10-27",
     "lastWeek": "2025-W4",
     "lastMonth": "2025-10",
     "login": null,
-    "state": "offline"
+    "state": "offline",
+    "yearly": 0,
+    "lastYear": "2025"
   },
   "269632947202555904": {
     "total": 432261800,
@@ -130,7 +138,9 @@
     "lastMonth": "2025-10",
     "login": null,
     "state": "offline",
-    "lastLogin": 1761564373851
+    "lastLogin": 1761564373851,
+    "yearly": 0,
+    "lastYear": "2025"
   },
   "1150609030591561819": {
     "total": 14196525,
@@ -139,17 +149,19 @@
     "daily": 0,
     "lastMonth": "2025-10",
     "lastWeek": "2025-W4",
-    "lastDay": "2025-10-26",
+    "lastDay": "2025-10-27",
     "login": null,
     "state": "offline",
-    "lastLogin": 1760767135788
+    "lastLogin": 1760767135788,
+    "yearly": 0,
+    "lastYear": "2025"
   },
   "594228811416207380": {
     "total": 5529907,
     "daily": 0,
     "weekly": 0,
     "monthly": 0,
-    "lastDay": "2025-10-26",
+    "lastDay": "2025-10-27",
     "lastWeek": "2025-W3",
     "lastMonth": "2025-10",
     "login": null,
@@ -161,7 +173,7 @@
     "daily": 0,
     "weekly": 0,
     "monthly": 0,
-    "lastDay": "2025-10-26",
+    "lastDay": "2025-10-27",
     "lastWeek": "2025-W3",
     "lastMonth": "2025-10",
     "login": null,
@@ -173,12 +185,14 @@
     "daily": 0,
     "weekly": 3479125,
     "monthly": 33187398,
-    "lastDay": "2025-10-26",
+    "lastDay": "2025-10-27",
     "lastWeek": "2025-W4",
     "lastMonth": "2025-10",
     "login": null,
     "state": "offline",
-    "lastLogin": 1761195904729
+    "lastLogin": 1761195904729,
+    "yearly": 0,
+    "lastYear": "2025"
   },
   "733327153441275916": {
     "total": 15840000,
@@ -189,14 +203,16 @@
     "lastWeek": "2025-W4",
     "lastDay": "2025-10-27",
     "login": null,
-    "state": "offline"
+    "state": "offline",
+    "yearly": 0,
+    "lastYear": "2025"
   },
   "894539555640868925": {
     "total": 14620611,
     "daily": 0,
     "weekly": 0,
     "monthly": 0,
-    "lastDay": "2025-10-26",
+    "lastDay": "2025-10-27",
     "lastWeek": "2025-W3",
     "lastMonth": "2025-10",
     "login": null,
@@ -208,29 +224,33 @@
     "daily": 0,
     "weekly": 1440000,
     "monthly": 2640000,
-    "lastDay": "2025-10-26",
+    "lastDay": "2025-10-27",
     "lastWeek": "2025-W4",
     "lastMonth": "2025-10",
     "login": null,
-    "state": "offline"
+    "state": "offline",
+    "yearly": 0,
+    "lastYear": "2025"
   },
   "1414561399614476298": {
     "total": 330000,
     "daily": 0,
     "weekly": 120000,
     "monthly": 330000,
-    "lastDay": "2025-10-26",
+    "lastDay": "2025-10-27",
     "lastWeek": "2025-W4",
     "lastMonth": "2025-10",
     "login": null,
-    "state": "offline"
+    "state": "offline",
+    "yearly": 0,
+    "lastYear": "2025"
   },
   "342290300275785740": {
     "total": 30000,
     "daily": 0,
     "weekly": 0,
     "monthly": 30000,
-    "lastDay": "2025-10-26",
+    "lastDay": "2025-10-27",
     "lastWeek": "2025-W3",
     "lastMonth": "2025-10",
     "login": null,
@@ -246,18 +266,22 @@
     "lastDay": "2025-10-27",
     "login": null,
     "state": "offline",
-    "lastLogin": 1761593881330
+    "lastLogin": 1761593881330,
+    "yearly": 0,
+    "lastYear": "2025"
   },
   "535129190752583697": {
     "total": 60000,
     "monthly": 60000,
     "weekly": 60000,
-    "daily": 60000,
+    "daily": 0,
     "lastMonth": "2025-10",
     "lastWeek": "2025-W4",
-    "lastDay": "2025-10-26",
+    "lastDay": "2025-10-27",
     "login": null,
-    "state": "offline"
+    "state": "offline",
+    "yearly": 0,
+    "lastYear": "2025"
   },
   "576938065227153438": {
     "total": 120000,
@@ -266,9 +290,11 @@
     "daily": 0,
     "lastMonth": "2025-10",
     "lastWeek": "2025-W4",
-    "lastDay": "2025-10-26",
+    "lastDay": "2025-10-27",
     "login": null,
-    "state": "offline"
+    "state": "offline",
+    "yearly": 0,
+    "lastYear": "2025"
   },
   "1184012214630363207": {
     "total": 0,
@@ -277,7 +303,7 @@
     "daily": 0,
     "lastMonth": "2025-10",
     "lastWeek": "2025-W3",
-    "lastDay": "2025-10-26",
+    "lastDay": "2025-10-27",
     "login": null,
     "state": "offline"
   },
@@ -288,9 +314,11 @@
     "daily": 0,
     "lastMonth": "2025-10",
     "lastWeek": "2025-W4",
-    "lastDay": "2025-10-26",
+    "lastDay": "2025-10-27",
     "login": null,
-    "state": "offline"
+    "state": "offline",
+    "yearly": 0,
+    "lastYear": "2025"
   },
   "1418004419345383498": {
     "total": 0,
@@ -299,9 +327,11 @@
     "daily": 0,
     "lastMonth": "2025-10",
     "lastWeek": "2025-W4",
-    "lastDay": "2025-10-26",
+    "lastDay": "2025-10-27",
     "login": null,
-    "state": "offline"
+    "state": "offline",
+    "yearly": 0,
+    "lastYear": "2025"
   },
   "1427073164252287026": {
     "total": 0,
@@ -310,9 +340,11 @@
     "daily": 0,
     "lastMonth": "2025-10",
     "lastWeek": "2025-W4",
-    "lastDay": "2025-10-26",
+    "lastDay": "2025-10-27",
     "login": null,
-    "state": "offline"
+    "state": "offline",
+    "yearly": 0,
+    "lastYear": "2025"
   },
   "1223887712160055357": {
     "total": 0,
@@ -321,7 +353,7 @@
     "daily": 0,
     "lastMonth": "2025-10",
     "lastWeek": "2025-W3",
-    "lastDay": "2025-10-26",
+    "lastDay": "2025-10-27",
     "login": null,
     "state": "offline"
   },
@@ -335,7 +367,9 @@
     "lastDay": "2025-10-27",
     "login": null,
     "lastLogin": 1761595993678,
-    "state": "offline"
+    "state": "offline",
+    "yearly": 0,
+    "lastYear": "2025"
   },
   "527971980838830080": {
     "total": 0,
@@ -344,9 +378,11 @@
     "daily": 0,
     "lastMonth": "2025-10",
     "lastWeek": "2025-W4",
-    "lastDay": "2025-10-26",
+    "lastDay": "2025-10-27",
     "login": null,
-    "state": "offline"
+    "state": "offline",
+    "yearly": 0,
+    "lastYear": "2025"
   },
   "1423728859219624118": {
     "total": 0,
@@ -355,19 +391,23 @@
     "daily": 0,
     "lastMonth": "2025-10",
     "lastWeek": "2025-W4",
-    "lastDay": "2025-10-26",
+    "lastDay": "2025-10-27",
     "login": null,
-    "state": "offline"
+    "state": "offline",
+    "yearly": 0,
+    "lastYear": "2025"
   },
   "706238979464364083": {
     "total": 1380000,
     "monthly": 1380000,
     "weekly": 1380000,
-    "daily": 360000,
+    "daily": 0,
     "lastMonth": "2025-10",
     "lastWeek": "2025-W4",
-    "lastDay": "2025-10-26",
+    "lastDay": "2025-10-27",
     "login": null,
-    "state": "offline"
+    "state": "offline",
+    "yearly": 0,
+    "lastYear": "2025"
   }
 }
