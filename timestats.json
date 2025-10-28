@@ -359,16 +359,16 @@
     "state": "offline"
   },
   "832002581613248522": {
-    "total": 148486847,
-    "monthly": 140531601,
-    "weekly": 104389128,
-    "daily": 0,
+    "total": 155728826,
+    "monthly": 147773580,
+    "weekly": 111631107,
+    "daily": 7241979,
     "lastMonth": "2025-10",
     "lastWeek": "2025-W4",
     "lastDay": "2025-10-28",
-    "login": 1761687118800,
-    "lastLogin": 1761595993678,
-    "state": "online",
+    "login": null,
+    "lastLogin": 1761687118800,
+    "state": "offline",
     "yearly": 0,
     "lastYear": "2025",
     "hourReminders": [
