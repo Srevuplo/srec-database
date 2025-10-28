@@ -371,7 +371,9 @@
     "state": "online",
     "yearly": 0,
     "lastYear": "2025",
-    "hourReminders": []
+    "hourReminders": [
+      1
+    ]
   },
   "527971980838830080": {
     "total": 0,
