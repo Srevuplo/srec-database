@@ -398,13 +398,13 @@
     "lastYear": "2025"
   },
   "706238979464364083": {
-    "total": 1380000,
-    "monthly": 1380000,
-    "weekly": 1380000,
-    "daily": 0,
+    "total": 1680000,
+    "monthly": 1680000,
+    "weekly": 1680000,
+    "daily": 300000,
     "lastMonth": "2025-10",
     "lastWeek": "2025-W4",
-    "lastDay": "2025-10-27",
+    "lastDay": "2025-10-28",
     "login": null,
     "state": "offline",
     "yearly": 0,
