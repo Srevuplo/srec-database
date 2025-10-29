@@ -784,5 +784,37 @@
     "mutes": [],
     "kicks": [],
     "bans": []
+  },
+  {
+    "user": {
+      "id": "1352472823603527741",
+      "bot": false,
+      "system": false,
+      "flags": 0,
+      "username": "sgn114",
+      "globalName": "Steve1730",
+      "discriminator": "0",
+      "avatar": null,
+      "avatarDecoration": null,
+      "avatarDecorationData": null,
+      "collectibles": null,
+      "primaryGuild": null,
+      "createdTimestamp": 1742525048877,
+      "defaultAvatarURL": "https://cdn.discordapp.com/embed/avatars/3.png",
+      "tag": "sgn114",
+      "avatarURL": null,
+      "displayAvatarURL": "https://cdn.discordapp.com/embed/avatars/3.png",
+      "guildTagBadgeURL": null
+    },
+    "warnings": [],
+    "mutes": [],
+    "kicks": [],
+    "softbans": [],
+    "bans": [
+      {
+        "timestamp": 1761752198,
+        "reason": "Community Endangerment (SGN's alt acc) ~ srevuplo"
+      }
+    ]
   }
 ]
