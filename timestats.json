@@ -193,7 +193,8 @@
     "state": "online",
     "lastLogin": 1761608026713,
     "yearly": 0,
-    "lastYear": "2025"
+    "lastYear": "2025",
+    "hourReminders": []
   },
   "733327153441275916": {
     "total": 17388975,
