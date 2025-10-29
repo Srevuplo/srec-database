@@ -368,9 +368,9 @@
     "lastMonth": "2025-10",
     "lastWeek": "2025-W5",
     "lastDay": "2025-10-29",
-    "login": null,
+    "login": 1761713138045,
     "lastLogin": 1761702664963,
-    "state": "offline",
+    "state": "online",
     "yearly": 0,
     "lastYear": "2025",
     "hourReminders": [
