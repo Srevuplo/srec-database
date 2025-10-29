@@ -272,7 +272,9 @@
     "lastLogin": 1761653219084,
     "yearly": 0,
     "lastYear": "2025",
-    "hourReminders": []
+    "hourReminders": [
+      1
+    ]
   },
   "535129190752583697": {
     "total": 60000,
