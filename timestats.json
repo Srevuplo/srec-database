@@ -433,6 +433,8 @@
     "lastDay": "2025-10-29",
     "login": 1761769529284,
     "state": "online",
-    "hourReminders": []
+    "hourReminders": [
+      1
+    ]
   }
 }
