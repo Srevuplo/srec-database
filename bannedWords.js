@@ -52,7 +52,7 @@ const BASE_CONFIG = [
       "gassy", "fetish", "horny", "rape", "dildo", "sex", "gex", "slut", "whore", "skank",
       "goon", "jerking", "stroking", "pounding", "cranking",
       "fingering", "fingered", "cum", "porn",
-      "cock", "dick", "balls", "good boy", "good girl", "bust", "daddy", "mommy", "shlong", "meat", "condom"
+      "cock", "dick", "balls", "goodboy", "goodgirl", "bust", "daddy", "mommy", "shlong", "meat", "condom", "booty", "gyatt"
     ]
   },
     {
