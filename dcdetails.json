@@ -816,5 +816,17 @@
         "reason": "Community Endangerment (SGN's alt acc) ~ srevuplo"
       }
     ]
+  },
+  {
+    "user": "1114878505876987994",
+    "warnings": [
+      {
+        "timestamp": 1761852757,
+        "reason": "AutoMod: slurs ~ .SREC. Virus"
+      }
+    ],
+    "mutes": [],
+    "kicks": [],
+    "bans": []
   }
 ]
