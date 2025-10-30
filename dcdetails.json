@@ -825,7 +825,12 @@
         "reason": "AutoMod: slurs ~ .SREC. Virus"
       }
     ],
-    "mutes": [],
+    "mutes": [
+      {
+        "timestamp": 1761852767,
+        "reason": "AutoMod: slurs ~ .SREC. Virus"
+      }
+    ],
     "kicks": [],
     "bans": []
   }
