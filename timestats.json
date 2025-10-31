@@ -439,7 +439,8 @@
     "login": 1761871310229,
     "state": "online",
     "hourReminders": [
-      1
+      1,
+      2
     ],
     "lastLogin": 1761847791329
   }
