@@ -427,21 +427,21 @@
     "lastYear": "2025"
   },
   "1003423038513102929": {
-    "total": 9338307,
+    "total": 16946363,
     "yearly": 0,
     "monthly": 0,
     "weekly": 6046340,
-    "daily": 0,
+    "daily": 7608056,
     "lastYear": "2025",
     "lastMonth": "2025-10",
     "lastWeek": "2025-W5",
     "lastDay": "2025-10-30",
-    "login": 1761871310229,
-    "state": "online",
+    "login": null,
+    "state": "offline",
     "hourReminders": [
       1,
       2
     ],
-    "lastLogin": 1761847791329
+    "lastLogin": 1761871310229
   }
 }
