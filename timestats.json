@@ -276,16 +276,16 @@
     "yearly": 30000
   },
   "1197201455715733615": {
-    "total": 136144695,
+    "total": 138264738,
     "monthly": 0,
     "weekly": 11357938,
-    "daily": 0,
+    "daily": 2120043,
     "lastMonth": "2025-10",
     "lastWeek": "2025-W5",
     "lastDay": "2025-10-31",
-    "login": 1761992133438,
-    "state": "online",
-    "lastLogin": 1761738208755,
+    "login": null,
+    "state": "offline",
+    "lastLogin": 1761992133438,
     "yearly": 136144695,
     "lastYear": "2025",
     "hourReminders": [
