@@ -484,12 +484,7 @@
   },
   {
     "user": "1197201455715733615",
-    "warnings": [
-      {
-        "timestamp": 1759878291,
-        "reason": "on the line nsfw text ~ <@733327153441275916>"
-      }
-    ],
+    "warnings": [],
     "mutes": [],
     "bans": []
   },
