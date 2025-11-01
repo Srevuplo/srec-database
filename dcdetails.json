@@ -840,5 +840,17 @@
     "mutes": [],
     "kicks": [],
     "bans": []
+  },
+  {
+    "user": "1387776436449837157",
+    "warnings": [
+      {
+        "timestamp": 1761962424,
+        "reason": "AutoMod: nsfw ~ .SREC. Virus"
+      }
+    ],
+    "mutes": [],
+    "kicks": [],
+    "bans": []
   }
 ]
