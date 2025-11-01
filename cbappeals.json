@@ -194,6 +194,19 @@
         "evidence": false,
         "status": "accepted",
         "date": "2025-10-19T12:28:59.207Z"
+      },
+      {
+        "accounts": [
+          {
+            "user": "pekkabot10",
+            "reason": "killing planes w smoke https://discord.com/channels/988493706413887488/1151875536575008829 ~ cannontickler",
+            "date": "2025-11-01T19:35:11.730Z"
+          }
+        ],
+        "statement": "im very sorry for what I did",
+        "evidence": false,
+        "status": "pending",
+        "date": "2025-11-01T20:52:03.981Z"
       }
     ]
   },
