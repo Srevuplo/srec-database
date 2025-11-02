@@ -916,5 +916,37 @@
         "reason": "Defamation ~ cannontickler"
       }
     ]
+  },
+  {
+    "user": {
+      "id": "1352248838399856713",
+      "bot": false,
+      "system": false,
+      "flags": 0,
+      "username": "samwiththeham.",
+      "globalName": "SamWithTheHam",
+      "discriminator": "0",
+      "avatar": "c4a5163ffb89555b2d63c3df7f9d921c",
+      "avatarDecoration": null,
+      "avatarDecorationData": null,
+      "collectibles": null,
+      "primaryGuild": null,
+      "createdTimestamp": 1742471646643,
+      "defaultAvatarURL": "https://cdn.discordapp.com/embed/avatars/1.png",
+      "tag": "samwiththeham.",
+      "avatarURL": "https://cdn.discordapp.com/avatars/1352248838399856713/c4a5163ffb89555b2d63c3df7f9d921c.webp",
+      "displayAvatarURL": "https://cdn.discordapp.com/avatars/1352248838399856713/c4a5163ffb89555b2d63c3df7f9d921c.webp",
+      "guildTagBadgeURL": null
+    },
+    "warnings": [],
+    "mutes": [],
+    "kicks": [],
+    "softbans": [],
+    "bans": [
+      {
+        "timestamp": 1762085136,
+        "reason": "Defamation ~ cannontickler"
+      }
+    ]
   }
 ]
