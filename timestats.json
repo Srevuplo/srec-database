@@ -11,10 +11,7 @@
     "state": "offline",
     "lastLogin": 1762002672032,
     "yearly": 39167215,
-    "lastYear": "2025",
-    "hourReminders": [
-      1
-    ]
+    "lastYear": "2025"
   },
   "716126092074942514": {
     "total": 372880008,
@@ -68,8 +65,7 @@
     "state": "offline",
     "lastLogin": 1761669674545,
     "yearly": 86633166,
-    "lastYear": "2025",
-    "warned45": true
+    "lastYear": "2025"
   },
   "1369430831319486525": {
     "total": 115704594,
@@ -149,11 +145,7 @@
     "state": "offline",
     "lastLogin": 1762041726060,
     "yearly": 279555401,
-    "lastYear": "2025",
-    "hourReminders": [
-      1,
-      2
-    ]
+    "lastYear": "2025"
   },
   "1150609030591561819": {
     "total": 14196525,
@@ -207,10 +199,7 @@
     "state": "offline",
     "lastLogin": 1761822651914,
     "yearly": 41527514,
-    "lastYear": "2025",
-    "hourReminders": [
-      1
-    ]
+    "lastYear": "2025"
   },
   "733327153441275916": {
     "total": 18288975,
@@ -224,7 +213,6 @@
     "state": "offline",
     "yearly": 17388975,
     "lastYear": "2025",
-    "hourReminders": [],
     "lastLogin": 1761709059939
   },
   "894539555640868925": {
@@ -290,10 +278,7 @@
     "state": "offline",
     "lastLogin": 1762021513832,
     "yearly": 136144695,
-    "lastYear": "2025",
-    "hourReminders": [
-      1
-    ]
+    "lastYear": "2025"
   },
   "535129190752583697": {
     "total": 960000,
@@ -396,11 +381,7 @@
     "lastLogin": 1762015111481,
     "state": "offline",
     "yearly": 148129922,
-    "lastYear": "2025",
-    "hourReminders": [
-      1,
-      2
-    ]
+    "lastYear": "2025"
   },
   "527971980838830080": {
     "total": 0,
@@ -453,10 +434,6 @@
     "lastDay": "2025-11-1",
     "login": null,
     "state": "offline",
-    "hourReminders": [
-      1,
-      2
-    ],
     "lastLogin": 1761871310229
   }
 }
