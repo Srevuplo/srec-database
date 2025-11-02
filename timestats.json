@@ -65,7 +65,10 @@
     "state": "online",
     "lastLogin": 1761669674545,
     "yearly": 86633166,
-    "lastYear": "2025"
+    "lastYear": "2025",
+    "lastHourReminderSent": 0,
+    "break45Sent": false,
+    "break6Sent": false
   },
   "1369430831319486525": {
     "total": 115704594,
