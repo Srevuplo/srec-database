@@ -483,7 +483,12 @@
   },
   {
     "user": "733327153441275916",
-    "warnings": [],
+    "warnings": [
+      {
+        "timestamp": 1762046147,
+        "reason": "too good for himself ~ idestroygreenporridge"
+      }
+    ],
     "mutes": [],
     "bans": []
   },
