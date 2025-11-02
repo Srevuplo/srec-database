@@ -1128,5 +1128,46 @@
     "mutes": [],
     "kicks": [],
     "bans": []
+  },
+  {
+    "user": {
+      "id": "1069010037936226308",
+      "bot": false,
+      "system": false,
+      "flags": 128,
+      "username": "sproke__",
+      "globalName": "sproke",
+      "discriminator": "0",
+      "avatar": "671295dbeaa2ed307db32e089d51a078",
+      "banner": null,
+      "accentColor": null,
+      "avatarDecoration": null,
+      "avatarDecorationData": null,
+      "collectibles": null,
+      "primaryGuild": {
+        "identityGuildId": "542985647502393346",
+        "identityEnabled": true,
+        "tag": "DCS",
+        "badge": "878c62b6694a4f5931104f766191bec7"
+      },
+      "createdTimestamp": 1674942254290,
+      "defaultAvatarURL": "https://cdn.discordapp.com/embed/avatars/4.png",
+      "hexAccentColor": null,
+      "tag": "sproke__",
+      "avatarURL": "https://cdn.discordapp.com/avatars/1069010037936226308/671295dbeaa2ed307db32e089d51a078.webp",
+      "displayAvatarURL": "https://cdn.discordapp.com/avatars/1069010037936226308/671295dbeaa2ed307db32e089d51a078.webp",
+      "bannerURL": null,
+      "guildTagBadgeURL": "https://cdn.discordapp.com/guild-tag-badges/542985647502393346/878c62b6694a4f5931104f766191bec7.webp"
+    },
+    "warnings": [],
+    "mutes": [],
+    "kicks": [],
+    "softbans": [],
+    "bans": [
+      {
+        "timestamp": 1762127570,
+        "reason": "DC raid ~ cannontickler"
+      }
+    ]
   }
 ]
