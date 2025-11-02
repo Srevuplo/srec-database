@@ -1116,5 +1116,17 @@
         "reason": "NS Profile and Displayname ~ srevuplo"
       }
     ]
+  },
+  {
+    "user": "1069010037936226308",
+    "warnings": [
+      {
+        "timestamp": 1762126879,
+        "reason": "AutoMod: slur ~ .SREC. Virus"
+      }
+    ],
+    "mutes": [],
+    "kicks": [],
+    "bans": []
   }
 ]
