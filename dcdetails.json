@@ -1022,5 +1022,42 @@
         "reason": "Defamation ~ cannontickler"
       }
     ]
+  },
+  {
+    "user": {
+      "id": "1141857479047778394",
+      "bot": false,
+      "system": false,
+      "flags": 0,
+      "username": "infernalaigle",
+      "globalName": "Infernal",
+      "discriminator": "0",
+      "avatar": "1576015633da2d641aab0d54bae946b2",
+      "avatarDecoration": null,
+      "avatarDecorationData": null,
+      "collectibles": null,
+      "primaryGuild": {
+        "identityGuildId": "1171421756850974800",
+        "identityEnabled": true,
+        "tag": "PLEN",
+        "badge": "886ceac70c507df3f4b09657a27b90f1"
+      },
+      "createdTimestamp": 1692310437691,
+      "defaultAvatarURL": "https://cdn.discordapp.com/embed/avatars/1.png",
+      "tag": "infernalaigle",
+      "avatarURL": "https://cdn.discordapp.com/avatars/1141857479047778394/1576015633da2d641aab0d54bae946b2.webp",
+      "displayAvatarURL": "https://cdn.discordapp.com/avatars/1141857479047778394/1576015633da2d641aab0d54bae946b2.webp",
+      "guildTagBadgeURL": "https://cdn.discordapp.com/guild-tag-badges/1171421756850974800/886ceac70c507df3f4b09657a27b90f1.webp"
+    },
+    "warnings": [],
+    "mutes": [],
+    "kicks": [],
+    "softbans": [],
+    "bans": [
+      {
+        "timestamp": 1762085270,
+        "reason": "Defamation ~ cannontickler"
+      }
+    ]
   }
 ]
