@@ -884,5 +884,37 @@
         "reason": "Defamation ~ cannontickler"
       }
     ]
+  },
+  {
+    "user": {
+      "id": "712232017311563847",
+      "bot": false,
+      "system": false,
+      "flags": 4194304,
+      "username": "ka._.ve",
+      "globalName": "Kave",
+      "discriminator": "0",
+      "avatar": "7d426bcec6b6e792640cdd06643cdd30",
+      "avatarDecoration": null,
+      "avatarDecorationData": null,
+      "collectibles": null,
+      "primaryGuild": null,
+      "createdTimestamp": 1589879745558,
+      "defaultAvatarURL": "https://cdn.discordapp.com/embed/avatars/0.png",
+      "tag": "ka._.ve",
+      "avatarURL": "https://cdn.discordapp.com/avatars/712232017311563847/7d426bcec6b6e792640cdd06643cdd30.webp",
+      "displayAvatarURL": "https://cdn.discordapp.com/avatars/712232017311563847/7d426bcec6b6e792640cdd06643cdd30.webp",
+      "guildTagBadgeURL": null
+    },
+    "warnings": [],
+    "mutes": [],
+    "kicks": [],
+    "softbans": [],
+    "bans": [
+      {
+        "timestamp": 1762085115,
+        "reason": "Defamation ~ cannontickler"
+      }
+    ]
   }
 ]
