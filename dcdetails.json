@@ -1169,5 +1169,41 @@
         "reason": "DC raid ~ cannontickler"
       }
     ]
+  },
+  {
+    "user": {
+      "id": "1025476467615866930",
+      "bot": false,
+      "system": false,
+      "flags": 0,
+      "username": "gehmirnichtaufdieeier123",
+      "globalName": "ovexar",
+      "discriminator": "0",
+      "avatar": "e61c1e9d307d94a3b9d44cbd9f08a3f7",
+      "banner": null,
+      "accentColor": null,
+      "avatarDecoration": null,
+      "avatarDecorationData": null,
+      "collectibles": null,
+      "primaryGuild": null,
+      "createdTimestamp": 1664563042311,
+      "defaultAvatarURL": "https://cdn.discordapp.com/embed/avatars/3.png",
+      "hexAccentColor": null,
+      "tag": "gehmirnichtaufdieeier123",
+      "avatarURL": "https://cdn.discordapp.com/avatars/1025476467615866930/e61c1e9d307d94a3b9d44cbd9f08a3f7.webp",
+      "displayAvatarURL": "https://cdn.discordapp.com/avatars/1025476467615866930/e61c1e9d307d94a3b9d44cbd9f08a3f7.webp",
+      "bannerURL": null,
+      "guildTagBadgeURL": null
+    },
+    "warnings": [],
+    "mutes": [],
+    "kicks": [],
+    "softbans": [],
+    "bans": [
+      {
+        "timestamp": 1762127616,
+        "reason": "DC raid ~ cannontickler"
+      }
+    ]
   }
 ]
