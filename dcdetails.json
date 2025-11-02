@@ -1205,5 +1205,45 @@
         "reason": "DC raid ~ cannontickler"
       }
     ]
+  },
+  {
+    "user": {
+      "id": "756870403586261096",
+      "bot": false,
+      "system": false,
+      "flags": 128,
+      "username": "waroro",
+      "globalName": "Geenova",
+      "discriminator": "0",
+      "avatar": "772f4a36d4df823582d95a26d7739254",
+      "avatarDecoration": null,
+      "avatarDecorationData": {
+        "asset": "a_3c97a2d37f433a7913a1c7b7a735d000",
+        "skuId": "1144308439720394944"
+      },
+      "collectibles": null,
+      "primaryGuild": {
+        "identityGuildId": "833525827630399488",
+        "identityEnabled": true,
+        "tag": "3FS",
+        "badge": "e830315515e56e1842abf8135d6212ec"
+      },
+      "createdTimestamp": 1600522366187,
+      "defaultAvatarURL": "https://cdn.discordapp.com/embed/avatars/5.png",
+      "tag": "waroro",
+      "avatarURL": "https://cdn.discordapp.com/avatars/756870403586261096/772f4a36d4df823582d95a26d7739254.webp",
+      "displayAvatarURL": "https://cdn.discordapp.com/avatars/756870403586261096/772f4a36d4df823582d95a26d7739254.webp",
+      "guildTagBadgeURL": "https://cdn.discordapp.com/guild-tag-badges/833525827630399488/e830315515e56e1842abf8135d6212ec.webp"
+    },
+    "warnings": [],
+    "mutes": [],
+    "kicks": [],
+    "softbans": [],
+    "bans": [
+      {
+        "timestamp": 1762127782,
+        "reason": "orcastrating a raid and endangering comunity safety ~ mr.bean9648"
+      }
+    ]
   }
 ]
