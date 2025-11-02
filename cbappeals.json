@@ -281,5 +281,23 @@
         "date": "2025-10-28T13:56:59.690Z"
       }
     ]
+  },
+  "713972677450268753": {
+    "username": "slipshott",
+    "appeals": [
+      {
+        "accounts": [
+          {
+            "user": "slipshott",
+            "reason": "slurs https://discord.com/channels/988493706413887488/1434104791583424613 ~ idestroygreenporridge",
+            "date": "2025-11-01T09:01:33.389Z"
+          }
+        ],
+        "statement": "got blacklisted for slurs even though at the supposed time, i was out at the airport planespotting",
+        "evidence": false,
+        "status": "pending",
+        "date": "2025-11-02T00:49:33.375Z"
+      }
+    ]
   }
 }
