@@ -779,27 +779,6 @@
     "bans": []
   },
   {
-    "user": "1073803393258242079",
-    "warnings": [
-      {
-        "timestamp": 1762045472,
-        "reason": "too good of a leader ~ cannontickler"
-      }
-    ],
-    "mutes": [
-      {
-        "timestamp": 1762045736,
-        "reason": "gay ~ mr.bean9648"
-      },
-      {
-        "timestamp": 1762045738,
-        "reason": "freky ~ tenthdragon103"
-      }
-    ],
-    "kicks": [],
-    "bans": []
-  },
-  {
     "user": {
       "id": "1352472823603527741",
       "bot": false,
