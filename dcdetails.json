@@ -852,5 +852,37 @@
     "mutes": [],
     "kicks": [],
     "bans": []
+  },
+  {
+    "user": {
+      "id": "934524328412864522",
+      "bot": false,
+      "system": false,
+      "flags": 256,
+      "username": "thbo",
+      "globalName": null,
+      "discriminator": "0",
+      "avatar": "217f615f2b513308633e78b965067a19",
+      "avatarDecoration": null,
+      "avatarDecorationData": null,
+      "collectibles": null,
+      "primaryGuild": null,
+      "createdTimestamp": 1642878362516,
+      "defaultAvatarURL": "https://cdn.discordapp.com/embed/avatars/2.png",
+      "tag": "thbo",
+      "avatarURL": "https://cdn.discordapp.com/avatars/934524328412864522/217f615f2b513308633e78b965067a19.webp",
+      "displayAvatarURL": "https://cdn.discordapp.com/avatars/934524328412864522/217f615f2b513308633e78b965067a19.webp",
+      "guildTagBadgeURL": null
+    },
+    "warnings": [],
+    "mutes": [],
+    "kicks": [],
+    "softbans": [],
+    "bans": [
+      {
+        "timestamp": 1762084899,
+        "reason": "Defamation ~ cannontickler"
+      }
+    ]
   }
 ]
