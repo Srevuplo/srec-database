@@ -786,7 +786,12 @@
         "reason": "too good of a leader ~ cannontickler"
       }
     ],
-    "mutes": [],
+    "mutes": [
+      {
+        "timestamp": 1762045736,
+        "reason": "gay ~ mr.bean9648"
+      }
+    ],
     "kicks": [],
     "bans": []
   },
