@@ -948,5 +948,42 @@
         "reason": "Defamation ~ cannontickler"
       }
     ]
+  },
+  {
+    "user": {
+      "id": "829127092180090881",
+      "bot": false,
+      "system": false,
+      "flags": 0,
+      "username": "tyronejingles",
+      "globalName": "Tyrone Jingles",
+      "discriminator": "0",
+      "avatar": "ce4807f64635fde9cc1fd98bc944231c",
+      "avatarDecoration": null,
+      "avatarDecorationData": null,
+      "collectibles": null,
+      "primaryGuild": {
+        "identityGuildId": "864965089969569812",
+        "identityEnabled": true,
+        "tag": "A7X",
+        "badge": "c08ecb1ef98d938294b1db84ca629ef7"
+      },
+      "createdTimestamp": 1617749703212,
+      "defaultAvatarURL": "https://cdn.discordapp.com/embed/avatars/2.png",
+      "tag": "tyronejingles",
+      "avatarURL": "https://cdn.discordapp.com/avatars/829127092180090881/ce4807f64635fde9cc1fd98bc944231c.webp",
+      "displayAvatarURL": "https://cdn.discordapp.com/avatars/829127092180090881/ce4807f64635fde9cc1fd98bc944231c.webp",
+      "guildTagBadgeURL": "https://cdn.discordapp.com/guild-tag-badges/864965089969569812/c08ecb1ef98d938294b1db84ca629ef7.webp"
+    },
+    "warnings": [],
+    "mutes": [],
+    "kicks": [],
+    "softbans": [],
+    "bans": [
+      {
+        "timestamp": 1762085165,
+        "reason": "Defamation ~ cannontickler"
+      }
+    ]
   }
 ]
