@@ -1075,5 +1075,46 @@
     "mutes": [],
     "kicks": [],
     "bans": []
+  },
+  {
+    "user": {
+      "id": "1317899847780667484",
+      "bot": false,
+      "system": false,
+      "flags": 0,
+      "username": "sternisstar",
+      "globalName": "Adolf Hitler",
+      "discriminator": "0",
+      "avatar": "ca2b38ef0074ff5de1990bdfc15dbcac",
+      "banner": null,
+      "accentColor": 9868950,
+      "avatarDecoration": null,
+      "avatarDecorationData": null,
+      "collectibles": null,
+      "primaryGuild": {
+        "identityGuildId": "1326653415144558632",
+        "identityEnabled": true,
+        "tag": "jewd",
+        "badge": "8095094db1f456f9a2775adc16bf297c"
+      },
+      "createdTimestamp": 1734282209106,
+      "defaultAvatarURL": "https://cdn.discordapp.com/embed/avatars/0.png",
+      "hexAccentColor": "#969696",
+      "tag": "sternisstar",
+      "avatarURL": "https://cdn.discordapp.com/avatars/1317899847780667484/ca2b38ef0074ff5de1990bdfc15dbcac.webp",
+      "displayAvatarURL": "https://cdn.discordapp.com/avatars/1317899847780667484/ca2b38ef0074ff5de1990bdfc15dbcac.webp",
+      "bannerURL": null,
+      "guildTagBadgeURL": "https://cdn.discordapp.com/guild-tag-badges/1326653415144558632/8095094db1f456f9a2775adc16bf297c.webp"
+    },
+    "warnings": [],
+    "mutes": [],
+    "kicks": [],
+    "softbans": [],
+    "bans": [
+      {
+        "timestamp": 1762121280,
+        "reason": "NS Profile and Displayname ~ srevuplo"
+      }
+    ]
   }
 ]
