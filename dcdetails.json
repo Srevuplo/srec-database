@@ -1063,5 +1063,17 @@
         "reason": "Defamation ~ cannontickler"
       }
     ]
+  },
+  {
+    "user": "1317899847780667484",
+    "warnings": [
+      {
+        "timestamp": 1762119419,
+        "reason": "Change username wthin 12 hours or you will be banned ~ __cats_are_cool__"
+      }
+    ],
+    "mutes": [],
+    "kicks": [],
+    "bans": []
   }
 ]
