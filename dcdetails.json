@@ -780,7 +780,12 @@
   },
   {
     "user": "1073803393258242079",
-    "warnings": [],
+    "warnings": [
+      {
+        "timestamp": 1762045472,
+        "reason": "too good of a leader ~ cannontickler"
+      }
+    ],
     "mutes": [],
     "kicks": [],
     "bans": []
