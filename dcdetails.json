@@ -840,5 +840,17 @@
     "mutes": [],
     "kicks": [],
     "bans": []
+  },
+  {
+    "user": "1395496021605482629",
+    "warnings": [
+      {
+        "timestamp": 1762046460,
+        "reason": "Violation of § 5 Privacy SREC-SR ~ srevuplo"
+      }
+    ],
+    "mutes": [],
+    "kicks": [],
+    "bans": []
   }
 ]
