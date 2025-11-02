@@ -985,5 +985,42 @@
         "reason": "Defamation ~ cannontickler"
       }
     ]
+  },
+  {
+    "user": {
+      "id": "652861104522788933",
+      "bot": false,
+      "system": false,
+      "flags": 64,
+      "username": "a63c0930",
+      "globalName": "PC.Boris",
+      "discriminator": "0",
+      "avatar": "93500c1b8585f849e6a685ac2816a058",
+      "avatarDecoration": null,
+      "avatarDecorationData": null,
+      "collectibles": null,
+      "primaryGuild": {
+        "identityGuildId": "1369543909843275866",
+        "identityEnabled": null,
+        "tag": null,
+        "badge": null
+      },
+      "createdTimestamp": 1575724616891,
+      "defaultAvatarURL": "https://cdn.discordapp.com/embed/avatars/5.png",
+      "tag": "a63c0930",
+      "avatarURL": "https://cdn.discordapp.com/avatars/652861104522788933/93500c1b8585f849e6a685ac2816a058.webp",
+      "displayAvatarURL": "https://cdn.discordapp.com/avatars/652861104522788933/93500c1b8585f849e6a685ac2816a058.webp",
+      "guildTagBadgeURL": null
+    },
+    "warnings": [],
+    "mutes": [],
+    "kicks": [],
+    "softbans": [],
+    "bans": [
+      {
+        "timestamp": 1762085195,
+        "reason": "Defamation ~ cannontickler"
+      }
+    ]
   }
 ]
