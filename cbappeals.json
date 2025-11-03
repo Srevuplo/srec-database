@@ -335,5 +335,23 @@
         "date": "2025-11-02T21:46:36.662Z"
       }
     ]
+  },
+  "1309902799911391242": {
+    "username": "klexic_nl",
+    "appeals": [
+      {
+        "accounts": [
+          {
+            "user": "thedutchorange",
+            "reason": "bombing a cc https://discord.com/channels/988493706413887488/988641195842478124 ~ srevuplo",
+            "date": "2025-11-01T11:40:26.052Z"
+          }
+        ],
+        "statement": "I need to know the reason and when or what happend, because i have no idea",
+        "evidence": false,
+        "status": "pending",
+        "date": "2025-11-03T19:56:48.350Z"
+      }
+    ]
   }
 }
