@@ -247,12 +247,12 @@
     "lastHourReminderSent": 0
   },
   "733327153441275916": {
-    "total": 23836495,
+    "total": 24136495,
     "monthly": 3073760,
     "weekly": 0,
-    "daily": 0,
+    "daily": 300000,
     "lastMonth": "2025-11",
-    "lastWeek": "2025-W44",
+    "lastWeek": "2025-W1",
     "lastDay": "2025-11-3",
     "login": null,
     "state": "offline",
