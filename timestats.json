@@ -1,12 +1,12 @@
 {
   "1073803393258242079": {
-    "total": 104170213,
+    "total": 114970213,
     "monthly": 25800000,
     "weekly": 10800000,
-    "daily": 0,
+    "daily": 10800000,
     "lastMonth": "2025-11",
     "lastWeek": "2025-W1",
-    "lastDay": "2025-11-3",
+    "lastDay": "2025-11-4",
     "login": null,
     "state": "offline",
     "lastLogin": 1762002672032,
