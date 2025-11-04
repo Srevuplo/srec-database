@@ -35,6 +35,9 @@
     "lastDay": null,
     "login": 1762281038386,
     "lastLogin": null,
-    "state": "online"
+    "state": "online",
+    "lastHourReminderSent": 0,
+    "break45Sent": false,
+    "break6Sent": false
   }
 }
