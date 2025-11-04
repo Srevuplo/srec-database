@@ -29,13 +29,18 @@ const CHAR = {
   z: "[z2žźżƶ]",
 };
 
-
 const W = s =>
-  s.split("")
-   .map(ch => (CHAR[ch] ? CHAR[ch] : ch.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")))
-   .join(`${SEP}`);
+  s
+    .split("")
+    .map(ch => (CHAR[ch] ? CHAR[ch] : ch.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")))
+    .join(`${SEP}`);
 
 const word = core => `(?:^|\\b|_)${core}(?:\\b|_|$)`;
+
+const WHITELIST = [
+  "sexual", "sexuality", "asexual", "asexuality", "pansexual", "bisexual", "homosexual",
+  "sexism", "unisex", "intersection", "midsection", "sexton", "sextonary", "scumbag", "scum", "dickhead"
+];
 
 const BASE_CONFIG = [
   {
@@ -52,21 +57,55 @@ const BASE_CONFIG = [
       "gassy", "fetish", "horny", "rape", "dildo", "sex", "gex", "slut", "whore", "skank",
       "goon", "jerking", "stroking", "pounding", "cranking",
       "fingering", "fingered", "cum", "porn",
-      "cock", "dick", "balls", "goodboy", "goodgirl", "bust", "daddy", "mommy", "shlong", "meat", "condom", "booty", "gyatt"
+      "cock", "dick", "balls", "goodboy", "goodgirl", "bust", "daddy", "mommy", "shlong",
+      "meat", "condom", "booty", "gyatt"
     ]
   },
-    {
+  {
     label: "other",
-    words: [
-     "tinder", "grindr", "hail", "heil", "hitler"
-    ]
+    words: ["tinder", "grindr", "hail", "heil", "hitler"]
   }
 ];
 
-const BASE_PATTERNS = BASE_CONFIG.map(({ label, words }) => ({
-  label,
-  re: word(words.map(w => W(w)).join("|"))
-}));
+function buildExceptionSuffixesPerWord(config, whitelist) {
+  const map = new Map();
+
+  const allFlagged = new Set(config.flatMap(c => c.words.map(w => w.toLowerCase())));
+
+  for (const term of whitelist) {
+    const lc = term.toLowerCase();
+    for (const base of allFlagged) {
+      if (lc.startsWith(base) && lc.length > base.length) {
+        const suffixPlain = lc.slice(base.length);
+        const suffixPattern = W(suffixPlain);
+        if (!map.has(base)) map.set(base, []);
+        map.get(base).push(suffixPattern);
+      }
+    }
+  }
+
+  return map;
+}
+
+const EXCEPTIONS_AFTER = buildExceptionSuffixesPerWord(BASE_CONFIG, WHITELIST);
+
+function patternForWord(base) {
+  const core = W(base.toLowerCase());
+  const suffixes = EXCEPTIONS_AFTER.get(base.toLowerCase());
+  if (suffixes && suffixes.length) {
+    const negative = `(?!${SEP}(?:${suffixes.join("|")}))`;
+    return `${core}${negative}`;
+  }
+  return core;
+}
+
+const BASE_PATTERNS = BASE_CONFIG.map(({ label, words }) => {
+  const core = words.map(w => patternForWord(w)).join("|");
+  return {
+    label,
+    re: word(core)
+  };
+});
 
 const COMPILED_PATTERNS = BASE_PATTERNS.map(p => ({
   ...p,
