@@ -1,6 +1,4 @@
-const SEP = "(?:[._\\-~|/\\\\]{0,1}|\\s{0,1})";
-
-const EXPLICIT_CONTEXT_WORDS = /(porn|nsfw|explicit|nude|naked|fuck|hot|hard|wet|moan|jerk|hump|daddy|mommy)/i;
+const SEP = "[._\\-~|/\\\\]?";
 
 const CHAR = {
   a: "[a@4^∆ΛªÀÁÂÃÄÅàáâãäåɑæ]",
@@ -28,21 +26,20 @@ const CHAR = {
   w: "[wvvŵẅ]",
   x: "[x×χ]",
   y: "[y¥ýÿŷŸÝ]",
-  z: "[z2žźżƶ]"
+  z: "[z2žźżƶ]",
 };
 
 const W = s =>
   s
     .split("")
     .map(ch => (CHAR[ch] ? CHAR[ch] : ch.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")))
-    .join(SEP);
+    .join(`${SEP}`);
 
 const word = core => `(?:^|\\b|_)${core}(?:\\b|_|$)`;
 
 const WHITELIST = [
   "sexual", "sexuality", "asexual", "asexuality", "pansexual", "bisexual", "homosexual",
-  "sexism", "unisex", "intersection", "midsection", "sexton", "sextonary",
-  "scumbag", "scum", "dickhead"
+  "sexism", "unisex", "intersection", "midsection", "sexton", "sextonary", "scumbag", "scum", "dickhead"
 ];
 
 const BASE_CONFIG = [
@@ -77,7 +74,8 @@ function buildExceptionSuffixesPerWord(config, whitelist) {
     const lc = term.toLowerCase();
     for (const base of allFlagged) {
       if (lc.includes(base) && lc.length >= base.length) {
-        const suffixPlain = lc.slice(lc.indexOf(base) + base.length);
+        const pos = lc.indexOf(base);
+        const suffixPlain = lc.slice(pos + base.length);
         if (!suffixPlain.length) continue;
         const suffixPattern = W(suffixPlain);
         if (!map.has(base)) map.set(base, []);
@@ -93,38 +91,24 @@ const EXCEPTIONS_AFTER = buildExceptionSuffixesPerWord(BASE_CONFIG, WHITELIST);
 function patternForWord(base) {
   const lc = base.toLowerCase();
   const suffixes = EXCEPTIONS_AFTER.get(lc);
-  const core = W(lc);
   const negative = suffixes && suffixes.length ? `(?!${SEP}(?:${suffixes.join("|")}))` : "";
-
-  const boundary = lc.length <= 3 ? `\\b` : "";
-  const sensitivity = lc.length <= 3 ? "{0,1}" : "{0,2}";
-  const adjustedCore = core.replace(SEP, SEP.replace("{0,1}", sensitivity));
-
-  return `${boundary}${adjustedCore}${negative}${boundary}`;
-}
-
-function contextAwareFilter(patterns) {
-  return patterns.map(p => {
-    const short = p.length <= 4;
-    const baseRe = new RegExp(p, "i");
-    return text => {
-      const lower = text.toLowerCase();
-      if (!baseRe.test(lower)) return false;
-      if (!short) return true;
-      const idx = lower.search(baseRe);
-      if (idx === -1) return false;
-      const before = lower.slice(Math.max(0, idx - 5), idx);
-      const after = lower.slice(idx + p.length, idx + p.length + 5);
-      const surrounding = (before + after).replace(/[^a-z]/g, "");
-      return EXPLICIT_CONTEXT_WORDS.test(surrounding);
-    };
-  });
+  if (lc.length <= 3) {
+    const coreTight = lc
+      .split("")
+      .map(ch => (CHAR[ch] ? CHAR[ch] : ch.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")))
+      .join("");
+    return `\\b${coreTight}${negative}\\b`;
+  }
+  const core = W(lc);
+  return `${core}${negative}`;
 }
 
 const BASE_PATTERNS = BASE_CONFIG.map(({ label, words }) => {
-  const cores = words.map(w => patternForWord(w));
-  const re = word(cores.join("|"));
-  return { label, re };
+  const core = words.map(w => patternForWord(w)).join("|");
+  return {
+    label,
+    re: word(core)
+  };
 });
 
 const COMPILED_PATTERNS = BASE_PATTERNS.map(p => ({
