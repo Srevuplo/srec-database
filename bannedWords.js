@@ -1,4 +1,6 @@
-const SEP = "[\\s._*\\-~|()\\[\\]{}:;,+/\\\\]?";
+const SEP = "(?:[._\\-~|/\\\\]{0,1}|\\s{0,1})";
+
+const EXPLICIT_CONTEXT_WORDS = /(porn|nsfw|explicit|nude|naked|fuck|hot|hard|wet|moan|jerk|hump|daddy|mommy)/i;
 
 const CHAR = {
   a: "[a@4^∆ΛªÀÁÂÃÄÅàáâãäåɑæ]",
@@ -26,14 +28,14 @@ const CHAR = {
   w: "[wvvŵẅ]",
   x: "[x×χ]",
   y: "[y¥ýÿŷŸÝ]",
-  z: "[z2žźżƶ]",
+  z: "[z2žźżƶ]"
 };
 
 const W = s =>
   s
     .split("")
     .map(ch => (CHAR[ch] ? CHAR[ch] : ch.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")))
-    .join(`${SEP}`);
+    .join(SEP);
 
 const word = core => `(?:^|\\b|_)${core}(?:\\b|_|$)`;
 
@@ -70,43 +72,59 @@ const BASE_CONFIG = [
 
 function buildExceptionSuffixesPerWord(config, whitelist) {
   const map = new Map();
-
   const allFlagged = new Set(config.flatMap(c => c.words.map(w => w.toLowerCase())));
-
   for (const term of whitelist) {
     const lc = term.toLowerCase();
     for (const base of allFlagged) {
       if (lc.includes(base) && lc.length >= base.length) {
-        const suffixPlain = lc.slice(base.indexOf(base) + base.length);
-        if (suffixPlain.length === 0) continue;
+        const suffixPlain = lc.slice(lc.indexOf(base) + base.length);
+        if (!suffixPlain.length) continue;
         const suffixPattern = W(suffixPlain);
         if (!map.has(base)) map.set(base, []);
         map.get(base).push(suffixPattern);
       }
     }
   }
-
   return map;
 }
 
 const EXCEPTIONS_AFTER = buildExceptionSuffixesPerWord(BASE_CONFIG, WHITELIST);
 
 function patternForWord(base) {
-  const core = W(base.toLowerCase());
-  const suffixes = EXCEPTIONS_AFTER.get(base.toLowerCase());
-  if (suffixes && suffixes.length) {
-    const negative = `(?!${SEP}(?:${suffixes.join("|")}))`;
-    return `${core}${negative}`;
-  }
-  return core;
+  const lc = base.toLowerCase();
+  const suffixes = EXCEPTIONS_AFTER.get(lc);
+  const core = W(lc);
+  const negative = suffixes && suffixes.length ? `(?!${SEP}(?:${suffixes.join("|")}))` : "";
+
+  const boundary = lc.length <= 3 ? `\\b` : "";
+  const sensitivity = lc.length <= 3 ? "{0,1}" : "{0,2}";
+  const adjustedCore = core.replace(SEP, SEP.replace("{0,1}", sensitivity));
+
+  return `${boundary}${adjustedCore}${negative}${boundary}`;
+}
+
+function contextAwareFilter(patterns) {
+  return patterns.map(p => {
+    const short = p.length <= 4;
+    const baseRe = new RegExp(p, "i");
+    return text => {
+      const lower = text.toLowerCase();
+      if (!baseRe.test(lower)) return false;
+      if (!short) return true;
+      const idx = lower.search(baseRe);
+      if (idx === -1) return false;
+      const before = lower.slice(Math.max(0, idx - 5), idx);
+      const after = lower.slice(idx + p.length, idx + p.length + 5);
+      const surrounding = (before + after).replace(/[^a-z]/g, "");
+      return EXPLICIT_CONTEXT_WORDS.test(surrounding);
+    };
+  });
 }
 
 const BASE_PATTERNS = BASE_CONFIG.map(({ label, words }) => {
-  const core = words.map(w => patternForWord(w)).join("|");
-  return {
-    label,
-    re: word(core)
-  };
+  const cores = words.map(w => patternForWord(w));
+  const re = word(cores.join("|"));
+  return { label, re };
 });
 
 const COMPILED_PATTERNS = BASE_PATTERNS.map(p => ({
