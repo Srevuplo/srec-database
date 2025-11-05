@@ -30,6 +30,44 @@
           "state": "offline"
         }
       }
+    },
+    "2025-11-05T23:51:38.061Z": {
+      "entries": 2,
+      "snapshot": {
+        "832002581613248522": {
+          "total": 600000,
+          "yearly": 0,
+          "monthly": 0,
+          "weekly": 0,
+          "daily": 600000,
+          "lastYear": "2025",
+          "lastMonth": "2025-11",
+          "lastWeek": "2025-W1",
+          "lastDay": "2025-11-6",
+          "login": null,
+          "state": "offline"
+        },
+        "_backups": {
+          "2025-11-05T23:50:24.679Z": {
+            "entries": 1,
+            "snapshot": {
+              "832002581613248522": {
+                "total": 300000,
+                "yearly": 0,
+                "monthly": 0,
+                "weekly": 0,
+                "daily": 300000,
+                "lastYear": "2025",
+                "lastMonth": "2025-11",
+                "lastWeek": "2025-W1",
+                "lastDay": "2025-11-6",
+                "login": null,
+                "state": "offline"
+              }
+            }
+          }
+        }
+      }
     }
   }
 }
