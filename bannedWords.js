@@ -1,17 +1,17 @@
-const SEP = "[\\s._*\\-~|()\\[\\]{}:;,+/\\\\]*";
+const SEP = "[\\s._*\\-~|()\\[\\]{}:;,+/\\\\]?";
 
 const CHAR = {
   a: "[a@4^∆ΛªÀÁÂÃÄÅàáâãäåɑæ]",
   b: "[bß8฿]",
-  c: "[c(¢<{©]",
+  c: "[c¢<{©]",
   d: "[dÐđ]",
-  e: "[e3€£êëèéēĕėęěĒĖÈÉÊË€]",
+  e: "[e3€£êëèéēĕėęěĒĖÈÉÊË]",
   f: "[fƒph]",
-  g: "[g9qɢɣ]",
+  g: "[g9ɢɣ]",
   h: "[h#ɦĦ]",
   i: "[i1!|íìîïİÌÍÎÏ]",
   j: "[jʝ]",
-  k: "[kqκ]",
+  k: "[kκ]",
   l: "[l1|!ɫ£]",
   m: "[mµ]",
   n: "[nñηńņň]",
@@ -39,7 +39,8 @@ const word = core => `(?:^|\\b|_)${core}(?:\\b|_|$)`;
 
 const WHITELIST = [
   "sexual", "sexuality", "asexual", "asexuality", "pansexual", "bisexual", "homosexual",
-  "sexism", "unisex", "intersection", "midsection", "sexton", "sextonary", "scumbag", "scum", "dickhead"
+  "sexism", "unisex", "intersection", "midsection", "sexton", "sextonary",
+  "scumbag", "scum", "dickhead"
 ];
 
 const BASE_CONFIG = [
@@ -54,11 +55,11 @@ const BASE_CONFIG = [
   {
     label: "nsfw",
     words: [
-      "gassy", "fetish", "horny", "rape", "dildo", "sex", "gex", "slut", "whore", "skank",
-      "goon", "jerking", "stroking", "pounding", "cranking",
+      "fetish", "horny", "rape", "dildo", "sex", "slut", "whore", "skank",
+      "jerking", "stroking", "pounding",
       "fingering", "fingered", "cum", "porn",
-      "cock", "dick", "balls", "goodboy", "goodgirl", "bust", "daddy", "mommy", "shlong",
-      "meat", "condom", "booty", "gyatt"
+      "cock", "dick", "balls", "daddy", "mommy", "shlong",
+      "condom", "booty", "gyatt"
     ]
   },
   {
@@ -75,8 +76,9 @@ function buildExceptionSuffixesPerWord(config, whitelist) {
   for (const term of whitelist) {
     const lc = term.toLowerCase();
     for (const base of allFlagged) {
-      if (lc.startsWith(base) && lc.length > base.length) {
-        const suffixPlain = lc.slice(base.length);
+      if (lc.includes(base) && lc.length >= base.length) {
+        const suffixPlain = lc.slice(base.indexOf(base) + base.length);
+        if (suffixPlain.length === 0) continue;
         const suffixPattern = W(suffixPlain);
         if (!map.has(base)) map.set(base, []);
         map.get(base).push(suffixPattern);
