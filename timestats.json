@@ -1,19 +1,20 @@
 {
   "1073803393258242079": {
-    "total": 2100000,
+    "total": 12079934,
     "yearly": 600000,
     "monthly": 600000,
     "weekly": 600000,
-    "daily": 900000,
+    "daily": 10879934,
     "lastYear": "2025",
     "lastMonth": "2025-11",
     "lastWeek": "2025-W1",
     "lastDay": "2025-11-5",
-    "login": 1762367002315,
-    "state": "online",
+    "login": null,
+    "state": "offline",
     "break45Sent": false,
     "break6Sent": false,
-    "lastHourReminderSent": 3
+    "lastHourReminderSent": 3,
+    "lastLogin": 1762367002315
   },
   "1197201455715733615": {
     "total": 600000,
