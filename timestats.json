@@ -304,6 +304,318 @@
           }
         }
       }
+    },
+    "2025-11-06T18:43:47.782Z": {
+      "entries": 2,
+      "snapshot": {
+        "832002581613248522": {
+          "total": 0,
+          "monthly": 0,
+          "weekly": 0,
+          "daily": 0,
+          "lastMonth": null,
+          "lastWeek": null,
+          "lastDay": null,
+          "login": 1762453129302,
+          "lastLogin": null,
+          "state": "online",
+          "lastHourReminderSent": 0,
+          "break45Sent": false,
+          "break6Sent": false
+        },
+        "_backups": {
+          "2025-11-06T18:23:47.560Z": {
+            "entries": 1,
+            "snapshot": {
+              "832002581613248522": {
+                "total": 0,
+                "monthly": 0,
+                "weekly": 0,
+                "daily": 0,
+                "lastMonth": null,
+                "lastWeek": null,
+                "lastDay": null,
+                "login": 1762453129302,
+                "lastLogin": null,
+                "state": "online"
+              }
+            }
+          },
+          "2025-11-06T18:28:47.590Z": {
+            "entries": 2,
+            "snapshot": {
+              "832002581613248522": {
+                "total": 0,
+                "monthly": 0,
+                "weekly": 0,
+                "daily": 0,
+                "lastMonth": null,
+                "lastWeek": null,
+                "lastDay": null,
+                "login": 1762453129302,
+                "lastLogin": null,
+                "state": "online",
+                "lastHourReminderSent": 0,
+                "break45Sent": false,
+                "break6Sent": false
+              },
+              "_backups": {
+                "2025-11-06T18:23:47.560Z": {
+                  "entries": 1,
+                  "snapshot": {
+                    "832002581613248522": {
+                      "total": 0,
+                      "monthly": 0,
+                      "weekly": 0,
+                      "daily": 0,
+                      "lastMonth": null,
+                      "lastWeek": null,
+                      "lastDay": null,
+                      "login": 1762453129302,
+                      "lastLogin": null,
+                      "state": "online"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "2025-11-06T18:33:47.572Z": {
+            "entries": 2,
+            "snapshot": {
+              "832002581613248522": {
+                "total": 0,
+                "monthly": 0,
+                "weekly": 0,
+                "daily": 0,
+                "lastMonth": null,
+                "lastWeek": null,
+                "lastDay": null,
+                "login": 1762453129302,
+                "lastLogin": null,
+                "state": "online",
+                "lastHourReminderSent": 0,
+                "break45Sent": false,
+                "break6Sent": false
+              },
+              "_backups": {
+                "2025-11-06T18:23:47.560Z": {
+                  "entries": 1,
+                  "snapshot": {
+                    "832002581613248522": {
+                      "total": 0,
+                      "monthly": 0,
+                      "weekly": 0,
+                      "daily": 0,
+                      "lastMonth": null,
+                      "lastWeek": null,
+                      "lastDay": null,
+                      "login": 1762453129302,
+                      "lastLogin": null,
+                      "state": "online"
+                    }
+                  }
+                },
+                "2025-11-06T18:28:47.590Z": {
+                  "entries": 2,
+                  "snapshot": {
+                    "832002581613248522": {
+                      "total": 0,
+                      "monthly": 0,
+                      "weekly": 0,
+                      "daily": 0,
+                      "lastMonth": null,
+                      "lastWeek": null,
+                      "lastDay": null,
+                      "login": 1762453129302,
+                      "lastLogin": null,
+                      "state": "online",
+                      "lastHourReminderSent": 0,
+                      "break45Sent": false,
+                      "break6Sent": false
+                    },
+                    "_backups": {
+                      "2025-11-06T18:23:47.560Z": {
+                        "entries": 1,
+                        "snapshot": {
+                          "832002581613248522": {
+                            "total": 0,
+                            "monthly": 0,
+                            "weekly": 0,
+                            "daily": 0,
+                            "lastMonth": null,
+                            "lastWeek": null,
+                            "lastDay": null,
+                            "login": 1762453129302,
+                            "lastLogin": null,
+                            "state": "online"
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "2025-11-06T18:38:47.556Z": {
+            "entries": 2,
+            "snapshot": {
+              "832002581613248522": {
+                "total": 0,
+                "monthly": 0,
+                "weekly": 0,
+                "daily": 0,
+                "lastMonth": null,
+                "lastWeek": null,
+                "lastDay": null,
+                "login": 1762453129302,
+                "lastLogin": null,
+                "state": "online",
+                "lastHourReminderSent": 0,
+                "break45Sent": false,
+                "break6Sent": false
+              },
+              "_backups": {
+                "2025-11-06T18:23:47.560Z": {
+                  "entries": 1,
+                  "snapshot": {
+                    "832002581613248522": {
+                      "total": 0,
+                      "monthly": 0,
+                      "weekly": 0,
+                      "daily": 0,
+                      "lastMonth": null,
+                      "lastWeek": null,
+                      "lastDay": null,
+                      "login": 1762453129302,
+                      "lastLogin": null,
+                      "state": "online"
+                    }
+                  }
+                },
+                "2025-11-06T18:28:47.590Z": {
+                  "entries": 2,
+                  "snapshot": {
+                    "832002581613248522": {
+                      "total": 0,
+                      "monthly": 0,
+                      "weekly": 0,
+                      "daily": 0,
+                      "lastMonth": null,
+                      "lastWeek": null,
+                      "lastDay": null,
+                      "login": 1762453129302,
+                      "lastLogin": null,
+                      "state": "online",
+                      "lastHourReminderSent": 0,
+                      "break45Sent": false,
+                      "break6Sent": false
+                    },
+                    "_backups": {
+                      "2025-11-06T18:23:47.560Z": {
+                        "entries": 1,
+                        "snapshot": {
+                          "832002581613248522": {
+                            "total": 0,
+                            "monthly": 0,
+                            "weekly": 0,
+                            "daily": 0,
+                            "lastMonth": null,
+                            "lastWeek": null,
+                            "lastDay": null,
+                            "login": 1762453129302,
+                            "lastLogin": null,
+                            "state": "online"
+                          }
+                        }
+                      }
+                    }
+                  }
+                },
+                "2025-11-06T18:33:47.572Z": {
+                  "entries": 2,
+                  "snapshot": {
+                    "832002581613248522": {
+                      "total": 0,
+                      "monthly": 0,
+                      "weekly": 0,
+                      "daily": 0,
+                      "lastMonth": null,
+                      "lastWeek": null,
+                      "lastDay": null,
+                      "login": 1762453129302,
+                      "lastLogin": null,
+                      "state": "online",
+                      "lastHourReminderSent": 0,
+                      "break45Sent": false,
+                      "break6Sent": false
+                    },
+                    "_backups": {
+                      "2025-11-06T18:23:47.560Z": {
+                        "entries": 1,
+                        "snapshot": {
+                          "832002581613248522": {
+                            "total": 0,
+                            "monthly": 0,
+                            "weekly": 0,
+                            "daily": 0,
+                            "lastMonth": null,
+                            "lastWeek": null,
+                            "lastDay": null,
+                            "login": 1762453129302,
+                            "lastLogin": null,
+                            "state": "online"
+                          }
+                        }
+                      },
+                      "2025-11-06T18:28:47.590Z": {
+                        "entries": 2,
+                        "snapshot": {
+                          "832002581613248522": {
+                            "total": 0,
+                            "monthly": 0,
+                            "weekly": 0,
+                            "daily": 0,
+                            "lastMonth": null,
+                            "lastWeek": null,
+                            "lastDay": null,
+                            "login": 1762453129302,
+                            "lastLogin": null,
+                            "state": "online",
+                            "lastHourReminderSent": 0,
+                            "break45Sent": false,
+                            "break6Sent": false
+                          },
+                          "_backups": {
+                            "2025-11-06T18:23:47.560Z": {
+                              "entries": 1,
+                              "snapshot": {
+                                "832002581613248522": {
+                                  "total": 0,
+                                  "monthly": 0,
+                                  "weekly": 0,
+                                  "daily": 0,
+                                  "lastMonth": null,
+                                  "lastWeek": null,
+                                  "lastDay": null,
+                                  "login": 1762453129302,
+                                  "lastLogin": null,
+                                  "state": "online"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
     }
   }
 }
