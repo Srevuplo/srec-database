@@ -135,16 +135,7 @@
     "warnings": [],
     "mutes": [],
     "softbans": [],
-    "bans": [
-      {
-        "timestamp": 1758328002,
-        "reason": "Organized Custom Raid ~ srevuplo"
-      },
-      {
-        "timestamp": 1759507358,
-        "reason": "RoyMa Leader - DanielG ~ srevuplo"
-      }
-    ]
+    "bans": []
   },
   {
     "user": "1132531586357788722",
@@ -223,12 +214,7 @@
     ],
     "mutes": [],
     "softbans": [],
-    "bans": [
-      {
-        "timestamp": 1758381843,
-        "reason": "plane sex gif ~ <@736347841986822235>"
-      }
-    ]
+    "bans": []
   },
   {
     "user": "1098701598693261435",
@@ -279,7 +265,7 @@
     "mutes": [
       {
         "timestamp": 1758575462,
-        "reason": "Nigger and Faggot in VC ~ <@1369430831319486525>"
+        "reason": "slurs in VC ~ <@1369430831319486525>"
       }
     ],
     "softbans": [],
@@ -298,7 +284,7 @@
     "bans": [
       {
         "timestamp": 1758579562,
-        "reason": "Classified - CL01 ~ <@1073803393258242079>"
+        "reason": "Classified - CL01 ~ srevuplo"
       }
     ]
   },
