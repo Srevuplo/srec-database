@@ -1,15 +1,15 @@
 {
   "832002581613248522": {
-    "total": 0,
+    "total": 2457590,
     "monthly": 0,
     "weekly": 0,
-    "daily": 0,
+    "daily": 2457590,
     "lastMonth": null,
     "lastWeek": null,
     "lastDay": null,
-    "login": 1762401029528,
-    "lastLogin": null,
-    "state": "online",
+    "login": null,
+    "lastLogin": 1762401029528,
+    "state": "offline",
     "lastHourReminderSent": 0,
     "break45Sent": false,
     "break6Sent": false
