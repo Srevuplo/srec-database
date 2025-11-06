@@ -296,6 +296,310 @@
           }
         }
       }
+    },
+    "2025-11-06T05:28:46.561Z": {
+      "entries": 2,
+      "snapshot": {
+        "981456382438047744": {
+          "total": 0,
+          "yearly": 0,
+          "monthly": 0,
+          "weekly": 0,
+          "daily": 300000,
+          "lastYear": "2025",
+          "lastMonth": "2025-11",
+          "lastWeek": "2025-W1",
+          "lastDay": "2025-11-6",
+          "login": null,
+          "state": "offline"
+        },
+        "_backups": {
+          "2025-11-06T05:08:46.712Z": {
+            "entries": 1,
+            "snapshot": {
+              "981456382438047744": {
+                "total": 0,
+                "yearly": 0,
+                "monthly": 0,
+                "weekly": 0,
+                "daily": 300000,
+                "lastYear": "2025",
+                "lastMonth": "2025-11",
+                "lastWeek": "2025-W1",
+                "lastDay": "2025-11-6",
+                "login": null,
+                "state": "offline"
+              }
+            }
+          },
+          "2025-11-06T05:13:46.715Z": {
+            "entries": 2,
+            "snapshot": {
+              "981456382438047744": {
+                "total": 0,
+                "yearly": 0,
+                "monthly": 0,
+                "weekly": 0,
+                "daily": 300000,
+                "lastYear": "2025",
+                "lastMonth": "2025-11",
+                "lastWeek": "2025-W1",
+                "lastDay": "2025-11-6",
+                "login": null,
+                "state": "offline"
+              },
+              "_backups": {
+                "2025-11-06T05:08:46.712Z": {
+                  "entries": 1,
+                  "snapshot": {
+                    "981456382438047744": {
+                      "total": 0,
+                      "yearly": 0,
+                      "monthly": 0,
+                      "weekly": 0,
+                      "daily": 300000,
+                      "lastYear": "2025",
+                      "lastMonth": "2025-11",
+                      "lastWeek": "2025-W1",
+                      "lastDay": "2025-11-6",
+                      "login": null,
+                      "state": "offline"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "2025-11-06T05:18:46.545Z": {
+            "entries": 2,
+            "snapshot": {
+              "981456382438047744": {
+                "total": 0,
+                "yearly": 0,
+                "monthly": 0,
+                "weekly": 0,
+                "daily": 300000,
+                "lastYear": "2025",
+                "lastMonth": "2025-11",
+                "lastWeek": "2025-W1",
+                "lastDay": "2025-11-6",
+                "login": null,
+                "state": "offline"
+              },
+              "_backups": {
+                "2025-11-06T05:08:46.712Z": {
+                  "entries": 1,
+                  "snapshot": {
+                    "981456382438047744": {
+                      "total": 0,
+                      "yearly": 0,
+                      "monthly": 0,
+                      "weekly": 0,
+                      "daily": 300000,
+                      "lastYear": "2025",
+                      "lastMonth": "2025-11",
+                      "lastWeek": "2025-W1",
+                      "lastDay": "2025-11-6",
+                      "login": null,
+                      "state": "offline"
+                    }
+                  }
+                },
+                "2025-11-06T05:13:46.715Z": {
+                  "entries": 2,
+                  "snapshot": {
+                    "981456382438047744": {
+                      "total": 0,
+                      "yearly": 0,
+                      "monthly": 0,
+                      "weekly": 0,
+                      "daily": 300000,
+                      "lastYear": "2025",
+                      "lastMonth": "2025-11",
+                      "lastWeek": "2025-W1",
+                      "lastDay": "2025-11-6",
+                      "login": null,
+                      "state": "offline"
+                    },
+                    "_backups": {
+                      "2025-11-06T05:08:46.712Z": {
+                        "entries": 1,
+                        "snapshot": {
+                          "981456382438047744": {
+                            "total": 0,
+                            "yearly": 0,
+                            "monthly": 0,
+                            "weekly": 0,
+                            "daily": 300000,
+                            "lastYear": "2025",
+                            "lastMonth": "2025-11",
+                            "lastWeek": "2025-W1",
+                            "lastDay": "2025-11-6",
+                            "login": null,
+                            "state": "offline"
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "2025-11-06T05:23:46.544Z": {
+            "entries": 2,
+            "snapshot": {
+              "981456382438047744": {
+                "total": 0,
+                "yearly": 0,
+                "monthly": 0,
+                "weekly": 0,
+                "daily": 300000,
+                "lastYear": "2025",
+                "lastMonth": "2025-11",
+                "lastWeek": "2025-W1",
+                "lastDay": "2025-11-6",
+                "login": null,
+                "state": "offline"
+              },
+              "_backups": {
+                "2025-11-06T05:08:46.712Z": {
+                  "entries": 1,
+                  "snapshot": {
+                    "981456382438047744": {
+                      "total": 0,
+                      "yearly": 0,
+                      "monthly": 0,
+                      "weekly": 0,
+                      "daily": 300000,
+                      "lastYear": "2025",
+                      "lastMonth": "2025-11",
+                      "lastWeek": "2025-W1",
+                      "lastDay": "2025-11-6",
+                      "login": null,
+                      "state": "offline"
+                    }
+                  }
+                },
+                "2025-11-06T05:13:46.715Z": {
+                  "entries": 2,
+                  "snapshot": {
+                    "981456382438047744": {
+                      "total": 0,
+                      "yearly": 0,
+                      "monthly": 0,
+                      "weekly": 0,
+                      "daily": 300000,
+                      "lastYear": "2025",
+                      "lastMonth": "2025-11",
+                      "lastWeek": "2025-W1",
+                      "lastDay": "2025-11-6",
+                      "login": null,
+                      "state": "offline"
+                    },
+                    "_backups": {
+                      "2025-11-06T05:08:46.712Z": {
+                        "entries": 1,
+                        "snapshot": {
+                          "981456382438047744": {
+                            "total": 0,
+                            "yearly": 0,
+                            "monthly": 0,
+                            "weekly": 0,
+                            "daily": 300000,
+                            "lastYear": "2025",
+                            "lastMonth": "2025-11",
+                            "lastWeek": "2025-W1",
+                            "lastDay": "2025-11-6",
+                            "login": null,
+                            "state": "offline"
+                          }
+                        }
+                      }
+                    }
+                  }
+                },
+                "2025-11-06T05:18:46.545Z": {
+                  "entries": 2,
+                  "snapshot": {
+                    "981456382438047744": {
+                      "total": 0,
+                      "yearly": 0,
+                      "monthly": 0,
+                      "weekly": 0,
+                      "daily": 300000,
+                      "lastYear": "2025",
+                      "lastMonth": "2025-11",
+                      "lastWeek": "2025-W1",
+                      "lastDay": "2025-11-6",
+                      "login": null,
+                      "state": "offline"
+                    },
+                    "_backups": {
+                      "2025-11-06T05:08:46.712Z": {
+                        "entries": 1,
+                        "snapshot": {
+                          "981456382438047744": {
+                            "total": 0,
+                            "yearly": 0,
+                            "monthly": 0,
+                            "weekly": 0,
+                            "daily": 300000,
+                            "lastYear": "2025",
+                            "lastMonth": "2025-11",
+                            "lastWeek": "2025-W1",
+                            "lastDay": "2025-11-6",
+                            "login": null,
+                            "state": "offline"
+                          }
+                        }
+                      },
+                      "2025-11-06T05:13:46.715Z": {
+                        "entries": 2,
+                        "snapshot": {
+                          "981456382438047744": {
+                            "total": 0,
+                            "yearly": 0,
+                            "monthly": 0,
+                            "weekly": 0,
+                            "daily": 300000,
+                            "lastYear": "2025",
+                            "lastMonth": "2025-11",
+                            "lastWeek": "2025-W1",
+                            "lastDay": "2025-11-6",
+                            "login": null,
+                            "state": "offline"
+                          },
+                          "_backups": {
+                            "2025-11-06T05:08:46.712Z": {
+                              "entries": 1,
+                              "snapshot": {
+                                "981456382438047744": {
+                                  "total": 0,
+                                  "yearly": 0,
+                                  "monthly": 0,
+                                  "weekly": 0,
+                                  "daily": 300000,
+                                  "lastYear": "2025",
+                                  "lastMonth": "2025-11",
+                                  "lastWeek": "2025-W1",
+                                  "lastDay": "2025-11-6",
+                                  "login": null,
+                                  "state": "offline"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
     }
   }
 }
