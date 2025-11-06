@@ -9,6 +9,28 @@
     "lastDay": null,
     "login": 1762453129302,
     "lastLogin": null,
-    "state": "online"
+    "state": "online",
+    "lastHourReminderSent": 0,
+    "break45Sent": false,
+    "break6Sent": false
+  },
+  "_backups": {
+    "2025-11-06T18:23:47.560Z": {
+      "entries": 1,
+      "snapshot": {
+        "832002581613248522": {
+          "total": 0,
+          "monthly": 0,
+          "weekly": 0,
+          "daily": 0,
+          "lastMonth": null,
+          "lastWeek": null,
+          "lastDay": null,
+          "login": 1762453129302,
+          "lastLogin": null,
+          "state": "online"
+        }
+      }
+    }
   }
 }
