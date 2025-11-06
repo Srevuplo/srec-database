@@ -70,6 +70,84 @@
           }
         }
       }
+    },
+    "2025-11-06T16:03:47.465Z": {
+      "entries": 2,
+      "snapshot": {
+        "1197201455715733615": {
+          "total": 0,
+          "monthly": 0,
+          "weekly": 0,
+          "daily": 0,
+          "lastMonth": null,
+          "lastWeek": null,
+          "lastDay": null,
+          "login": 1762444138768,
+          "lastLogin": null,
+          "state": "online",
+          "lastHourReminderSent": 0,
+          "break45Sent": false,
+          "break6Sent": false
+        },
+        "_backups": {
+          "2025-11-06T15:53:47.325Z": {
+            "entries": 1,
+            "snapshot": {
+              "1197201455715733615": {
+                "total": 0,
+                "monthly": 0,
+                "weekly": 0,
+                "daily": 0,
+                "lastMonth": null,
+                "lastWeek": null,
+                "lastDay": null,
+                "login": 1762444138768,
+                "lastLogin": null,
+                "state": "online"
+              }
+            }
+          },
+          "2025-11-06T15:58:47.353Z": {
+            "entries": 2,
+            "snapshot": {
+              "1197201455715733615": {
+                "total": 0,
+                "monthly": 0,
+                "weekly": 0,
+                "daily": 0,
+                "lastMonth": null,
+                "lastWeek": null,
+                "lastDay": null,
+                "login": 1762444138768,
+                "lastLogin": null,
+                "state": "online",
+                "lastHourReminderSent": 0,
+                "break45Sent": false,
+                "break6Sent": false
+              },
+              "_backups": {
+                "2025-11-06T15:53:47.325Z": {
+                  "entries": 1,
+                  "snapshot": {
+                    "1197201455715733615": {
+                      "total": 0,
+                      "monthly": 0,
+                      "weekly": 0,
+                      "daily": 0,
+                      "lastMonth": null,
+                      "lastWeek": null,
+                      "lastDay": null,
+                      "login": 1762444138768,
+                      "lastLogin": null,
+                      "state": "online"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
     }
   }
 }
