@@ -68,6 +68,94 @@
           }
         }
       }
+    },
+    "2025-11-06T22:03:47.858Z": {
+      "entries": 3,
+      "snapshot": {
+        "269632947202555904": {
+          "total": 0,
+          "yearly": 0,
+          "monthly": 0,
+          "weekly": 0,
+          "daily": 300000,
+          "lastYear": "2025",
+          "lastMonth": "2025-11",
+          "lastWeek": "2025-W1",
+          "lastDay": "2025-11-6",
+          "login": null,
+          "state": "offline"
+        },
+        "_backups": {
+          "2025-11-06T21:53:47.850Z": {
+            "entries": 1,
+            "snapshot": {
+              "269632947202555904": {
+                "total": 0,
+                "yearly": 0,
+                "monthly": 0,
+                "weekly": 0,
+                "daily": 300000,
+                "lastYear": "2025",
+                "lastMonth": "2025-11",
+                "lastWeek": "2025-W1",
+                "lastDay": "2025-11-6",
+                "login": null,
+                "state": "offline"
+              }
+            }
+          },
+          "2025-11-06T21:58:47.847Z": {
+            "entries": 2,
+            "snapshot": {
+              "269632947202555904": {
+                "total": 0,
+                "yearly": 0,
+                "monthly": 0,
+                "weekly": 0,
+                "daily": 300000,
+                "lastYear": "2025",
+                "lastMonth": "2025-11",
+                "lastWeek": "2025-W1",
+                "lastDay": "2025-11-6",
+                "login": null,
+                "state": "offline"
+              },
+              "_backups": {
+                "2025-11-06T21:53:47.850Z": {
+                  "entries": 1,
+                  "snapshot": {
+                    "269632947202555904": {
+                      "total": 0,
+                      "yearly": 0,
+                      "monthly": 0,
+                      "weekly": 0,
+                      "daily": 300000,
+                      "lastYear": "2025",
+                      "lastMonth": "2025-11",
+                      "lastWeek": "2025-W1",
+                      "lastDay": "2025-11-6",
+                      "login": null,
+                      "state": "offline"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "733327153441275916": {
+          "total": 8303,
+          "monthly": 0,
+          "weekly": 0,
+          "daily": 8303,
+          "lastMonth": null,
+          "lastWeek": null,
+          "lastDay": null,
+          "login": null,
+          "lastLogin": 1762466535657,
+          "state": "offline"
+        }
+      }
     }
   },
   "733327153441275916": {
