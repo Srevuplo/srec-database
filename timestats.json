@@ -67,11 +67,11 @@
   },
   "1352327437110870018": {
     "total": 136867,
-    "daily": 0,
+    "daily": 300,
     "weekly": 0,
     "monthly": 2536,
     "lastDay": "2025-11-10",
-    "lastWeek": "2025-W45",
+    "lastWeek": "2025-W2",
     "lastMonth": "2025-11",
     "login": null,
     "state": "offline",
