@@ -82,12 +82,7 @@
   },
   {
     "user": "1146995760920023052",
-    "warnings": [
-      {
-        "timestamp": 1759098248,
-        "reason": "Speaking in a ticket after being told not to if they didn't have anything to add. ~ lost_cartress"
-      }
-    ],
+    "warnings": [],
     "mutes": [],
     "softbans": [],
     "bans": []
