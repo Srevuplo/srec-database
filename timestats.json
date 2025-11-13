@@ -475,18 +475,18 @@
     "total": 19205,
     "monthly": 19205,
     "weekly": 19205,
-    "daily": 0,
+    "daily": 8071,
     "lastMonth": "2025-11",
     "lastWeek": "2025-W2",
     "lastDay": "1762988340",
-    "login": 1763018902,
-    "state": "online",
+    "login": null,
+    "state": "offline",
     "yearly": 19205,
     "lastYear": "2025",
     "break45Sent": false,
     "break6Sent": false,
     "lastHourReminderSent": 0,
-    "lastLogin": 1762926198445
+    "lastLogin": 1763026973179
   },
   "1423728859219624118": {
     "total": 0,
