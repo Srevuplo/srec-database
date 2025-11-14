@@ -45,7 +45,7 @@ const WHITELIST = [
 const BASE_CONFIG = [
   {
     label: "slur",
-    words: ["nigg", "negg", "fag", "faggot", "chink", "chigga"]
+    words: ["nigg", "negg", "fag", "chink", "chigga"]
   },
   {
     label: "harassment",
@@ -58,12 +58,12 @@ const BASE_CONFIG = [
       "jerking", "stroking", "pounding",
       "fingering", "fingered", "cum", "porn",
       "cock", "dick", "balls", "daddy", "mommy", "shlong",
-      "condom", "booty", "gyatt"
+      "condom", "booty", "gyatt", "tinder", "grindr"
     ]
   },
   {
     label: "other",
-    words: ["tinder", "grindr", "hail", "heil", "hitler"]
+    words: ["hail", "heil", "hitler"]
   }
 ];
 
