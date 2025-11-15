@@ -1,4 +1,4 @@
-const SEP = "[._\\-~|/\\\\]?";
+const SEP = "[\\s._\\-~|/\\\\]*";
 
 const CHAR = {
   a: "[a@4^∆ΛªÀÁÂÃÄÅàáâãäåɑæ]",
@@ -7,9 +7,9 @@ const CHAR = {
   d: "[dÐđ]",
   e: "[e3€£êëèéēĕėęěĒĖÈÉÊË]",
   f: "[fƒph]",
-  g: "[g9ɢɣ]",
+  g: "[g9ɢɣĝğġģĞĠĢ]",
   h: "[h#ɦĦ]",
-  i: "[i1!|íìîïİÌÍÎÏ]",
+  i: "[i1!|íìîïİÌÍÎÏ¹]",
   j: "[jʝ]",
   k: "[kκ]",
   l: "[l1|!ɫ£]",
@@ -39,7 +39,8 @@ const word = core => `(?:^|\\b|_)${core}(?:\\b|_|$)`;
 
 const WHITELIST = [
   "sexual", "sexuality", "asexual", "asexuality", "pansexual", "bisexual", "homosexual",
-  "sexism", "unisex", "intersection", "midsection", "sexton", "sextonary", "scumbag", "scum", "dickhead"
+  "sexism", "unisex", "intersection", "midsection", "sexton", "sextonary", "scumbag",
+  "scum", "dickhead"
 ];
 
 const BASE_CONFIG = [
@@ -88,17 +89,75 @@ function buildExceptionSuffixesPerWord(config, whitelist) {
 
 const EXCEPTIONS_AFTER = buildExceptionSuffixesPerWord(BASE_CONFIG, WHITELIST);
 
+const SAFE_BALL_CONTEXT = new Set([
+  "golf","tennis","soccer","football","basketball",
+  "baseball","softball","volleyball","pickleball",
+  "paintball","cannon","canon","meat","dragon",
+  "crystal","eyeball","eye"
+]);
+
+const SEXUAL_CONTEXT = new Set([
+  "lick","grab","suck","jerk","stroke","touch",
+  "fondle","horny","dick","cock","cum","ass"
+]);
+
+function tokenize(text) {
+  return text.toLowerCase().split(/\s+/);
+}
+
+function getContextWords(text, matchIndex, window = 3) {
+  const tokens = tokenize(text);
+  let pos = -1;
+
+  let offset = 0;
+  for (let i = 0; i < tokens.length; i++) {
+    const idx = text.toLowerCase().indexOf(tokens[i], offset);
+    if (idx === matchIndex) { pos = i; break; }
+    offset = idx + tokens[i].length;
+  }
+  if (pos === -1) return [];
+
+  return tokens.slice(Math.max(0, pos - window), pos + window + 1);
+}
+
+function isSexual(words) {
+  return words.some(w => SEXUAL_CONTEXT.has(w));
+}
+
+function safeBall(words) {
+  return words.some(w => SAFE_BALL_CONTEXT.has(w));
+}
+
+function blockByContext(label, matched, text, index) {
+  if (label === "slur") return true;
+
+  if (/^balls?$/i.test(matched)) {
+    const ctx = getContextWords(text, index, 3);
+
+    if (isSexual(ctx)) return true;
+    if (safeBall(ctx)) return false;  
+
+    return false;                 
+  }
+
+  return true;
+}
+
+
 function patternForWord(base) {
   const lc = base.toLowerCase();
   const suffixes = EXCEPTIONS_AFTER.get(lc);
   const negative = suffixes && suffixes.length ? `(?!${SEP}(?:${suffixes.join("|")}))` : "";
+
   if (lc.length <= 3) {
     const coreTight = lc
       .split("")
       .map(ch => (CHAR[ch] ? CHAR[ch] : ch.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")))
       .join("");
+
     return `\\b${coreTight}${negative}\\b`;
   }
+
   const core = W(lc);
   return `${core}${negative}`;
 }
@@ -111,9 +170,26 @@ const BASE_PATTERNS = BASE_CONFIG.map(({ label, words }) => {
   };
 });
 
+
 const COMPILED_PATTERNS = BASE_PATTERNS.map(p => ({
   ...p,
-  regex: new RegExp(p.re, "i")
+  regex: new RegExp(p.re, "i"),
+
+  test(text) {
+    const m = text.match(this.regex);
+    if (!m) return false;
+
+    const matched = m[0];
+    const index = text.toLowerCase().indexOf(matched.toLowerCase());
+
+    return blockByContext(this.label, matched, text, index);
+  }
 }));
 
-module.exports = { BASE_CONFIG, BASE_PATTERNS, COMPILED_PATTERNS, W, word };
+module.exports = {
+  BASE_CONFIG,
+  BASE_PATTERNS,
+  COMPILED_PATTERNS,
+  W,
+  word
+};
