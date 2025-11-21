@@ -1279,5 +1279,17 @@
     "mutes": [],
     "kicks": [],
     "bans": []
+  },
+  {
+    "user": "832002581613248522",
+    "warnings": [
+      {
+        "timestamp": 1763743404,
+        "reason": "test ~ cannontickler"
+      }
+    ],
+    "mutes": [],
+    "kicks": [],
+    "bans": []
   }
 ]
