@@ -473,7 +473,12 @@
   },
   {
     "user": "1197201455715733615",
-    "warnings": [],
+    "warnings": [
+      {
+        "timestamp": 1763771871,
+        "reason": "things ~ mr.bean9648"
+      }
+    ],
     "mutes": [],
     "bans": []
   },
