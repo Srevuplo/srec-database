@@ -1274,7 +1274,12 @@
         "reason": "slurs ~ idestroygreenporridge"
       }
     ],
-    "mutes": [],
+    "mutes": [
+      {
+        "timestamp": 1763882845,
+        "reason": "AutoMod: slur ~ .SREC. Virus"
+      }
+    ],
     "kicks": [],
     "bans": []
   },
