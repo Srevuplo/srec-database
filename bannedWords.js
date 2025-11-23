@@ -38,34 +38,63 @@ const W = s =>
 const word = core => `(?:^|\\b|_)${core}(?:\\b|_|$)`;
 
 const WHITELIST = [
-  "sexual", "sexuality", "asexual", "asexuality", "pansexual", "bisexual", "homosexual",
-  "sexism", "unisex", "intersection", "midsection", "sexton", "sextonary", "scumbag",
-  "scum", "dickhead"
+    "sexual", "sexuality", "asexual", "asexuality", "pansexual", "bisexual",
+    "homosexual", "sexism", "unisex", "intersection", "midsection",
+    "sexton", "sextonary", "scumbag", "scum", "dickhead",
+    "transgender", "trans", "transition", "intersex", "queer", "nonbinary",
+    "aromantic", "demisexual", "sapiosexual",
+    "dickinson", "cocktail", "breastplate", "scunthorpe",
+    "cucumber", "assessor", "succumb",
+    "essex", "essexshire"
 ];
 
-const BASE_CONFIG = [
-  {
-    label: "slur",
-    words: ["nigg", "negg", "fag", "chink", "chigga"]
-  },
-  {
-    label: "harassment",
-    words: ["kys", "tard"]
-  },
-  {
-    label: "nsfw",
-    words: [
-      "fetish", "horny", "rape", "dildo", "sex", "slut", "whore", "skank",
-      "jerking", "stroking", "pounding",
-      "fingering", "fingered", "cum", "porn",
-      "cock", "dick", "balls", "daddy", "mommy", "shlong",
-      "condom", "booty", "gyatt", "tinder", "grindr"
-    ]
-  },
-  {
-    label: "other",
-    words: ["hail", "heil", "hitler"]
-  }
+const BASE_CONFIG = [{
+        label: "slur",
+        words: [
+            "nigg", "negg", "fag", "chink", "chigga",
+            "spic", "spick", "beaner", "wetback", "gook", "zipperhead",
+            "sandnigg", "raghead", "towelhead", "porchmonkey",
+            "coon", "jigaboo", "pickaninny", "gyppo", "gypsy", "pajeet",
+            "dyke", "tranny", "shemale",
+            "kike", "heeb", "yid",
+            "hoe", "thot",
+            "retard", "spaz", "cripple", "mongoloid"
+        ]
+    },
+    {
+        label: "harassment",
+        words: [
+            "kys", "tard",
+            "kill yourself", "kms", "neck yourself", "go die"
+        ]
+    },
+    {
+        label: "nsfw",
+        words: [
+            "fetish", "horny", "rape", "dildo", "sex", "slut", "whore", "skank",
+            "jerking", "stroking", "pounding", "fingering", "fingered",
+            "cum", "porn", "cock", "dick", "balls", "daddy", "mommy",
+            "shlong", "condom", "booty", "gyatt", "tinder", "grindr",
+            "boobs", "tits", "nipples", "clit", "pussy", "vag", "anus",
+            "anal", "buttplug", "creampie", "facial",
+            "gangbang", "hentai", "futanari", "bdsm", "milf", "gilf",
+            "bondage", "squirting", "deepthroat",
+            "blowjob", "handjob", "rimjob", "doggystyle", "missionary",
+            "orgasm", "ejaculate", "masturbate", "fap", "fapping",
+            "loli", "shota", "kiddo"
+        ]
+    },
+    {
+        label: "other",
+        words: [
+            "hail", "heil", "hitler",
+            "1488", "14words", "14w", "88",
+            "wpww", "rahowa", "bloodandsoil",
+            "whitegenocide", "stormfront",
+            "kkk", "klan", "skrewdriver", "zov", "boogaloo",
+            "daesh", "isil"
+        ]
+    }
 ];
 
 function buildExceptionSuffixesPerWord(config, whitelist) {
