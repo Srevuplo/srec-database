@@ -1268,7 +1268,12 @@
   },
   {
     "user": "1311638482430464000",
-    "warnings": [],
+    "warnings": [
+      {
+        "timestamp": 1763882682,
+        "reason": "slurs ~ idestroygreenporridge"
+      }
+    ],
     "mutes": [],
     "kicks": [],
     "bans": []
