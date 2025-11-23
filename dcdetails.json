@@ -1303,5 +1303,56 @@
     "mutes": [],
     "kicks": [],
     "bans": []
+  },
+  {
+    "user": {
+      "id": "1311638482430464000",
+      "bot": false,
+      "system": false,
+      "flags": 0,
+      "username": "thucyn",
+      "globalName": "Ω☯⸸♾",
+      "discriminator": "0",
+      "avatar": "c96c655d2f3390359b2a910577d2f34c",
+      "banner": null,
+      "accentColor": null,
+      "avatarDecoration": null,
+      "avatarDecorationData": {
+        "asset": "a_1e929fcc6a6a5193d17f016d4c97746e",
+        "skuId": "1343751617362661526"
+      },
+      "collectibles": {
+        "nameplate": {
+          "skuId": "1409898407920668782",
+          "asset": "nameplates/lunar_eclipse/moonlit_charm/",
+          "label": "COLLECTIBLES_LUNAR_ECLIPSE_MOONLIT_CHARM_NP_A11Y",
+          "palette": "cobalt"
+        }
+      },
+      "primaryGuild": {
+        "identityGuildId": "1369181065385869352",
+        "identityEnabled": true,
+        "tag": "TETO",
+        "badge": "0437e66874944d9eafae8ed3b9b7418a"
+      },
+      "createdTimestamp": 1732789383276,
+      "defaultAvatarURL": "https://cdn.discordapp.com/embed/avatars/0.png",
+      "hexAccentColor": null,
+      "tag": "thucyn",
+      "avatarURL": "https://cdn.discordapp.com/avatars/1311638482430464000/c96c655d2f3390359b2a910577d2f34c.webp",
+      "displayAvatarURL": "https://cdn.discordapp.com/avatars/1311638482430464000/c96c655d2f3390359b2a910577d2f34c.webp",
+      "bannerURL": null,
+      "guildTagBadgeURL": "https://cdn.discordapp.com/guild-tag-badges/1369181065385869352/0437e66874944d9eafae8ed3b9b7418a.webp"
+    },
+    "warnings": [],
+    "mutes": [],
+    "kicks": [],
+    "softbans": [],
+    "bans": [
+      {
+        "timestamp": 1763914293,
+        "reason": "Community Endangerment ~ cannontickler"
+      }
+    ]
   }
 ]
