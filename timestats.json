@@ -603,7 +603,7 @@
     "yearly": 0,
     "monthly": 0,
     "weekly": 0,
-    "daily": 0,
+    "daily": 300,
     "lastYear": "2025",
     "lastMonth": "2025-11",
     "lastWeek": "2025-W4",
