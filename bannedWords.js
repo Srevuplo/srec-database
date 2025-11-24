@@ -97,8 +97,8 @@ const BASE_CONFIG = [
       "hail", "heil", "hitler",
       "1488", "14words", "14w", "88",
       "wpww", "rahowa", "bloodandsoil",
-      "whitegenocide", "stormfront",
-      "kkk", "klan", "skrewdriver", "zov", "boogaloo",
+      "whitegenocide",
+      "kkk", "boogaloo",
       "daesh", "isil"
     ]
   }
