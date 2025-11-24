@@ -51,7 +51,7 @@ const WHITELIST = [
   "aromantic", "demisexual", "sapiosexual",
   "dickinson", "cocktail", "breastplate", "scunthorpe",
   "cucumber", "assessor", "succumb",
-  "essex", "essexshire"
+  "essex", "essexshire", "https"
 ];
 
 const BASE_CONFIG = [
