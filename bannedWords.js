@@ -62,17 +62,14 @@ const BASE_CONFIG = [
       "spic", "spick", "beaner", "wetback", "gook", "zipperhead",
       "sandnigg", "raghead", "towelhead", "porchmonkey",
       "coon", "jigaboo", "pickaninny", "gyppo", "gypsy", "pajeet",
-      "dyke", "tranny", "shemale",
-      "kike", "heeb", "yid",
-      "hoe", "thot",
-      "retard", "spaz", "cripple", "mongoloid"
+      "dyke", "tranny", "shemale", "thot",
+      "retard", "spaz", "cripple", "mongoloid", "tard"
     ]
   },
   {
     label: "harassment",
     words: [
-      "kys", "tard",
-      "kill yourself", "kms", "neck yourself", "go die"
+      "kys", "kill yourself"
     ]
   },
   {
@@ -83,12 +80,12 @@ const BASE_CONFIG = [
       "cum", "porn", "cock", "dick", "balls", "daddy", "mommy",
       "shlong", "condom", "booty", "gyatt", "tinder", "grindr",
       "boobs", "tits", "nipples", "clit", "pussy", "vag", "anus",
-      "anal", "buttplug", "creampie", "facial",
-      "gangbang", "hentai", "futanari", "bdsm", "milf", "gilf",
+      "anal", "buttplug", "creampie",
+      "gangbang", "hentai", "futanari", "bdsm", "milf", "gilf", "futa",
       "bondage", "squirting", "deepthroat",
       "blowjob", "handjob", "rimjob", "doggystyle", "missionary",
       "orgasm", "ejaculate", "masturbate", "fap", "fapping",
-      "loli", "shota", "kiddo"
+      "loli", "shota"
     ]
   },
   {
@@ -99,7 +96,7 @@ const BASE_CONFIG = [
       "wpww", "rahowa", "bloodandsoil",
       "whitegenocide",
       "kkk", "boogaloo",
-      "daesh", "isil"
+      "daesh"
     ]
   }
 ];
