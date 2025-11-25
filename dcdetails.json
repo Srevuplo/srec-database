@@ -1361,5 +1361,52 @@
     "mutes": [],
     "kicks": [],
     "bans": []
+  },
+  {
+    "user": {
+      "id": "686424133151490119",
+      "bot": false,
+      "system": false,
+      "flags": 128,
+      "username": "rechnar",
+      "globalName": "Rechnar",
+      "discriminator": "0",
+      "avatar": "ecd28549689bcdea5a382b818eaa6418",
+      "avatarDecoration": null,
+      "avatarDecorationData": {
+        "asset": "a_83b3c6c7242e4312a6bfb10337c50798",
+        "skuId": "1438969096795324612"
+      },
+      "collectibles": {
+        "nameplate": {
+          "skuId": "1417311919735308399",
+          "asset": "nameplates/nameplate_bonanza/firefly_meadow/",
+          "label": "COLLECTIBLES_NAMEPLATE_BONANZA_FIREFLY_MEADOW_NP_A11Y",
+          "palette": "sky"
+        }
+      },
+      "primaryGuild": {
+        "identityGuildId": "969228649691770930",
+        "identityEnabled": true,
+        "tag": "bean",
+        "badge": "084e4d4cd9e254f4e50782d48eb727f0"
+      },
+      "createdTimestamp": 1583726666487,
+      "defaultAvatarURL": "https://cdn.discordapp.com/embed/avatars/3.png",
+      "tag": "rechnar",
+      "avatarURL": "https://cdn.discordapp.com/avatars/686424133151490119/ecd28549689bcdea5a382b818eaa6418.webp",
+      "displayAvatarURL": "https://cdn.discordapp.com/avatars/686424133151490119/ecd28549689bcdea5a382b818eaa6418.webp",
+      "guildTagBadgeURL": "https://cdn.discordapp.com/guild-tag-badges/969228649691770930/084e4d4cd9e254f4e50782d48eb727f0.webp"
+    },
+    "warnings": [],
+    "mutes": [],
+    "kicks": [],
+    "softbans": [],
+    "bans": [
+      {
+        "timestamp": 1764108883,
+        "reason": "/ ~ srevuplo"
+      }
+    ]
   }
 ]
