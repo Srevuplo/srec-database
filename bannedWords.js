@@ -9,7 +9,7 @@ function safeRegExp(pattern, flags = "i") {
         pattern = normalize(pattern);
         return new RegExp(pattern, flags);
     } catch (err) {
-        console.warn("⚠ Invalid regex skipped:", pattern, "→", err.message);
+        console.warn("Invalid regex skipped:", pattern, "→", err.message);
         return null;
     }
 }
@@ -54,7 +54,7 @@ const W = s =>
         .join(SEP);
 
 const word = core =>
-    `(?<![a-zA-Z0-9])${core}(?:[!@#$%^&*()_+\\-=\\[\\]{};':"\\\\|,.<>/?\\d]*)?(?![a-zA-Z0-9])`;
+    `(?:^|[^a-z0-9])(?:${core})(?:[!@#$%^&*()_+\\-=\\[\\]{};':"\\\\|,.<>/?\\d]*)(?:[^a-z0-9]|$)`;
 
 const WHITELIST = [
     "sexual", "sexuality", "asexual", "asexuality", "pansexual", "bisexual",
@@ -83,10 +83,7 @@ const BASE_CONFIG = [
     },
     {
         label: "harassment",
-        words: [
-            "kys", "tard",
-            "kill yourself", "kms", "neck yourself", "go die"
-        ]
+        words: ["kys", "tard", "kill yourself", "kms", "neck yourself", "go die"]
     },
     {
         label: "nsfw",
@@ -117,11 +114,11 @@ const BASE_CONFIG = [
     }
 ];
 
-function buildExceptionSuffixesPerWord(config, whitelist) {
+function buildExceptionSuffixes(config, whitelist) {
     const map = new Map();
-    const allFlagged = new Set(config.flatMap(c =>
-        c.words.map(w => normalize(w.toLowerCase()))
-    ));
+    const allFlagged = new Set(
+        config.flatMap(c => c.words.map(w => normalize(w.toLowerCase())))
+    );
 
     for (const term of whitelist) {
         const lc = normalize(term.toLowerCase());
@@ -129,44 +126,39 @@ function buildExceptionSuffixesPerWord(config, whitelist) {
             const pos = lc.indexOf(base);
             if (pos < 0) continue;
 
-            const suffixPlain = lc.slice(pos + base.length);
-            if (!suffixPlain) continue;
+            const suffix = lc.slice(pos + base.length);
+            if (!suffix) continue;
 
-            const suffixPattern = W(suffixPlain);
+            const pat = W(suffix);
             if (!map.has(base)) map.set(base, []);
-            map.get(base).push(`(?>${suffixPattern})`);
+            map.get(base).push(pat);
         }
     }
-
     return map;
 }
 
-const EXCEPTIONS_AFTER = buildExceptionSuffixesPerWord(BASE_CONFIG, WHITELIST);
+const EXCEPTIONS_AFTER = buildExceptionSuffixes(BASE_CONFIG, WHITELIST);
 
 function patternForWord(base) {
     const lc = normalize(base.toLowerCase());
+    let pattern = W(lc);
+
     const suffixes = EXCEPTIONS_AFTER.get(lc);
+    if (suffixes?.length) {
+        const suffixAlternation = suffixes.join("|");
+        pattern = `${pattern}(?!${SEP}(?:${suffixAlternation}))`;
+    }
 
-    const negative = suffixes?.length
-        ? `(?!${SEP}(?:${suffixes.join("|")}))`
-        : "";
-
-    return `${W(lc)}${negative}`;
+    return pattern;
 }
 
 const BASE_PATTERNS = BASE_CONFIG.map(({ label, words }) => {
     const core = words.map(w => patternForWord(w)).join("|");
-    return {
-        label,
-        re: word(core)
-    };
+    return { label, re: word(core) };
 });
 
 const COMPILED_PATTERNS = BASE_PATTERNS
-    .map(p => ({
-        ...p,
-        regex: safeRegExp(p.re, "i")
-    }))
+    .map(p => ({ ...p, regex: safeRegExp(p.re, "i") }))
     .filter(p => p.regex);
 
 module.exports = {
