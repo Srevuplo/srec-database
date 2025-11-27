@@ -281,10 +281,10 @@
   },
   "981456382438047744": {
     "total": 12600,
-    "daily": 0,
+    "daily": 300,
     "weekly": 300,
     "monthly": 4500,
-    "lastDay": "2025-11-26",
+    "lastDay": "2025-11-27",
     "lastWeek": "2025-W4",
     "lastMonth": "2025-11",
     "login": null,
