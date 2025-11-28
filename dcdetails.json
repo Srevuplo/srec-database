@@ -1446,5 +1446,42 @@
     "mutes": [],
     "kicks": [],
     "bans": []
+  },
+  {
+    "user": {
+      "id": "1353763736586031245",
+      "bot": false,
+      "system": false,
+      "flags": 256,
+      "username": "_ori.ana_",
+      "globalName": "-Oriana-",
+      "discriminator": "0",
+      "avatar": "b88d13a2a7b4777d9647b46b748d8aff",
+      "avatarDecoration": null,
+      "avatarDecorationData": null,
+      "collectibles": null,
+      "primaryGuild": {
+        "identityGuildId": "294005213763993601",
+        "identityEnabled": true,
+        "tag": "cute",
+        "badge": "cba88c094aeb2f2b710e3e3d33ca1b7c"
+      },
+      "createdTimestamp": 1742832826516,
+      "defaultAvatarURL": "https://cdn.discordapp.com/embed/avatars/4.png",
+      "tag": "_ori.ana_",
+      "avatarURL": "https://cdn.discordapp.com/avatars/1353763736586031245/b88d13a2a7b4777d9647b46b748d8aff.webp",
+      "displayAvatarURL": "https://cdn.discordapp.com/avatars/1353763736586031245/b88d13a2a7b4777d9647b46b748d8aff.webp",
+      "guildTagBadgeURL": "https://cdn.discordapp.com/guild-tag-badges/294005213763993601/cba88c094aeb2f2b710e3e3d33ca1b7c.webp"
+    },
+    "warnings": [],
+    "mutes": [],
+    "kicks": [],
+    "softbans": [],
+    "bans": [
+      {
+        "timestamp": 1764314180,
+        "reason": "Prevention - Community Endangerment ~ srevuplo"
+      }
+    ]
   }
 ]
