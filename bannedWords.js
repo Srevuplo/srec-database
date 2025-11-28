@@ -91,12 +91,7 @@ const BASE_CONFIG = [
   {
     label: "other",
     words: [
-      "hail", "heil", "hitler",
-      "1488", "14words", "14w", "88",
-      "wpww", "rahowa", "bloodandsoil",
-      "whitegenocide",
-      "kkk", "boogaloo",
-      "daesh"
+      "hail", "heil", "hitler"
     ]
   }
 ];
