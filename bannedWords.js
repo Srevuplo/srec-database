@@ -84,8 +84,7 @@ const BASE_CONFIG = [
       "gangbang", "hentai", "futanari", "bdsm", "milf", "gilf", "futa",
       "bondage", "squirting", "deepthroat",
       "blowjob", "handjob", "rimjob", "doggystyle", "missionary",
-      "orgasm", "ejaculate", "masturbate", "fap", "fapping",
-      "loli", "shota"
+      "orgasm", "ejaculate", "masturbate", "fap", "fapping"
     ]
   },
   {
