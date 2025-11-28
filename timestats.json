@@ -298,10 +298,10 @@
   },
   "1414561399614476298": {
     "total": 3630,
-    "daily": 0,
+    "daily": 300,
     "weekly": 1800,
     "monthly": 3300,
-    "lastDay": "2025-11-27",
+    "lastDay": "2025-11-28",
     "lastWeek": "2025-W4",
     "lastMonth": "2025-11",
     "login": null,
