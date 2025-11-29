@@ -609,9 +609,9 @@
     "lastMonth": "2025-11",
     "lastWeek": "2025-W4",
     "lastDay": "2025-11-28",
-    "login": null,
+    "login": 1764416350,
     "lastLogin": null,
-    "state": "offline",
+    "state": "online",
     "break45Sent": false,
     "break6Sent": false,
     "lastHourReminderSent": 0
