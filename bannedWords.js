@@ -27,7 +27,7 @@ const CHAR = {
   z: "[z2žźżƶ]"
 };
 
-const SEP = "[\\s._\\-~|/\\\\]*";
+const SEP = "[._\\-~|/\\\\]*";
 
 function W(s) {
   return s
@@ -68,9 +68,7 @@ const BASE_CONFIG = [
   },
   {
     label: "harassment",
-    words: [
-      "kys", "kill yourself"
-    ]
+    words: ["kys", "kill yourself"]
   },
   {
     label: "nsfw",
@@ -89,9 +87,7 @@ const BASE_CONFIG = [
   },
   {
     label: "other",
-    words: [
-      "hail", "heil", "hitler"
-    ]
+    words: ["hail", "heil", "hitler"]
   }
 ];
 
@@ -103,7 +99,6 @@ function buildExceptionSuffixesPerWord(config, whitelist) {
     const lc = term.toLowerCase();
     for (const base of flagged) {
       if (!lc.includes(base)) continue;
-
       const pos = lc.indexOf(base);
       const suffix = lc.slice(pos + base.length);
       if (!suffix) continue;
@@ -126,13 +121,19 @@ function patternForWord(base) {
   const noSuffix = suffixes ? `(?!${SEP}(?:${suffixes.join("|")}))` : "";
 
   if (lc.length <= 3) {
-    const tight = lc
+    let tight = lc
       .split("")
-      .map((ch) =>
-        CHAR[ch] ? CHAR[ch] : ch.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")
-      )
+      .map((ch) => (CHAR[ch] ? CHAR[ch] : ch.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")))
       .join("");
-    return `\\b${tight}${noSuffix}\\b`;
+
+    const fuzzy = [
+      tight,
+      tight.replace(/^\[[^\]]+\]/, ""),
+      tight.replace(/\[[^\]]+\]$/, ""),
+      tight.replace(/\][^\[]+\[/, "")
+    ].filter(Boolean);
+
+    return `\\b(?:${fuzzy.join("|")})${noSuffix}\\b`;
   }
 
   return `${W(lc)}${noSuffix}`;
