@@ -1483,5 +1483,17 @@
         "reason": "Prevention - Community Endangerment ~ srevuplo"
       }
     ]
+  },
+  {
+    "user": "493521001217523713",
+    "warnings": [
+      {
+        "timestamp": 1764384142,
+        "reason": "AutoMod: slur ~ .SREC. Virus"
+      }
+    ],
+    "mutes": [],
+    "kicks": [],
+    "bans": []
   }
 ]
