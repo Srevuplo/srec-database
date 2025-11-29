@@ -1493,12 +1493,7 @@
   },
   {
     "user": "769161925749375006",
-    "warnings": [
-      {
-        "timestamp": 1764398147,
-        "reason": "nsfw ~ skir7362"
-      }
-    ],
+    "warnings": [],
     "mutes": [],
     "kicks": [],
     "bans": []
