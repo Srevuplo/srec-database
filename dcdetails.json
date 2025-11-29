@@ -1500,12 +1500,7 @@
   },
   {
     "user": "1274773973917372565",
-    "warnings": [
-      {
-        "timestamp": 1764449794,
-        "reason": "AutoMod: slur ~ .SREC. Virus"
-      }
-    ],
+    "warnings": [],
     "mutes": [],
     "kicks": [],
     "bans": []
