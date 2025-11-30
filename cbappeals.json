@@ -438,5 +438,23 @@
         "date": "2025-11-29T02:47:36.867Z"
       }
     ]
+  },
+  "1121622204610785440": {
+    "username": "owentheotaku",
+    "appeals": [
+      {
+        "accounts": [
+          {
+            "user": "kbullock31",
+            "reason": "Abusing In-Game Bot https://discord.com/channels/988493706413887488/1443576066664038470 ~ srevuplo",
+            "date": "2025-11-30T02:53:04.803Z"
+          }
+        ],
+        "statement": "Im sorry for abusing the mod bot, and I will be careful about not attacking chill crowds (Which I didnt do anyway, at least this time), I recognise whatever I did was wrong and im sorry",
+        "evidence": false,
+        "status": "pending",
+        "date": "2025-11-30T22:54:51.697Z"
+      }
+    ]
   }
 }
