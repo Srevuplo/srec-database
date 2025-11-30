@@ -1512,7 +1512,12 @@
   },
   {
     "user": "1121622204610785440",
-    "warnings": [],
+    "warnings": [
+      {
+        "timestamp": 1764542640,
+        "reason": "AutoMod: nsfw ~ .SREC. Virus"
+      }
+    ],
     "mutes": [],
     "kicks": [],
     "bans": []
