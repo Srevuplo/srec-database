@@ -89,7 +89,12 @@
   },
   {
     "user": "851845480534638603",
-    "warnings": [],
+    "warnings": [
+      {
+        "timestamp": 1764470945,
+        "reason": "abusing in game moderation tools ~ srevuplo"
+      }
+    ],
     "mutes": [],
     "softbans": [],
     "bans": []
