@@ -38,16 +38,7 @@
   {
     "user": "1264234546434408579",
     "warnings": [],
-    "mutes": [
-      {
-        "timestamp": 1760090881,
-        "reason": "NSFW ~ spudington42"
-      },
-      {
-        "timestamp": 1762102418,
-        "reason": "Racism ~ undertimeslopper"
-      }
-    ],
+    "mutes": [],
     "softbans": [],
     "bans": []
   },
