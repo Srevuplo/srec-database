@@ -456,5 +456,23 @@
         "date": "2025-11-30T22:54:51.697Z"
       }
     ]
+  },
+  "1363397778998562867": {
+    "username": "n1rvolfox",
+    "appeals": [
+      {
+        "accounts": [
+          {
+            "user": "n1rvolfo",
+            "reason": "abusing in Game Bot https://discord.com/channels/988493706413887488/1443576066664038470 ~ srevuplo",
+            "date": "2025-11-30T02:53:32.822Z"
+          }
+        ],
+        "statement": "I Solemnly Swear that i will not abuse the automod detection again, it was a major lapse in my judgement of thinking that i would get off with no persecution. I will not do anything of the sort again.",
+        "evidence": false,
+        "status": "pending",
+        "date": "2025-12-01T01:12:55.248Z"
+      }
+    ]
   }
 }
