@@ -81,7 +81,12 @@
         "reason": "abusing in game moderation tools ~ srevuplo"
       }
     ],
-    "mutes": [],
+    "mutes": [
+      {
+        "timestamp": 1764603680,
+        "reason": "AutoMod: nsfw ~ .SREC. Virus"
+      }
+    ],
     "softbans": [],
     "bans": []
   },
