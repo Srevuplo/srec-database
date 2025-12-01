@@ -37,12 +37,7 @@
   },
   {
     "user": "1264234546434408579",
-    "warnings": [
-      {
-        "timestamp": 1759782779,
-        "reason": "NSFW ~ srevuplo"
-      }
-    ],
+    "warnings": [],
     "mutes": [
       {
         "timestamp": 1760090881,
