@@ -1504,5 +1504,37 @@
     "mutes": [],
     "kicks": [],
     "bans": []
+  },
+  {
+    "user": {
+      "id": "1146995760920023052",
+      "bot": false,
+      "system": false,
+      "flags": 0,
+      "username": "emocatsong",
+      "globalName": "Lord Twinkus Magnus",
+      "discriminator": "0",
+      "avatar": "ab06f5c7e59c304b3bd4f2625b4a8aaf",
+      "avatarDecoration": null,
+      "avatarDecorationData": null,
+      "collectibles": null,
+      "primaryGuild": null,
+      "createdTimestamp": 1693535499554,
+      "defaultAvatarURL": "https://cdn.discordapp.com/embed/avatars/2.png",
+      "tag": "emocatsong",
+      "avatarURL": "https://cdn.discordapp.com/avatars/1146995760920023052/ab06f5c7e59c304b3bd4f2625b4a8aaf.webp",
+      "displayAvatarURL": "https://cdn.discordapp.com/avatars/1146995760920023052/ab06f5c7e59c304b3bd4f2625b4a8aaf.webp",
+      "guildTagBadgeURL": null
+    },
+    "warnings": [],
+    "mutes": [],
+    "kicks": [],
+    "softbans": [],
+    "bans": [
+      {
+        "timestamp": 1764633903,
+        "reason": "Violation of Discord safety policies - adult/minor relationship ~ cannontickler"
+      }
+    ]
   }
 ]
