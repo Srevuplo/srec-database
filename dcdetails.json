@@ -175,7 +175,12 @@
       }
     ],
     "softbans": [],
-    "bans": []
+    "bans": [
+      {
+        "timestamp": 1764726873,
+        "reason": "System Abuse ~ srevuplo"
+      }
+    ]
   },
   {
     "user": "1369430831319486525",
