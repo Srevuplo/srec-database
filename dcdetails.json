@@ -1541,5 +1541,17 @@
         "reason": "Violation of Discord safety policies - adult/minor relationship ~ cannontickler"
       }
     ]
+  },
+  {
+    "user": "911737308280152114",
+    "warnings": [
+      {
+        "timestamp": 1764797820,
+        "reason": "AutoMod: slur ~ .SREC. Virus"
+      }
+    ],
+    "mutes": [],
+    "kicks": [],
+    "bans": []
   }
 ]
