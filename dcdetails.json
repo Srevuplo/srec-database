@@ -1568,12 +1568,7 @@
   },
   {
     "user": "1127927883571150868",
-    "warnings": [
-      {
-        "timestamp": 1764860224,
-        "reason": "AutoMod: nsfw ~ .SREC. Virus"
-      }
-    ],
+    "warnings": [],
     "mutes": [],
     "kicks": [],
     "bans": []
