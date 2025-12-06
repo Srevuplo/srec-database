@@ -21,12 +21,13 @@ const CHAR = {
   t: "[t+†]",
   u: "[uüùúûūŭůűųÙÚÛÜµ]",
   v: "[v\\/ν]",
-  w: "[wŵẅ]",
+  w: "[wvŵẅ]",
   x: "[x×χ]",
   y: "[y¥ýÿŷŸÝ]",
   z: "[z2žźżƶ]"
 };
 
+// Separators
 const SEP = "[._\\-~|/\\\\]*";
 
 function W(s) {
@@ -39,8 +40,9 @@ function W(s) {
     .join(SEP);
 }
 
+// Boundary handling
 function word(core) {
-  return `(?:^|\\b|_)${core}(?:\\b|_|$)`;
+  return `(?<![a-z0-9])${core}(?![a-z0-9])`;
 }
 
 const WHITELIST = [
@@ -54,6 +56,7 @@ const WHITELIST = [
   "essex", "essexshire", "https", "fa", "suspicious"
 ];
 
+// Forbidden word sets
 const BASE_CONFIG = [
   {
     label: "slur",
@@ -91,14 +94,19 @@ const BASE_CONFIG = [
   }
 ];
 
+// Whitelist matching
 function buildExceptionSuffixesPerWord(config, whitelist) {
   const map = new Map();
   const flagged = new Set(config.flatMap((c) => c.words.map((w) => w.toLowerCase())));
 
   for (const term of whitelist) {
     const lc = term.toLowerCase();
+
     for (const base of flagged) {
-      if (!lc.includes(base)) continue;
+
+      const boundary = new RegExp(`(?:^|[^a-z0-9])${base}(?![a-z0-9])`);
+      if (!boundary.test(lc)) continue;
+
       const pos = lc.indexOf(base);
       const suffix = lc.slice(pos + base.length);
       if (!suffix) continue;
@@ -115,6 +123,7 @@ function buildExceptionSuffixesPerWord(config, whitelist) {
 
 const EXCEPTIONS_AFTER = buildExceptionSuffixesPerWord(BASE_CONFIG, WHITELIST);
 
+// Build fuzzy patterns per forbidden word
 function patternForWord(base) {
   const lc = base.toLowerCase();
   const suffixes = EXCEPTIONS_AFTER.get(lc);
@@ -123,17 +132,18 @@ function patternForWord(base) {
   if (lc.length <= 3) {
     let tight = lc
       .split("")
-      .map((ch) => (CHAR[ch] ? CHAR[ch] : ch.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")))
+      .map((ch) =>
+        CHAR[ch] ? CHAR[ch] : ch.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")
+      )
       .join("");
 
     const fuzzy = [
       tight,
       tight.replace(/^\[[^\]]+\]/, ""),
-      tight.replace(/\[[^\]]+\]$/, ""),
-      tight.replace(/\][^\[]+\[/, "")
+      tight.replace(/\[[^\]]+\]$/, "")
     ].filter(Boolean);
 
-    return `\\b(?:${fuzzy.join("|")})${noSuffix}\\b`;
+    return `(?:${fuzzy.join("|")})${noSuffix}`;
   }
 
   return `${W(lc)}${noSuffix}`;
@@ -144,6 +154,7 @@ const BASE_PATTERNS = BASE_CONFIG.map(({ label, words }) => {
   return { label, re: word(core) };
 });
 
+// Context logic for “balls”
 const SAFE_BALL_CONTEXT = new Set([
   "golf", "tennis", "soccer", "football", "basketball",
   "baseball", "softball", "volleyball", "pickleball",
@@ -193,6 +204,7 @@ function blockByContext(label, matched, text, index) {
   return true;
 }
 
+// Compile patterns
 const COMPILED_PATTERNS = BASE_PATTERNS.map((p) => ({
   ...p,
   regex: new RegExp(p.re, "i"),
@@ -207,6 +219,7 @@ const COMPILED_PATTERNS = BASE_PATTERNS.map((p) => ({
   }
 }));
 
+// Exports
 module.exports = {
   BASE_CONFIG,
   BASE_PATTERNS,
