@@ -1581,5 +1581,17 @@
     "mutes": [],
     "kicks": [],
     "bans": []
+  },
+  {
+    "user": "770662021045026857",
+    "warnings": [
+      {
+        "timestamp": 1765043783,
+        "reason": "usage of slurs ~ cannontickler"
+      }
+    ],
+    "mutes": [],
+    "kicks": [],
+    "bans": []
   }
 ]
