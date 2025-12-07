@@ -112,12 +112,7 @@
         "reason": "Offensive username ~ <@716126092074942514>"
       }
     ],
-    "mutes": [
-      {
-        "timestamp": 1765146757,
-        "reason": "AutoMod: nsfw ~ .SREC. Virus"
-      }
-    ],
+    "mutes": [],
     "softbans": [],
     "bans": []
   },
