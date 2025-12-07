@@ -107,37 +107,23 @@ const BASE_CONFIG = [
   { label: "other", words: ["hail hitler"] }
 ];
 
-
 // ---------------------------------------------------------
-// 🔥🔥🔥
-// 5) Hier kommt meine Erkennungs-Engine
-//    (ChatGPT-Level, ohne False Positives, aber mit deinem CHAR)
-// 🔥🔥🔥
+// 5) Erkennungs-Engine
 // ---------------------------------------------------------
-
-// Hilfsfunktion: Entfernt Akzente, macht lowercase
 function norm(str) {
-  return str
-    .normalize("NFKD")
-    .replace(/[\u0300-\u036f]/g, "")
-    .toLowerCase();
+  return str.normalize("NFKD").replace(/[\u0300-\u036f]/g, "").toLowerCase();
 }
 
-// Leetspeak-Char-Klassen matchen → 1 Buchstabe
 function charMatches(baseChar, inputChar) {
   const pattern = CHAR[baseChar];
   if (!pattern) return baseChar === inputChar;
-
-  // pattern = "[a@4...]" → wir bauen eine echte Regex
   const re = new RegExp(`^${pattern}$`, "i");
   return re.test(inputChar);
 }
 
-// Hauptcheck: 1 fehlender/zusätzlicher Buchstabe erlaubt
 function fuzzyWordMatch(input, base) {
   const a = [...input];
   const b = [...base];
-
   let i = 0, j = 0, errors = 0;
 
   while (i < a.length && j < b.length) {
@@ -146,34 +132,24 @@ function fuzzyWordMatch(input, base) {
     } else {
       errors++;
       if (errors > 1) return false;
-
-      // missing/extra letter
       if (a.length > b.length) i++;
       else if (b.length > a.length) j++;
       else { i++; j++; }
     }
   }
-
   return true;
 }
 
-// darf nur echte Wörter matchen – keine Substrings
 function matchesForbidden(base, word) {
   const b = norm(base);
   const w = norm(word);
-
-  // wenn Wort länger → ignorieren (gegen Scunthorpe)
   if (w.length > b.length) return false;
-
-  // gleich?
   if (b === w) return true;
-
   return fuzzyWordMatch(w, b);
 }
 
-
 // ---------------------------------------------------------
-// 6) Tokenizer → echte Wörter
+// 6) Tokenizer
 // ---------------------------------------------------------
 function tokenize(text) {
   return text
@@ -182,9 +158,8 @@ function tokenize(text) {
     .filter(Boolean);
 }
 
-
 // ---------------------------------------------------------
-// 7) Deine Kontext-Logik bleibt genau so
+// 7) Kontext-Logik
 // ---------------------------------------------------------
 const SAFE_BALL_CONTEXT = new Set([
   "golf", "tennis", "soccer", "football", "basketball",
@@ -215,20 +190,17 @@ function blockByContext(label, word, words, index) {
   return true;
 }
 
-
 // ---------------------------------------------------------
-// 8) Kompilierte Patterns → gleiche Struktur wie bei dir
+// 8) Kompilierte Patterns
 // ---------------------------------------------------------
 const COMPILED_PATTERNS = BASE_CONFIG.map(p => ({
   ...p,
-
   test(text) {
     const words = tokenize(text);
 
     for (let i = 0; i < words.length; i++) {
       const w = words[i];
 
-      // whitelist first
       if (WHITELIST.includes(w)) continue;
 
       for (const base of p.words) {
@@ -242,16 +214,14 @@ const COMPILED_PATTERNS = BASE_CONFIG.map(p => ({
   }
 }));
 
-
 // ---------------------------------------------------------
-// 9) EXPORTS — EXAKT WIE BEI DIR
+// 9) EXPORTS — FIXED: re = real RegExp
 // ---------------------------------------------------------
-
 module.exports = {
   BASE_CONFIG,
-  BASE_PATTERNS: BASE_CONFIG.map(({ label, words }) => ({
+  BASE_PATTERNS: BASE_CONFIG.map(({ label }) => ({
     label,
-    re: words.join("|") // Dummy, aber gleiche Struktur
+    re: /(?:)/ // SAFE DUMMY REGEX (prevents lastIndex crashes)
   })),
   COMPILED_PATTERNS,
   W,
