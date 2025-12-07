@@ -106,12 +106,7 @@
   },
   {
     "user": "1340357199007842426",
-    "warnings": [
-      {
-        "timestamp": 1759934339,
-        "reason": "Offensive username ~ <@716126092074942514>"
-      }
-    ],
+    "warnings": [],
     "mutes": [],
     "softbans": [],
     "bans": []
