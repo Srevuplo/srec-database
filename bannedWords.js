@@ -64,7 +64,7 @@ const WHITELIST = [
   "aromantic", "demisexual", "sapiosexual",
   "dickinson", "cocktail", "breastplate", "scunthorpe",
   "cucumber", "assessor", "succumb",
-  "essex", "essexshire", "https", "fa", "suspicious"
+  "essex", "essexshire", "https", "fa", "suspicious", "grapes"
 ];
 
 // ---------------------------------------------------------
@@ -72,7 +72,7 @@ const WHITELIST = [
 // ---------------------------------------------------------
 const BASE_CONFIG = [
   {
-    label: "slur",
+    label: "slurs",
     words: [
       "nigg", "fag", "chink", "spic", "beaner", "wetback",
       "gook", "raghead", "towelhead", "coon", "dyke",
