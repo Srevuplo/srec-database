@@ -492,5 +492,23 @@
         "date": "2025-12-08T06:47:47.282Z"
       }
     ]
+  },
+  "1147560586331299880": {
+    "username": "ba_cristii_ba",
+    "appeals": [
+      {
+        "accounts": [
+          {
+            "user": "skillpanzer",
+            "reason": "slurs https://discord.com/channels/988493706413887488/1426806652706754621 ~ srevuplo",
+            "date": "2025-10-12T05:40:32.419Z"
+          }
+        ],
+        "statement": "I swore, i will change my behaviour by not swearing and respecting the rules",
+        "evidence": false,
+        "status": "pending",
+        "date": "2025-12-08T19:02:42.964Z"
+      }
+    ]
   }
 }
