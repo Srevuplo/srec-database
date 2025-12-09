@@ -1647,5 +1647,37 @@
         "reason": "Raid ~ cannontickler"
       }
     ]
+  },
+  {
+    "user": {
+      "id": "262004201431891968",
+      "bot": false,
+      "system": false,
+      "flags": 0,
+      "username": "royal132",
+      "globalName": "Royal",
+      "discriminator": "0",
+      "avatar": "29a6f195a68f182e3cd4259a75b9e9c0",
+      "avatarDecoration": null,
+      "avatarDecorationData": null,
+      "collectibles": null,
+      "primaryGuild": null,
+      "createdTimestamp": 1482537069424,
+      "defaultAvatarURL": "https://cdn.discordapp.com/embed/avatars/4.png",
+      "tag": "royal132",
+      "avatarURL": "https://cdn.discordapp.com/avatars/262004201431891968/29a6f195a68f182e3cd4259a75b9e9c0.webp",
+      "displayAvatarURL": "https://cdn.discordapp.com/avatars/262004201431891968/29a6f195a68f182e3cd4259a75b9e9c0.webp",
+      "guildTagBadgeURL": null
+    },
+    "warnings": [],
+    "mutes": [],
+    "kicks": [],
+    "softbans": [],
+    "bans": [
+      {
+        "timestamp": 1765243616,
+        "reason": "Raid ~ cannontickler"
+      }
+    ]
   }
 ]
