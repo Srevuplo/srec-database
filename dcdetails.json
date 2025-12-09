@@ -1768,5 +1768,45 @@
         "reason": "§ 12 SREC-TOS Charges may be filed. ~ srevuplo"
       }
     ]
+  },
+  {
+    "user": {
+      "id": "1314857420417400895",
+      "bot": false,
+      "system": false,
+      "flags": 0,
+      "username": "starbirdtweaking",
+      "globalName": "starbirdtweaking",
+      "discriminator": "0",
+      "avatar": "1bd165d7ae43614063676b47de1ba5aa",
+      "avatarDecoration": null,
+      "avatarDecorationData": {
+        "asset": "a_523d7733d1b88cfbad5b082d062defc4",
+        "skuId": "1440174638930853954"
+      },
+      "collectibles": null,
+      "primaryGuild": {
+        "identityGuildId": "426338654986829824",
+        "identityEnabled": true,
+        "tag": "POLA",
+        "badge": "297e32de7eefa3de88921ed590ef763b"
+      },
+      "createdTimestamp": 1733556837897,
+      "defaultAvatarURL": "https://cdn.discordapp.com/embed/avatars/3.png",
+      "tag": "starbirdtweaking",
+      "avatarURL": "https://cdn.discordapp.com/avatars/1314857420417400895/1bd165d7ae43614063676b47de1ba5aa.webp",
+      "displayAvatarURL": "https://cdn.discordapp.com/avatars/1314857420417400895/1bd165d7ae43614063676b47de1ba5aa.webp",
+      "guildTagBadgeURL": "https://cdn.discordapp.com/guild-tag-badges/426338654986829824/297e32de7eefa3de88921ed590ef763b.webp"
+    },
+    "warnings": [],
+    "mutes": [],
+    "kicks": [],
+    "softbans": [],
+    "bans": [
+      {
+        "timestamp": 1765286383,
+        "reason": "§ 12 SREC TOS ~ cannontickler"
+      }
+    ]
   }
 ]
