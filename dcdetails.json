@@ -1600,5 +1600,52 @@
     "mutes": [],
     "kicks": [],
     "bans": []
+  },
+  {
+    "user": {
+      "id": "984210001902075924",
+      "bot": false,
+      "system": false,
+      "flags": 0,
+      "username": "d_loader7",
+      "globalName": "D_Loader7",
+      "discriminator": "0",
+      "avatar": "c971935568f62e5d7ab806de28e36fd5",
+      "avatarDecoration": null,
+      "avatarDecorationData": {
+        "asset": "a_a52ebc917ecea3a79eb0228402b788b3",
+        "skuId": "1412514944737476619"
+      },
+      "collectibles": {
+        "nameplate": {
+          "skuId": "1409983105577783410",
+          "asset": "nameplates/special_events_2/nitro_rocketfuel_nameplate/",
+          "label": "COLLECTIBLES_SEPTEMBER_2025_MARKETING_NAMEPLATE_A11Y",
+          "palette": "violet"
+        }
+      },
+      "primaryGuild": {
+        "identityGuildId": "1135093604218589204",
+        "identityEnabled": true,
+        "tag": "FOX",
+        "badge": "26151aa4d27145fd98df2d59a97f6888"
+      },
+      "createdTimestamp": 1654724350191,
+      "defaultAvatarURL": "https://cdn.discordapp.com/embed/avatars/3.png",
+      "tag": "d_loader7",
+      "avatarURL": "https://cdn.discordapp.com/avatars/984210001902075924/c971935568f62e5d7ab806de28e36fd5.webp",
+      "displayAvatarURL": "https://cdn.discordapp.com/avatars/984210001902075924/c971935568f62e5d7ab806de28e36fd5.webp",
+      "guildTagBadgeURL": "https://cdn.discordapp.com/guild-tag-badges/1135093604218589204/26151aa4d27145fd98df2d59a97f6888.webp"
+    },
+    "warnings": [],
+    "mutes": [],
+    "kicks": [],
+    "softbans": [],
+    "bans": [
+      {
+        "timestamp": 1765243553,
+        "reason": "Raid ~ cannontickler"
+      }
+    ]
   }
 ]
