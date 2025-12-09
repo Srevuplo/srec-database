@@ -1721,5 +1721,52 @@
         "reason": "§ 4 Privacy - Leaking Staff Documents ~ srevuplo"
       }
     ]
+  },
+  {
+    "user": {
+      "id": "670996849812963329",
+      "bot": false,
+      "system": false,
+      "flags": 256,
+      "username": "koenigops",
+      "globalName": "KoenigOps",
+      "discriminator": "0",
+      "avatar": "5915ea410559e0b7444b5215fda91988",
+      "avatarDecoration": null,
+      "avatarDecorationData": {
+        "asset": "a_c6af9ac54288679a367cf31fa8c9dc85",
+        "skuId": "1341506443899043840"
+      },
+      "collectibles": {
+        "nameplate": {
+          "skuId": "1377377712078848180",
+          "asset": "nameplates/nameplates_v2/glitch/",
+          "label": "COLLECTIBLES_NAMEPLATES_V2_GLITCH_A11Y",
+          "palette": "violet"
+        }
+      },
+      "primaryGuild": {
+        "identityGuildId": "1377600518356209787",
+        "identityEnabled": true,
+        "tag": "KAԘL",
+        "badge": "7600b86583eceb147a519dcf448a80e8"
+      },
+      "createdTimestamp": 1580048515514,
+      "defaultAvatarURL": "https://cdn.discordapp.com/embed/avatars/2.png",
+      "tag": "koenigops",
+      "avatarURL": "https://cdn.discordapp.com/avatars/670996849812963329/5915ea410559e0b7444b5215fda91988.webp",
+      "displayAvatarURL": "https://cdn.discordapp.com/avatars/670996849812963329/5915ea410559e0b7444b5215fda91988.webp",
+      "guildTagBadgeURL": "https://cdn.discordapp.com/guild-tag-badges/1377600518356209787/7600b86583eceb147a519dcf448a80e8.webp"
+    },
+    "warnings": [],
+    "mutes": [],
+    "kicks": [],
+    "softbans": [],
+    "bans": [
+      {
+        "timestamp": 1765264506,
+        "reason": "§ 12 SREC-TOS Charges may be filed. ~ srevuplo"
+      }
+    ]
   }
 ]
