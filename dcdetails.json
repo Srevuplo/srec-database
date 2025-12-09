@@ -1679,5 +1679,47 @@
         "reason": "Raid ~ cannontickler"
       }
     ]
+  },
+  {
+    "user": {
+      "id": "1400621212790554704",
+      "bot": false,
+      "system": false,
+      "flags": 0,
+      "username": "themilk0852",
+      "globalName": "🎀  𝑀𝒾𝓁𝓀♥  🎀",
+      "discriminator": "0",
+      "avatar": "c2caed1dea12d27ce26fbe8fcc6dbaaa",
+      "avatarDecoration": null,
+      "avatarDecorationData": {
+        "asset": "a_55393fb776ecc721bc551823d4ea52df",
+        "skuId": "1409898407799160963"
+      },
+      "collectibles": {
+        "nameplate": {
+          "skuId": "1409983105577783410",
+          "asset": "nameplates/special_events_2/nitro_rocketfuel_nameplate/",
+          "label": "COLLECTIBLES_SEPTEMBER_2025_MARKETING_NAMEPLATE_A11Y",
+          "palette": "violet"
+        }
+      },
+      "primaryGuild": null,
+      "createdTimestamp": 1754004519413,
+      "defaultAvatarURL": "https://cdn.discordapp.com/embed/avatars/5.png",
+      "tag": "themilk0852",
+      "avatarURL": "https://cdn.discordapp.com/avatars/1400621212790554704/c2caed1dea12d27ce26fbe8fcc6dbaaa.webp",
+      "displayAvatarURL": "https://cdn.discordapp.com/avatars/1400621212790554704/c2caed1dea12d27ce26fbe8fcc6dbaaa.webp",
+      "guildTagBadgeURL": null
+    },
+    "warnings": [],
+    "mutes": [],
+    "kicks": [],
+    "softbans": [],
+    "bans": [
+      {
+        "timestamp": 1765250182,
+        "reason": "§ 4 Privacy - Leaking Staff Documents ~ srevuplo"
+      }
+    ]
   }
 ]
