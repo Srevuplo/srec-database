@@ -78,7 +78,7 @@ const BASE_CONFIG = [
       "whore", "skank", "jerking", "stroking", "cum",
       "porn", "cock", "dick", "balls", "pussy", "vag",
       "anus", "anal", "creampie", "gangbang", "hentai",
-      "bdsm", "milf", "futa", "deepthroat", "blowjob"
+      "bdsm", "milf", "futa", "deepthroat", "blowjob", "goon"
     ]
   },
   {
