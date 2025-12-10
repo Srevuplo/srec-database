@@ -95,7 +95,7 @@ const BASE_CONFIG = [
   },
   {
     label: "other",
-    words: ["hail", "heil", "hitler"]
+    words: ["pedo"]
   }
 ];
 
