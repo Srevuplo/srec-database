@@ -76,7 +76,7 @@ const BASE_CONFIG = [
     words: [
       "fetish", "horny", "rape", "dildo", "sex", "slut",
       "whore", "skank", "jerking", "stroking", "cum",
-      "porn", "cock", "dick", "balls", "pussy", "vag",
+      "porn", "cock", "balls", "pussy", "vag",
       "anus", "anal", "creampie", "gangbang", "hentai",
       "bdsm", "milf", "futa", "deepthroat", "blowjob", "goon"
     ]
