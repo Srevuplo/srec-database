@@ -1,11 +1,3 @@
-//
-// LOW-SENSITIVITY AUTOMOD (Option C)
-// Much fewer false positives, minimal fuzziness
-//
-
-// ---------------------------------------------------------
-// 1) CHAR MAP (kept, but used with strict rules)
-// ---------------------------------------------------------
 const CHAR = {
   a: "[a@4ªàáâãäå]",
   b: "[bß]",
@@ -35,11 +27,10 @@ const CHAR = {
   z: "[z2žźż]"
 };
 
-// **Reduced separator tolerance**
+
 const SEP = "[._\\-~|/\\\\]?";
 
 function W(s) {
-  // LOW-SENSITIVITY: each CHAR class must match real chars only, no heavy fuzz
   return s
     .toLowerCase()
     .split("")
@@ -49,13 +40,12 @@ function W(s) {
     .join(SEP);
 }
 
+// SEPERATOR
 function word(core) {
   return `(?:^|\\b)${core}(?:\\b|$)`;
 }
 
-// ---------------------------------------------------------
-// 3) WHITELIST (kept)
-// ---------------------------------------------------------
+// WHITELIST
 const WHITELIST = [
   "sexual", "sexuality", "asexual", "asexuality", "pansexual", "bisexual",
   "homosexual", "sexism", "unisex", "intersection", "midsection",
@@ -67,9 +57,7 @@ const WHITELIST = [
   "essex", "essexshire", "https", "fa", "suspicious", "grapes"
 ];
 
-// ---------------------------------------------------------
-// 4) BASE CONFIG (unchanged logic)
-// ---------------------------------------------------------
+// BASE CONFIG
 const BASE_CONFIG = [
   {
     label: "slurs",
@@ -99,9 +87,7 @@ const BASE_CONFIG = [
   }
 ];
 
-// ---------------------------------------------------------
-// 5) EXCEPTION SUFFIX BUILDER (kept, slightly stricter)
-// ---------------------------------------------------------
+// EXCEPTION SUFFIX BUILDER
 function buildExceptionSuffixesPerWord(config, whitelist) {
   const map = new Map();
   const flagged = new Set(config.flatMap((c) => c.words.map((w) => w.toLowerCase())));
@@ -115,7 +101,6 @@ function buildExceptionSuffixesPerWord(config, whitelist) {
       const suffix = lc.slice(pos + base.length);
       if (!suffix) continue;
 
-      // strict, no deep fuzz
       const pat = suffix.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
 
       if (!map.has(base)) map.set(base, []);
@@ -128,15 +113,13 @@ function buildExceptionSuffixesPerWord(config, whitelist) {
 
 const EXCEPTIONS_AFTER = buildExceptionSuffixesPerWord(BASE_CONFIG, WHITELIST);
 
-// ---------------------------------------------------------
-// 6) Pattern builder — **LOW SENSITIVITY VERSION**
-// ---------------------------------------------------------
+
+// Pattern builder — **LOW SENSITIVITY VERSION**
 function patternForWord(base) {
   const lc = base.toLowerCase();
   const suffixes = EXCEPTIONS_AFTER.get(lc);
   const noSuffix = suffixes ? `(?!${SEP}(?:${suffixes.join("|")}))` : "";
 
-  // NO fuzzy deletion, NO fuzzy leading/trailing removal
   return `${W(lc)}${noSuffix}`;
 }
 
@@ -145,9 +128,7 @@ const BASE_PATTERNS = BASE_CONFIG.map(({ label, words }) => {
   return { label, re: word(core) };
 });
 
-// ---------------------------------------------------------
-// Context logic — STRONG filter
-// ---------------------------------------------------------
+// Context
 const SAFE_BALL_CONTEXT = new Set([
   "golf", "tennis", "soccer", "football", "basketball",
   "baseball", "softball", "volleyball", "pickleball",
@@ -185,9 +166,7 @@ function blockByContext(label, matched, text, index) {
   return true;
 }
 
-// ---------------------------------------------------------
 // FINAL COMPILED PATTERNS
-// ---------------------------------------------------------
 const COMPILED_PATTERNS = BASE_PATTERNS.map((p) => ({
   ...p,
   regex: new RegExp(p.re, "i"),
@@ -202,9 +181,7 @@ const COMPILED_PATTERNS = BASE_PATTERNS.map((p) => ({
   }
 }));
 
-// ---------------------------------------------------------
 // EXPORTS
-// ---------------------------------------------------------
 module.exports = {
   BASE_CONFIG,
   BASE_PATTERNS,
