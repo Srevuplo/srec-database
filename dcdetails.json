@@ -1560,7 +1560,12 @@
   },
   {
     "user": "925830087381758003",
-    "warnings": [],
+    "warnings": [
+      {
+        "timestamp": 1765424714,
+        "reason": "said n-word in vc ~ skir7362"
+      }
+    ],
     "mutes": [],
     "kicks": [],
     "bans": []
