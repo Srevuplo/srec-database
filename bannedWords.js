@@ -54,7 +54,7 @@ const WHITELIST = [
   "aromantic", "demisexual", "sapiosexual",
   "dickinson", "cocktail", "breastplate", "scunthorpe",
   "cucumber", "assessor", "succumb",
-  "essex", "essexshire", "https", "fa", "suspicious", "grapes", "savage"
+  "essex", "essexshire", "https", "fa", "suspicious", "grapes"
 ];
 
 // BASE CONFIG
@@ -76,7 +76,7 @@ const BASE_CONFIG = [
     words: [
       "fetish", "horny", "rape", "dildo", "sex", "slut",
       "whore", "skank", "jerking", "stroking", "cum",
-      "porn", "cock", "balls", "pussy", "vag",
+      "porn", "cock", "balls",
       "anus", "anal", "creampie", "gangbang", "hentai",
       "bdsm", "milf", "futa", "deepthroat", "blowjob", "goon"
     ]
