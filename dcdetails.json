@@ -1822,5 +1822,17 @@
         "reason": "§ 12 SREC TOS ~ cannontickler"
       }
     ]
+  },
+  {
+    "user": "1314035694238302272",
+    "warnings": [
+      {
+        "timestamp": 1765572070,
+        "reason": "AutoMod: slurs ~ .SREC. Virus"
+      }
+    ],
+    "mutes": [],
+    "kicks": [],
+    "bans": []
   }
 ]
