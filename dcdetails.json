@@ -1829,5 +1829,45 @@
     "mutes": [],
     "kicks": [],
     "bans": []
+  },
+  {
+    "user": {
+      "id": "1127486931622711296",
+      "bot": false,
+      "system": false,
+      "flags": 64,
+      "username": "therealdudejay",
+      "globalName": "Jay",
+      "discriminator": "0",
+      "avatar": "489fcf78e274e8afde2447979635c28d",
+      "avatarDecoration": null,
+      "avatarDecorationData": {
+        "asset": "a_523d7733d1b88cfbad5b082d062defc4",
+        "skuId": "1440174638930853954"
+      },
+      "collectibles": null,
+      "primaryGuild": {
+        "identityGuildId": "319915885575798785",
+        "identityEnabled": true,
+        "tag": "VTOL",
+        "badge": "76e358d951d7bb7d73d4c80ea0b064a5"
+      },
+      "createdTimestamp": 1688884232193,
+      "defaultAvatarURL": "https://cdn.discordapp.com/embed/avatars/3.png",
+      "tag": "therealdudejay",
+      "avatarURL": "https://cdn.discordapp.com/avatars/1127486931622711296/489fcf78e274e8afde2447979635c28d.webp",
+      "displayAvatarURL": "https://cdn.discordapp.com/avatars/1127486931622711296/489fcf78e274e8afde2447979635c28d.webp",
+      "guildTagBadgeURL": "https://cdn.discordapp.com/guild-tag-badges/319915885575798785/76e358d951d7bb7d73d4c80ea0b064a5.webp"
+    },
+    "warnings": [],
+    "mutes": [],
+    "kicks": [],
+    "softbans": [],
+    "bans": [
+      {
+        "timestamp": 1765599341,
+        "reason": "§ 12 SREC TOS - Charges may be filed ~ srevuplo"
+      }
+    ]
   }
 ]
