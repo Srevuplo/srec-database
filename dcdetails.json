@@ -822,12 +822,7 @@
   },
   {
     "user": "1008030810097598504",
-    "warnings": [
-      {
-        "timestamp": 1765842094,
-        "reason": "AutoMod: nsfw ~ .SREC. Virus"
-      }
-    ],
+    "warnings": [],
     "mutes": [],
     "kicks": [],
     "bans": []
