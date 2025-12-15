@@ -507,20 +507,21 @@
     "lastHourReminderSent": 0
   },
   "706238979464364083": {
-    "total": 9660,
-    "monthly": 3480,
+    "total": 0,
+    "monthly": 0,
     "weekly": 0,
-    "daily": 5700,
+    "daily": 300,
     "lastMonth": "2025-12",
     "lastWeek": "2025-W3",
     "lastDay": "2025-12-15",
     "login": null,
     "state": "offline",
-    "yearly": 13560,
+    "yearly": 0,
     "lastYear": "2025",
     "break45Sent": false,
     "break6Sent": false,
-    "lastHourReminderSent": 0
+    "lastHourReminderSent": 0,
+    "lastLogin": null
   },
   "1003423038513102929": {
     "total": 38801,
