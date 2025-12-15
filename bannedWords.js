@@ -75,7 +75,7 @@ const BASE_CONFIG = [
     label: "nsfw",
     words: [
       "fetish", "horny", "rape", "dildo", "sex", "slut",
-      "whore", "skank", "jerking", "stroking", "cum",
+      "whore", "skank", "jerking", "stroking",
       "porn", "cock", "balls",
       "anus", "anal", "creampie", "gangbang", "hentai",
       "bdsm", "milf", "futa", "deepthroat", "blowjob", "goon"
