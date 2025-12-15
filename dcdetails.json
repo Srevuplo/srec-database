@@ -1904,5 +1904,44 @@
         "reason": "Violation of Discord safety policies - adult/minor relationship ~ cannontickler"
       }
     ]
+  },
+  {
+    "user": {
+      "id": "1146995760920023052",
+      "bot": false,
+      "system": false,
+      "flags": 0,
+      "username": "emocatsong",
+      "globalName": "Lord Twinkus Magnus",
+      "discriminator": "0",
+      "avatar": "1779081e443836be2f756d0315fb5c68",
+      "banner": null,
+      "accentColor": 0,
+      "avatarDecoration": null,
+      "avatarDecorationData": {
+        "asset": "a_c12a5c953352c20bd6e63576e2cce3a0",
+        "skuId": "1440174638930853956"
+      },
+      "collectibles": null,
+      "primaryGuild": null,
+      "createdTimestamp": 1693535499554,
+      "defaultAvatarURL": "https://cdn.discordapp.com/embed/avatars/2.png",
+      "hexAccentColor": "#000000",
+      "tag": "emocatsong",
+      "avatarURL": "https://cdn.discordapp.com/avatars/1146995760920023052/1779081e443836be2f756d0315fb5c68.webp",
+      "displayAvatarURL": "https://cdn.discordapp.com/avatars/1146995760920023052/1779081e443836be2f756d0315fb5c68.webp",
+      "bannerURL": null,
+      "guildTagBadgeURL": null
+    },
+    "warnings": [],
+    "mutes": [],
+    "kicks": [],
+    "softbans": [],
+    "bans": [
+      {
+        "timestamp": 1765837470,
+        "reason": "Engaging Sexual Content with a Minor ~ srevuplo"
+      }
+    ]
   }
 ]
