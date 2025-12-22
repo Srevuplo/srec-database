@@ -828,7 +828,12 @@
         "reason": "AutoMod: nsfw ~ .SREC. Virus"
       }
     ],
-    "mutes": [],
+    "mutes": [
+      {
+        "timestamp": 1766371295,
+        "reason": "AutoMod: nsfw ~ .SREC. Virus"
+      }
+    ],
     "kicks": [],
     "bans": []
   },
