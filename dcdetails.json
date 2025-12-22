@@ -1953,12 +1953,7 @@
   },
   {
     "user": "1105867379457659020",
-    "warnings": [
-      {
-        "timestamp": 1766367993,
-        "reason": "AutoMod: nsfw ~ .SREC. Virus"
-      }
-    ],
+    "warnings": [],
     "mutes": [
       {
         "timestamp": 1766368005,
