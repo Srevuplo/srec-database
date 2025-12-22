@@ -1586,7 +1586,12 @@
   },
   {
     "user": "707959434843783178",
-    "warnings": [],
+    "warnings": [
+      {
+        "timestamp": 1766371748,
+        "reason": "nsfw ~ mr.bean9648"
+      }
+    ],
     "mutes": [],
     "kicks": [],
     "bans": []
