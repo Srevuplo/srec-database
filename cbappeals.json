@@ -521,6 +521,19 @@
         "evidence": false,
         "status": "✓",
         "date": "2025-12-08T19:02:42.964Z"
+      },
+      {
+        "accounts": [
+          {
+            "user": "skillpanzer",
+            "reason": "slurs https://discord.com/channels/988493706413887488/1430793395093377036 ~ srevuplo",
+            "date": "2025-12-21T12:44:26.690Z"
+          }
+        ],
+        "statement": "i slured, i will not do it again even tho i got blacklisted 2 times, ima promise i will stop",
+        "evidence": false,
+        "status": "pending",
+        "date": "2025-12-22T06:12:14.946Z"
       }
     ]
   },
