@@ -1954,12 +1954,7 @@
   {
     "user": "1105867379457659020",
     "warnings": [],
-    "mutes": [
-      {
-        "timestamp": 1766368005,
-        "reason": "AutoMod: nsfw ~ .SREC. Virus"
-      }
-    ],
+    "mutes": [],
     "kicks": [],
     "bans": []
   }
