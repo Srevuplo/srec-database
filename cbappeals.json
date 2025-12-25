@@ -572,5 +572,23 @@
         "date": "2025-12-22T05:54:03.442Z"
       }
     ]
+  },
+  "1274773973917372565": {
+    "username": "blood_of_roses7",
+    "appeals": [
+      {
+        "accounts": [
+          {
+            "user": "blood_of_roses7",
+            "reason": "nsfw ~ srevuplo",
+            "date": "2025-10-23T00:00:37.036Z"
+          }
+        ],
+        "statement": "I just got banned and I don't know what I did",
+        "evidence": false,
+        "status": "pending",
+        "date": "2025-12-25T07:32:18.338Z"
+      }
+    ]
   }
 }
