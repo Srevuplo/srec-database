@@ -53,7 +53,7 @@ const WHITELIST = [
   "transgender", "trans", "transition", "intersex", "queer", "nonbinary",
   "aromantic", "demisexual", "sapiosexual",
   "dickinson", "cocktail", "breastplate", "scunthorpe",
-  "cucumber", "assessor", "succumb",
+  "cucumber", "assessor", "succumb", "trapezoid"
   "essex", "essexshire", "https", "fa", "suspicious", "grapes", "document", "circumstances", "cockpit", "sexy", "domanus"
 ];
 
