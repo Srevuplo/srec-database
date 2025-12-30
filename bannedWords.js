@@ -64,7 +64,7 @@ const BASE_CONFIG = [
     words: [
       "nigg", "fag", "chink", "spic", "beaner", "wetback",
       "gook", "raghead", "towelhead", "coon", "dyke",
-      "tranny", "shemale", "retard", "tard"
+      "tranny", "tard"
     ]
   },
   {
@@ -75,9 +75,9 @@ const BASE_CONFIG = [
     label: "nsfw",
     words: [
       "fetish", "horny", "rape", "dildo", "sex", "slut",
-      "whore", "skank", "jerking", "stroking",
+      "whore", "jerking", "stroking",
       "porn", "cock",
-      "anus", "anal", "creampie", "gangbang", "hentai",
+      "anal", "creampie", "gangbang", "hentai",
       "bdsm", "milf", "futa", "deepthroat", "blowjob", "goon"
     ]
   },
