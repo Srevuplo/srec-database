@@ -2690,11 +2690,6 @@
     "date": "2025-12-15T20:26:21.182Z"
   },
   {
-    "user": "derpyspark",
-    "reason": "PERMANENT - RoyMa https://discord.com/channels/988493706413887488/1151875536575008829 ~ cannontickler",
-    "date": "2025-12-15T20:26:28.757Z"
-  },
-  {
     "user": "baikal338",
     "reason": "PERMANENT - RoyMa https://discord.com/channels/988493706413887488/1151875536575008829 ~ cannontickler",
     "date": "2025-12-15T20:26:35.388Z"
@@ -3015,6 +3010,11 @@
     "date": "2025-12-26T02:42:57.261Z"
   },
   {
+    "user": "$$$test",
+    "reason": "/ https://discord.com/channels/988493706413887488/1151875536575008829 ~ srevuplo",
+    "date": "2025-12-26T06:04:57.714Z"
+  },
+  {
     "user": "granataexplotar",
     "reason": "Slurs https://discord.com/channels/988493706413887488/1454227693074911352 ~ cannontickler",
     "date": "2025-12-27T00:14:19.329Z"
@@ -3031,37 +3031,82 @@
   },
   {
     "user": "pewpewplinkplink",
-    "reason": "slurs ~ srevuplo",
-    "date": "2025-12-27T05:54:08.932Z"
+    "reason": "slurs",
+    "date": "2025-12-28T22:25:05.337Z"
   },
   {
     "user": "fart_nugget",
-    "reason": "nsfw ~ bean",
-    "date": "2025-12-27T05:54:08.932Z"
+    "reason": "nsfw",
+    "date": "2025-12-29T17:03:06.070Z"
   },
   {
     "user": "vvord",
-    "reason": "slurs ~ bean",
-    "date": "2025-12-27T05:54:08.932Z"
+    "reason": "slurs",
+    "date": "2025-12-30T16:57:05.625Z"
   },
   {
     "user": "wither_bad",
-    "reason": "slurs ~ srevuplo",
-    "date": "2025-12-27T05:54:08.932Z"
+    "reason": "slurs",
+    "date": "2026-01-02T07:28:27.280Z"
   },
   {
     "user": "apricotmonk85",
-    "reason": "slurs/nsfw ~ srevuplo",
-    "date": "2025-12-27T05:54:08.932Z"
+    "reason": "slurs, nsfw",
+    "date": "2026-01-02T07:28:55.682Z"
   },
   {
     "user": "umbrella#9",
-    "reason": "slurs ~ srevuplo",
-    "date": "2025-12-27T05:54:08.932Z"
+    "reason": "slurs",
+    "date": "2026-01-02T07:29:16.348Z"
   },
   {
     "user": "itz-zak_123",
-    "reason": "slurs ~ srevuplo",
-    "date": "2025-12-27T05:54:08.932Z"
+    "reason": "permanent, slurs",
+    "date": "2026-01-02T07:29:36.843Z"
+  },
+  {
+    "user": "crf47_2010",
+    "reason": "slurs",
+    "date": "2026-01-03T18:46:46.761Z"
+  },
+  {
+    "user": "finn erik2615",
+    "reason": "slurs",
+    "date": "2026-01-03T18:47:00.279Z"
+  },
+  {
+    "user": "the_radium_",
+    "reason": "slurs, nsfw",
+    "date": "2026-01-03T18:47:15.176Z"
+  },
+  {
+    "user": "akin_allergy51",
+    "reason": "slurs",
+    "date": "2026-01-03T21:37:19.306Z"
+  },
+  {
+    "user": "mr_phantom_crow",
+    "reason": "slurs",
+    "date": "2026-01-03T21:37:29.434Z"
+  },
+  {
+    "user": "no respect",
+    "reason": "slurs",
+    "date": "2026-01-03T21:37:49.021Z"
+  },
+  {
+    "user": "discopotato1486",
+    "reason": "slurs",
+    "date": "2026-01-03T21:38:00.681Z"
+  },
+  {
+    "user": "tutel_eliminator",
+    "reason": "slurs",
+    "date": "2026-01-03T21:38:11.708Z"
+  },
+  {
+    "user": "__skar",
+    "reason": "slurs",
+    "date": "2026-01-04T08:14:35.916Z"
   }
 ]
