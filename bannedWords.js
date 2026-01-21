@@ -62,8 +62,7 @@ const BASE_CONFIG = [
   {
     label: "slurs",
     words: [
-      "nigg", "fag", "chink", "spic", "beaner", "wetback",
-      "gook", "raghead", "towelhead", "coon", "dyke",
+      "nigg", "fag", "chink", "beaner",
       "tranny", "tard"
     ]
   },
@@ -74,8 +73,7 @@ const BASE_CONFIG = [
   {
     label: "nsfw",
     words: [
-      "fetish", "horny", "rape", "dildo", "sex", "slut",
-      "whore", "jerking", "stroking",
+      "fetish", "horny", "rape", "dildo", "sex", "jerking", "stroking",
       "porn", "cock",
       "anal", "creampie", "gangbang", "hentai",
       "bdsm", "milf", "futa", "deepthroat", "blowjob", "goon"
