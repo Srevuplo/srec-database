@@ -2970,11 +2970,6 @@
     "date": "2025-12-25T12:37:30.790Z"
   },
   {
-    "user": "sivar5033-",
-    "reason": "Slurs https://discord.com/channels/988493706413887488/1453728690314805351 ~ cannontickler",
-    "date": "2025-12-25T12:39:44.803Z"
-  },
-  {
     "user": "willamesa",
     "reason": "Slurs https://discord.com/channels/988493706413887488/1453733856527253514 ~ cannontickler",
     "date": "2025-12-25T12:59:42.977Z"
@@ -3288,5 +3283,15 @@
     "user": "ortegaa_1488",
     "reason": "PERMANENT - Political Extremism",
     "date": "2026-01-22T10:51:04.357Z"
+  },
+  {
+    "user": "handy#12",
+    "reason": "PERMANENT - CB Raid",
+    "date": "2026-01-23T19:07:28.632Z"
+  },
+  {
+    "user": "mormexic",
+    "reason": "CB Raid",
+    "date": "2026-01-24T22:30:05.423Z"
   }
 ]
