@@ -1791,7 +1791,7 @@
   },
   {
     "user": "poepmangg0",
-    "reason": "slurs https://discord.com/channels/988493706413887488/1441894886176723118 ~ skir7362",
+    "reason": "ethnic slurs https://discord.com/channels/988493706413887488/1441894886176723118 ~ skir7362",
     "date": "2025-11-22T20:57:17.635Z"
   },
   {
@@ -3265,11 +3265,6 @@
     "date": "2026-01-21T18:40:13.776Z"
   },
   {
-    "user": "oven_mitt_eater",
-    "reason": "PERMANENT - CB Raid",
-    "date": "2026-01-21T23:25:46.991Z"
-  },
-  {
     "user": "legend24111",
     "reason": "PERMANENT - Minor Safety",
     "date": "2026-01-21T23:41:16.300Z"
@@ -3303,5 +3298,30 @@
     "user": "ttatpuot#1",
     "reason": "nsfw",
     "date": "2026-01-25T20:21:55.459Z"
+  },
+  {
+    "user": "amishredhead813",
+    "reason": "CB Raid",
+    "date": "2026-01-25T21:48:39.229Z"
+  },
+  {
+    "user": "stormfury721",
+    "reason": "slurs",
+    "date": "2026-01-26T13:17:04.128Z"
+  },
+  {
+    "user": "youdoanal",
+    "reason": "PERMANENT - NSFW Username",
+    "date": "2026-01-26T13:17:40.339Z"
+  },
+  {
+    "user": "dannnchik5656",
+    "reason": "CB Raid",
+    "date": "2026-01-26T15:30:19.343Z"
+  },
+  {
+    "user": "cyuhnide797",
+    "reason": "PERMANENT - RoyMa",
+    "date": "2026-01-28T00:21:20.314Z"
   }
 ]
