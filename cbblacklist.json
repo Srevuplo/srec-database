@@ -2180,11 +2180,6 @@
     "date": "2025-12-08T17:16:55.826Z"
   },
   {
-    "user": "bostonliberator",
-    "reason": "PERMANENT - Raid https://discord.com/channels/988493706413887488/1443576066664038470 ~ srevuplo",
-    "date": "2025-12-09T01:21:21.573Z"
-  },
-  {
     "user": "tankerdman",
     "reason": "slur https://discord.com/channels/988493706413887488/1447760670845173792 ~ mr.bean9648",
     "date": "2025-12-09T01:26:05.969Z"
@@ -2815,11 +2810,6 @@
     "date": "2026-01-05T05:18:07.412Z"
   },
   {
-    "user": "intermag",
-    "reason": "Slurs https://discord.com/channels/988493706413887488/1452029343386828812 ~ cannontickler",
-    "date": "2025-12-20T20:10:49.592Z"
-  },
-  {
     "user": "hunterman746",
     "reason": "Slurs https://discord.com/channels/988493706413887488/1452029343386828812 ~ cannontickler",
     "date": "2025-12-20T20:10:55.587Z"
@@ -3105,11 +3095,6 @@
     "date": "2026-01-05T05:17:59.818Z"
   },
   {
-    "user": "captinfairybread",
-    "reason": "Harassment",
-    "date": "2026-01-08T13:00:32.916Z"
-  },
-  {
     "user": "certified-g00ner",
     "reason": "PERMANENT - NSFW Username",
     "date": "2026-01-08T20:11:05.895Z"
@@ -3256,17 +3241,17 @@
   },
   {
     "user": "mig153",
-    "reason": "CB Raid",
+    "reason": "PERMANENT - CB Raid",
     "date": "2026-01-21T18:38:22.913Z"
   },
   {
     "user": "genesis 0_0",
-    "reason": "CB Raid",
+    "reason": "PERMANENT - CB Raid",
     "date": "2026-01-21T18:40:13.776Z"
   },
   {
     "user": "legend24111",
-    "reason": "PERMANENT - Community Safety",
+    "reason": "PERMANENT - Minor Safety",
     "date": "2026-01-21T23:41:16.300Z"
   },
   {
@@ -3276,7 +3261,7 @@
   },
   {
     "user": "handy#12",
-    "reason": "CB Raid",
+    "reason": "PERMANENT - CB Raid",
     "date": "2026-01-23T19:07:28.632Z"
   },
   {
@@ -3323,5 +3308,15 @@
     "user": "cyuhnide797",
     "reason": "PERMANENT - RoyMa",
     "date": "2026-01-28T00:21:20.314Z"
+  },
+  {
+    "user": "wizzkid5812",
+    "reason": "CB Raid",
+    "date": "2026-01-29T14:27:28.877Z"
+  },
+  {
+    "user": "aus_vxb3s1925",
+    "reason": "PERMANENT - False Accusations § 12 SREC TOS",
+    "date": "2026-01-30T13:31:00.561Z"
   }
 ]
