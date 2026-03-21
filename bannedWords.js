@@ -74,14 +74,14 @@ const BASE_CONFIG = [
     label: "nsfw",
     words: [
       "fetish", "horny", "rape", "dildo", "sex", "jerking", "stroking",
-      "porn", "cock",
-      "anal", "creampie", "gangbang", "hentai",
+      "porn", "cock", "dick", "cunt",
+      "anal", "creampie", "gangbang", "hentai", "futa", "yaoi",
       "bdsm", "milf", "futa", "deepthroat", "blowjob", "goon"
     ]
   },
   {
     label: "other",
-    words: ["pedo"]
+    words: ["pedo", "pdf", "pred", "predator"]
   }
 ];
 
