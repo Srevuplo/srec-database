@@ -76,7 +76,7 @@ const BASE_CONFIG = [
       "fetish", "horny", "rape", "dildo", "sex", "jerking", "stroking",
       "porn", "cock", "dick", "cunt",
       "anal", "creampie", "gangbang", "hentai", "futa", "yaoi",
-      "bdsm", "milf", "futa", "deepthroat", "blowjob", "goon"
+      "bdsm", "milf", "futa", "deepthroat", "blowjob", "goon", "handjob", "pawjob"
     ]
   },
   {
