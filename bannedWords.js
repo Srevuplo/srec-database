@@ -81,7 +81,7 @@ const BASE_CONFIG = [
   },
   {
     label: "other",
-    words: ["pedo", "pdf", "pred", "predator"]
+    words: ["pedo", "pdf", "pred", "raid"]
   }
 ];
 
